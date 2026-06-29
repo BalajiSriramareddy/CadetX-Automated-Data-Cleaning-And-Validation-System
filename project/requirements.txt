@@ -1,0 +1,9 @@
+# Core (Weeks 1-2)
+pandas
+numpy
+matplotlib
+scikit-learn
+
+# Add as you need them, e.g.:
+# seaborn          # nicer profiling visuals
+# pytest           # tests (Week 5)

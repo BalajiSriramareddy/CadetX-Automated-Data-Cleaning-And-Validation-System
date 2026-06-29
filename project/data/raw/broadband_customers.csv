@@ -1,0 +1,1031 @@
+customer_id,full_name,email,phone,postcode,region,property_type,package,monthly_charges,contract_type,tenure_months,install_date,payment_method,nps_score,support_tickets,churn
+10031,Emily Turner,emily.turner12@btinternet.com,07xx,SO31 8JT,Wiltshire,Farmhouse,Fibre 100,29.32,24-month,71,2024-12-05,Direct Debit,4,3,No
+10109,Noah Roberts,noah.roberts48@btinternet.com,07973832060,CB35 6AP,Oxfordshire,Terraced,Fibre 500,55.62,24-month,32,2025-05-04,Direct Debit,8,1,Yes
+10136,Emily Thomas,emily.thomas23@gmail.com,07045561100,SN43 3PQ,Berkshire,Bungalow,Fibre 900,64.87,24-month,7,2020-06-27,Credit Card,2,0,Yes
+10088,Poppy Roberts,poppy.roberts35@gmail.com,07xx,NN29 6LE,Wiltshire,Detached,Fibre 300,44.3,12-month,10,2024-09-17,Credit Card,1,0,No
+10918,Isla Hughes,,07225647185,MK39 5AT,Wiltshire,Semi-detached,Fibre 500,52.99,12-month,56,2025-04-05,Bank Transfer,3,0,Yes
+10885,George Wilson,,07331454615,RG19 4FQ,Gloucestershire,Detached,Fibre 300,44.82,24-month,1,2023-09-17,Credit Card,9,2,no
+10870,Charlie Wright,charlie.wright80@btinternet.com,07890623272,CB42 8ET,Oxfordshire,Semi-detached,Fibre 500,59.18,Monthly,40,Nov 2023,Bank Transfer,0,0,Yes
+10318,Lily Brown,lily.brown97@yahoo.co.uk,07090138069,NN32 8PZ,Hampshire,Cottage,Fibre 100,30.59,12-month,8,2022-04-12,Bank Transfer,,3,No
+10261,Olivia Davies,olivia.davies34@btinternet.com,07276170758,RG30 8EF,Gloucestershire,Cottage,Fibre 300,43.65,12-month,5,2021-03-24,Bank Transfer,4,1,0
+10535,Poppy Walker,poppy.walker32@yahoo.co.uk,07674978524,GL17 2RX,Hampshire,Detached,Fibre 300,43.46,12-month,64,2023-08-18,Bank Transfer,,3,No
+10919,Thomas Clarke,thomas.clarke49@yahoo.co.uk,07474370194,MK13 2DT,Berkshire,Farmhouse,Fibre 100,34.77,24-month,37,2023-06-02,Credit Card,2,5,Yes
+10596,Grace Smith,grace.smith40@outlook.com,07838935953,SN43 9AN,Oxfordshire,Cottage,Fibre 900,69.71,24-month,23,2020-03-23,Bank Transfer,9,3,No
+10076,Olivia Turner,olivia.turner22@outlook.com,07587139718,RG4 8FW,Hampshire,Farmhouse,Fibre 300,46.94,24-month,69,2023-11-26,Credit Card,0,3,No
+10107,Jack Hall,jack.hall34@gmail.com,07917785079,12345,Gloucestershire,Semi-detached,Fibre 500,58.18,Monthly,68,2020-01-08,Direct Debit,7,2,Yes
+10424,Jack Brown,jack.brown9@outlook.com,07583503446,NN24 7LX,Cambridgeshire,Detached,Fibre 100,32.14,Monthly,60,2025-04-09,Direct Debit,4,0,No
+10584,Isla Turner,isla.turner67@outlook.com,07363816432,GL10 7ZN,Wiltshire,Bungalow,Fibre 900,66.99,24-month,64,2025-12-10,Credit Card,4,0,No
+10853,Poppy Hughes,poppy.hughes57@outlook.com,07739238520,SN16 3AY,Gloucestershire,Cottage,Fibre 300,47.81,Monthly,34,2020-07-20,Direct Debit,3,0,No
+10664,James Taylor,james.taylor59@yahoo.co.uk,07898260418,OX49 6FD,Berkshire,Cottage,Fibre 300,45.34,12-month,56,Aug 2020,Credit Card,4,0,No
+10829,Thomas Smith,thomas.smith49@outlook.com,07524055364,GL45 9TQ,Northamptonshire,Terraced,Fibre 300,43.1,Monthly,38,2023-12-09,Bank Transfer,8,0,No
+10420,Sophie Turner,sophie.turner74@outlook.com,07063757914,MK10 2EX,  Wiltshire ,Semi-detached,Fibre 100,34.04,12-month,58,2024-04-03,Direct Debit,6,5,No
+10597,James Turner,james.turner70@yahoo.co.uk,07264186965,SO41 2HA,Berkshire,Farmhouse,Fibre 300,43.68,24-month,52,2021-04-26,Bank Transfer,5,2,No
+10458,Charlie Walker,charlie.walker36@btinternet.com,07113257970,SO45 8JL,Hampshire,Detached,Fibre 300,43.7,24-month,28,2022-05-18,Credit Card,7,1,No
+10312,George Taylor,george.taylor31@outlook.com,07816742336,SN39 4NN,BERKSHIRE,Terraced,Fibre 300,44.4,12-month,71,2020-06-13,Credit Card,2,5,Yes
+10649,Emily Wood,emily.wood38@gmail.com,07664896676,OX21 7LG,Oxfordshire,Cottage,Fibre 500,55.19,12-month,23,2023-08-11,Bank Transfer,0,5,No
+10365,Noah Patel,,07605384444,SO44 4AS,Oxfordshire,Detached,Fibre 100,28.17,12-month,45,Dec 2024,Credit Card,5,0,Yes
+10321,Harry Brown,a@b,07643471287,GL45 6JY,Gloucestershire,Terraced,Fibre 900,65.39,24-month,4,2025-12-24,Credit Card,10,3,No
+10629,George Thomas,george.thomas71@yahoo.co.uk,07585642304,GL48 3AF,Berkshire,Detached,Fibre 300,45.95,12-month,55,2024-03-16,Direct Debit,8,5,No
+10914,William Smith,william.smith59@gmail.com,07241553691,MK35 6PT,Northamptonshire,Bungalow,Fibre 100,34.49,12-month,36,2021-08-19,Credit Card,0,0,No
+10468,Henry Evans,henry.evans19@outlook.com,07311649133,NN12 5PT,Northamptonshire,Semi-detached,Fibre 300,45.29,12-month,29,2025-03-19,Bank Transfer,0,3,No
+10598,Oliver Evans,oliver.evans31@outlook.com,07948400273,OX1 9SZ,Hampshire,Farmhouse,Fibre 500,53.43,Monthly,52,2020-07-17,Direct Debit,1,0,No
+10394,Harry Hughes,harry.hughes5@outlook.com,07205698152,RG13 4YU,Buckinghamshire,Cottage,Fibre 100,32.32,24-month,,2021-02-15,Credit Card,10,3,No
+10536,Oliver Jones,oliver.jones61@gmail.com,07665122150,OX5 5EX,Northamptonshire,Semi-detached,Fibre 900,£68.48,24-month,63,2025-07-07,Direct Debit,10,0,No
+10720,Thomas Jones,thomas.jones81@gmail.com,07392519994,MK12 6EU,Gloucestershire,Semi-detached,Fibre 900,64.22,12-month,,2023-12-09,Direct Debit,3,5,No
+10333,Emily Taylor,emily.taylor12@yahoo.co.uk,07113129014,RG1 7WF,Berkshire,Farmhouse,Fibre 500,56.6,24-month,53,2024-12-04,Credit Card,0,1,No
+10409,George Green,george.green44@gmail.com,07599910157,SO41 8SN,Berkshire,Terraced,Fibre 300,43.93,Monthly,38,2025-10-27,Bank Transfer,1,0,No
+10059,Isla Clarke,isla.clarke94@gmail.com,07596401658,,Oxfordshire,Semi-detached,Fibre 500,53.46,24-month,58,2022-06-13,Bank Transfer,0,0,Yes
+10256,Isla Davies,isla.davies58@yahoo.co.uk,07724295431,SO24 3RR,Cambridgeshire,Detached,Fibre 300,49.63,24-month,53,2025-10-21,Direct Debit,1,5,No
+10969,Sophie Hall,sophie.hall45@btinternet.com,07561927671,CB29 8EW,Hampshire,Semi-detached,Fibre 900,68.92,Monthly,19,2024-06-13,Direct Debit,2,3,Yes
+10685,Thomas Patel,thomas.patel32@gmail.com,07530281650,SO17 7HA,Oxfordshire,Cottage,Fibre 500,58.0,24-month,17,2021-08-15,Credit Card,5,3,No
+10342,George Evans,george.evans98@yahoo.co.uk,07855716176,OX11 5FN,Oxfordshire,Bungalow,Fibre 900,63.42,24-month,71,2021-12-27,Credit Card,99,0,No
+10635,Olivia Thomas,olivia.thomas13@btinternet.com,07459011079,RG43 8EL,Oxfordshire,Detached,Fibre 900,68.23,12-month,54,2024-04-18,Bank Transfer,,1,No
+10708,Jack Evans,jack.evans93@btinternet.com,07025512827,SO44 4SN,Cambridgeshire,Detached,Fibre 100,33.96,24-month,48,2022-09-20,Bank Transfer,9,2,Yes
+10010,Charlie Williams,charlie.williams97@yahoo.co.uk,07107991183,NN9 6DJ,Buckinghamshire,Cottage,Fibre 500,54.09,24-month,59,2025-05-20,Bank Transfer,8,0,No
+10485,Thomas Brown,thomas.brown72@gmail.com,07051208005,SO20 1YY,Buckinghamshire,Detached,Fibre 500,59.68,Monthly,3,2025-10-16,Direct Debit,8,1,Y
+10209,George Roberts,george.roberts10@gmail.com,07027621267,SO40 3TW,Hampshire,Bungalow,Fibre 300,48.73,12-month,18,2022-04-06,Credit Card,9,0,Yes
+10139,Ava Walker,ava.walker71@outlook.com,07663177971,RG29 6EU,Oxfordshire,Detached,Fibre 500,55.81,Monthly,7,2024-09-01,Direct Debit,9,1,No
+10388,Olivia Thomas,olivia.thomas38@gmail.com,07975019803,SN36 8FJ,Wiltshire,Cottage,Fibre 100,32.39,24-month,43,2020-08-20,Bank Transfer,3,0,No
+10622,Emily Davies,emily.davies33@yahoo.co.uk,07979127997,OX12 3TD,Wiltshire,Detached,Fibre 100,30.31,24-month,,2024-08-25,Bank Transfer,7,0,No
+10824,Ava Turner,ava.turner90@gmail.com,07217816780,SO41 7LJ,Gloucestershire,Cottage,Fibre 500,59.17,24-month,32,2024-01-04,Credit Card,99,1,No
+10717,Isla Davies,isla.davies92@yahoo.co.uk,07202847190,GL30 3GF,Northamptonshire,Detached,Fibre 100,34.16,Monthly,28,2023-12-14,Credit Card,10,5,No
+10845,Jack Jones,jack.jones51@gmail.com,07636050281,SO18 1ZX,Gloucestershire,Detached,Fibre 900,69.01,24-month,31,2020-10-04,Direct Debit,0,1,No
+10687,George Hughes,george.hughes54@gmail.com,07708056856,SO30 1RJ,Hampshire,Semi-detached,Fibre 100,28.58,24-month,26,2023-06-12,Direct Debit,4,1,No
+10935,Grace Hughes,grace.hughes9@yahoo.co.uk,07502528546,GL16 1XT,Cambridgeshire,Detached,Fibre 300,46.74,24-month,33,2023-03-24,Direct Debit,10,5,No
+10581,William Roberts,william.roberts11@outlook.com,07829987478,GL10 3NW,oxfordshire,Cottage,Fibre 500,55.65,Monthly,34,2024-07-15,Direct Debit,0,0,No
+10382,William Wood,william.wood13@gmail.com,07457758474,,Buckinghamshire,Bungalow,Fibre 300,48.41,24-month,19,2023-02-09,Bank Transfer,8,0,Y
+10070,Isla Clarke,isla.clarke87@yahoo.co.uk,07497334843,NN19 4UP,Berkshire,Cottage,Fibre 500,56.91,24-month,70,2022-05-04,Bank Transfer,10,3,Yes
+10260,William Hall,william.hall41@gmail.com,07027456449,NN34 6SG,buckinghamshire,Terraced,Fibre 300,49.95,Monthly,34,2024-11-21,Credit Card,99,1,No
+10800,Thomas Wilson,thomas.wilson76@outlook.com,not-a-number,SO20 1SU,Buckinghamshire,Farmhouse,Fibre 500,58.92,Monthly,46,2021-01-18,Direct Debit,10,0,No
+10453,Olivia Edwards,olivia.edwards12@yahoo.co.uk,07312840333,RG30 2XB,Buckinghamshire,Terraced,Fibre 500,53.5,12-month,71,2020-08-03,Credit Card,3,0,No
+10591,William Turner,william.turner81@yahoo.co.uk,07053766608,,Oxfordshire,Semi-detached,Fibre 900,69.11,Monthly,6,2024-04-12,Credit Card,6,0,No
+10906,Lily Smith,lily.smith84@yahoo.co.uk,07413068624,OX45 9TE,Oxfordshire,Detached,Fibre 100,-10.0,12-month,11,2023-09-20,Direct Debit,10,1,No
+10784,William Smith,william.smith77@btinternet.com,07037161608,GL40 8FF,  Cambridgeshire ,Terraced,Fibre 900,67.16,24-month,18,2025-07-09,Credit Card,7,0,No
+10213,Charlie Davies,charlie.davies74@outlook.com,07504102767,NN31 9JR,Hampshire,Farmhouse,Fibre 900,64.83,24-month,22,2023-01-10,Credit Card,6,2,No
+10096,Jack Brown,jack.brown24@gmail.com,07528669296,SO12 8XG,Wiltshire,Farmhouse,Fibre 300,45.01,Monthly,40,2022-08-20,Direct Debit,5,0,Yes
+10679,Emily Walker,emily.walker95@gmail.com,07090605308,SO33 5JA,Wiltshire,Detached,Fibre 100,28.61,12-month,9,2023-04-26,Direct Debit,9,0,1
+10849,Noah Wright,noah.wright4@yahoo.co.uk,07153017316,RG7 6SB,Buckinghamshire,Bungalow,Fibre 100,-10.0,Monthly,47,2022-03-06,Credit Card,4,0,No
+10178,Jack Clarke,jack.clarke9@outlook.com,07827448570,SO47 3AZ,Buckinghamshire,Bungalow,Fibre 500,54.66,24-month,71,2020-11-18,Credit Card,3,5,No
+10880,Isla Wilson,,07981413447,SO45 1YL,Cambridgeshire,Terraced,Fibre 100,31.4,12-month,66,2022-01-24,Direct Debit,9,0,Yes
+10192,Harry Wilson,,07366096569,,Oxfordshire,Semi-detached,Fibre 900,66.62,12-month,63,2025-01-18,Credit Card,8,0,No
+10280,William Clarke,william.clarke94@outlook.com,07519966365,OX43 8LD,Wiltshire,Terraced,Fibre 900,63.16,24-month,58,2025-05-18,Bank Transfer,1,0,No
+10533,Jack Roberts,jack.roberts66@btinternet.com,07769899927,MK6 8PX,Gloucestershire,Cottage,Fibre 500,57.39,12-month,40,2022-10-17,Direct Debit,5,2,No
+10682,Grace Brown,grace.brown28@btinternet.com,07855881959,RG45 8GE,Hampshire,Bungalow,Fibre 100,31.61,24-month,65,2020-06-08,Credit Card,8,1,No
+10617,Lily Jones,lily.jones88@outlook.com,07144488966,RG10 8JS,Berkshire,Terraced,Fibre 300,48.51,24-month,55,2022-11-14,Direct Debit,0,0,No
+10982,Isla Thomas,isla.thomas90@gmail.com,07947651186,GL22 7LA,Northamptonshire,Detached,Fibre 300,45.15,12-month,48,2021-10-18,Bank Transfer,1,1,Yes
+10910,Emily Patel,emily.patel94@yahoo.co.uk,07280218893,OX25 4QU,Oxfordshire,Terraced,Fibre 900,69.96,12-month,59,2024-10-25,Direct Debit,10,0,No
+10184,Amelia Davies,amelia.davies40@gmail.com,07805892583,SN4 7TZ,Gloucestershire,Semi-detached,Fibre 100,31.01,12-month,49,2021-03-11,Direct Debit,7,0,Yes
+10030,Thomas Taylor,thomas.taylor15@yahoo.co.uk,07680876038,MK40 8TB,Cambridgeshire,Cottage,Fibre 500,56.83,12-month,33,2023-12-16,Direct Debit,0,1,No
+10328,Isla Edwards,isla.edwards41@btinternet.com,07102932184,OX6 2WN,Buckinghamshire,Bungalow,Fibre 300,44.19,24-month,1,10/04/2020,Direct Debit,8,1,Yes
+10506,Oliver Roberts,oliver.roberts9@gmail.com,07750961701,MK38 6ZD,Northamptonshire,Terraced,Fibre 300,48.87,12-month,9,2022-12-26,Credit Card,5,5,No
+10054,William Brown,william.brown35@outlook.com,07782613750,SO4 7WQ,Cambridgeshire,Farmhouse,Fibre 500,59.95,12-month,11,2021-01-11,Direct Debit,10,2,No
+10023,Ava Clarke,ava.clarke64@gmail.com,07527354549,12345,Gloucestershire,Semi-detached,Fibre 900,68.03,12-month,44,2024-04-23,Credit Card,10,5,Yes
+10101,Amelia Wilson,amelia.wilson55@gmail.com,07324241541,MK43 3BR,Northamptonshire,Terraced,Fibre 900,67.89,Monthly,59,2023-11-03,Bank Transfer,1,0,No
+10549,James Taylor,james.taylor94@yahoo.co.uk,07713727117,MK40 6UL,Buckinghamshire,Terraced,Fibre 300,47.64,24-month,5,2021-11-22,Bank Transfer,9,1,no
+10247,Henry Jones,john.smith,07905616556,MK4 4JJ,  Northamptonshire ,Bungalow,Fibre 300,43.58,24-month,47,2020-05-04,Credit Card,2,0,No
+10003,Lily Green,lily.green18@yahoo.co.uk,07xx,CB9 9UD,Oxfordshire,Detached,Fibre 900,64.06,Monthly,19,2025-07-20,Direct Debit,6,3,Yes
+10086,Lily Hall,lily.hall30@gmail.com,07397401489,OX12 6AH,Wiltshire,Terraced,Fibre 500,58.74,Monthly,13,2022-03-19,Direct Debit,9,3,No
+10843,Emily Clarke,emily.clarke41@gmail.com,07397077454,NN31 1XF,Cambridgeshire,Detached,Fibre 300,46.1,Monthly,19,2022-07-24,Direct Debit,9,2,No
+10952,Charlie Turner,,07445345146,SO36 9SQ,Cambridgeshire,Terraced,Fibre 900,68.22,12-month,27,2024-04-26,Credit Card,8,1,No
+10290,Olivia Walker,olivia.walker98@btinternet.com,07179110065,GL9 1TB,Northamptonshire,Bungalow,Fibre 300,47.37,Monthly,10,2020-11-02,Bank Transfer,0,1,Yes
+10210,Ava Wood,ava.wood5@yahoo.co.uk,07097519712,NN30 9DW,Gloucestershire,Semi-detached,Fibre 500,-29.99,24-month,53,2025-11-03,Bank Transfer,,1,No
+10802,Sophie Jones,sophie.jones37@yahoo.co.uk,07503698884,CB40 4JH,Wiltshire,Cottage,Fibre 100,33.94,12-month,29,2021-10-14,Direct Debit,0,0,No
+10174,Noah Walker,noah.walker69@gmail.com,07xx,GL10 1UH,Buckinghamshire,Farmhouse,Fibre 100,30.17,12-month,20,23/08/2022,Direct Debit,,0,No
+10199,James Brown,james.brown93@btinternet.com,07990235577,OX42 3UF,Berkshire,Bungalow,Fibre 500,59.26,12-month,44,2023-12-02,Bank Transfer,4,2,No
+10902,George Roberts,george.roberts67@outlook.com,07814112874,MK9 8DZ,CAMBRIDGESHIRE,Farmhouse,Fibre 900,66.33,24-month,1,Aug 2022,Credit Card,6,1,No
+10880,Isla Wilson,,07981413447,SO45 1YL,Cambridgeshire,Terraced,Fibre 100,31.4,12-month,66,2022-01-24,Direct Debit,9,0,Yes
+10063,Ava Wright,ava.wright26@yahoo.co.uk,07842498182,SN11 6YB,Oxfordshire,Detached,Fibre 500,53.31,24-month,11,2024-05-21,Direct Debit,9,3,No
+10265,Lily Wood,lily.wood56@btinternet.com,07174224386,NN37 1XD,Oxfordshire,Bungalow,Fibre 100,28.74,12-month,,2023-02-15,Bank Transfer,9,1,N
+10231,Lily Hughes,,07242437540,SN23 5TG,Wiltshire,Terraced,Fibre 900,66.74,Monthly,59,2021-12-23,Bank Transfer,2,0,No
+10803,Henry Turner,henry.turner35@outlook.com,07412907596,MK40 3BE,Wiltshire,Semi-detached,Fibre 300,£49.76,12-month,16,16/02/2021,Credit Card,4,2,No
+10625,George Hughes,george.hughes12@gmail.com,07437483093,OX37 7UD,Cambridgeshire,Terraced,Fibre 300,47.14,Monthly,45,2024-02-05,Credit Card,0,0,No
+10568,Ava Williams,ava.williams96@outlook.com,07016234190,CB46 2AS,Gloucestershire,Cottage,Fibre 100,29.43,Monthly,30,2021-12-21,Direct Debit,5,2,Yes
+10854,Emily Williams,emily.williams85@btinternet.com,07199829075,MK6 6LP,Wiltshire,Farmhouse,Fibre 300,43.39,12-month,39,2022-07-19,Bank Transfer,9,0,Y
+10039,Amelia Patel,amelia.patel89@gmail.com,07537735158,MK4 7LH,Gloucestershire,Farmhouse,Fibre 900,63.63,Monthly,36,2025-11-20,Direct Debit,0,2,No
+10806,James Walker,james.walker93@outlook.com,07219143087,RG38 8FL,Berkshire,Bungalow,Fibre 100,34.81,12-month,35,2025-12-09,Direct Debit,2,0,No
+10168,Isla Hall,isla.hall63@yahoo.co.uk,07448906120,CB17 8ET,Buckinghamshire,Cottage,Fibre 900,65.52,24-month,18,2024-05-12,Direct Debit,6,0,1
+10590,Freya Roberts,freya.roberts68@btinternet.com,07750926322,CB39 9FD,Cambridgeshire,Farmhouse,Fibre 300,44.92,12-month,30,2023-02-03,Credit Card,0,1,No
+10464,Noah Green,,07981231795,MK27 4HD,Buckinghamshire,Farmhouse,Fibre 100,29.78,Monthly,12,Jan 2023,Credit Card,6,3,No
+10998,Grace Taylor,grace.taylor86@btinternet.com,07047966682,OX48 6FQ,Hampshire,Cottage,Fibre 900,69.84,24-month,66,2022-01-17,Bank Transfer,9,0,No
+10442,Noah Hall,noah.hall65@yahoo.co.uk,07096244063,OX27 3LL,Berkshire,Bungalow,Fibre 500,58.52,24-month,24,2022-02-08,Direct Debit,0,2,No
+10908,Poppy Hughes,poppy.hughes35@gmail.com,07108479135,GL46 2JQ,Oxfordshire,Cottage,Fibre 500,54.35,12-month,5,2021-03-25,Bank Transfer,,0,No
+10066,Noah Hughes,noah.hughes37@gmail.com,07797480162,NN47 6RQ,Oxfordshire,Farmhouse,Fibre 500,53.35,24-month,,2021-06-18,Credit Card,1,3,Yes
+10307,Olivia Turner,olivia.turner82@gmail.com,07816470900,SO13 4QJ,  Cambridgeshire ,Detached,Fibre 300,43.1,Monthly,-1,2020-06-27,Direct Debit,10,0,No
+10067,Freya Thomas,freya.thomas51@gmail.com,07558523986,OX3 1FP,Berkshire,Bungalow,Fibre 100,31.19,24-month,17,2024-03-11,Bank Transfer,5,0,Yes
+10198,William Patel,william.patel91@outlook.com,123,SO27 1PQ,Cambridgeshire,Detached,Fibre 900,67.47,24-month,24,2022-05-26,Direct Debit,4,1,No
+10528,Noah Patel,noah.patel50@gmail.com,07260423597,CB46 8EE,Wiltshire,Semi-detached,Fibre 900,63.91,24-month,32,2024-01-15,Credit Card,5,3,No
+10481,Grace Wright,grace.wright70@yahoo.co.uk,07512538921,RG35 6EZ,Cambridgeshire,Terraced,Fibre 500,55.43,24-month,31,2025-09-27,Direct Debit,7,1,No
+10757,Ava Walker,ava.walker16@btinternet.com,07743068811,SO18 1HN,Cambridgeshire,Bungalow,Fibre 900,66.52,24-month,18,2020-09-16,Direct Debit,8,5,Yes
+10987,Jack Evans,jack.evans52@btinternet.com,07504718830,OX49 6LF,Berkshire,Semi-detached,Fibre 500,59.53,12-month,13,2025-12-20,Bank Transfer,6,3,Yes
+10362,Freya Edwards,freya.edwards42@outlook.com,07502727516,NN34 1TF,Berkshire,Terraced,Fibre 300,49.78,Monthly,10,2020-04-24,Direct Debit,6,0,Yes
+10844,Henry Thomas,henry.thomas53@btinternet.com,07262359605,CB1 3RD,Northamptonshire,Detached,Fibre 900,63.9,12-month,63,2024-08-01,Direct Debit,6,3,No
+10558,Henry Taylor,henry.taylor78@btinternet.com,07935937440,CB43 5RL,Oxfordshire,Bungalow,Fibre 900,64.59,Monthly,54,2023-04-13,Direct Debit,6,0,No
+10618,William Wilson,william.wilson9@outlook.com,07832812312,CB39 3AN,Gloucestershire,Detached,Fibre 500,55.63,Monthly,37,2020-09-08,Credit Card,4,5,No
+10352,George Green,george.green7@yahoo.co.uk,07191792025,SN6 4DA,Hampshire,Semi-detached,Fibre 100,33.35,12-month,55,2025-03-24,Bank Transfer,4,5,Yes
+10760,Poppy Patel,poppy.patel19@outlook.com,07487098726,NN37 7HG,Wiltshire,Cottage,Fibre 500,53.54,12-month,13,2022-03-06,Credit Card,0,1,No
+10929,Poppy Roberts,poppy.roberts72@gmail.com,07564901324,MK49 2YH,Buckinghamshire,Detached,Fibre 900,68.76,Monthly,18,2020-02-11,Credit Card,6,0,Yes
+10292,Grace Patel,grace.patel18@outlook.com,07002496854,SN10 8NZ,Buckinghamshire,Cottage,Fibre 900,65.57,Monthly,24,2024-10-22,Bank Transfer,2,0,No
+10752,William Walker,william.walker6@gmail.com,07450243736,GL22 9UH,Hampshire,Farmhouse,Fibre 100,28.97,12-month,65,2020-04-23,Credit Card,15,3,No
+10100,Lily Walker,lily.walker82@btinternet.com,07518636374,ABCDE,Wiltshire,Bungalow,Fibre 100,33.96,12-month,12,2025-01-02,Direct Debit,10,5,No
+10969,Sophie Hall,sophie.hall45@btinternet.com,07561927671,CB29 8EW,Hampshire,Semi-detached,Fibre 900,68.92,Monthly,19,2024-06-13,Direct Debit,2,3,Yes
+10368,Harry Williams,harry.williams59@gmail.com,07911244211,RG24 4RE,Berkshire,Detached,Fibre 100,30.89,12-month,14,2025-02-07,Bank Transfer,6,3,No
+10808,Oliver Jones,oliver.jones95@yahoo.co.uk,07883825672,SO12 1WL,Hampshire,Farmhouse,Fibre 500,53.87,24-month,65,2021-06-10,Direct Debit,10,2,No
+10305,Lily Hall,lily.hall97@gmail.com,07185672438,OX30 1DT,Hampshire,Cottage,Fibre 100,33.21,Monthly,48,2023-01-01,Credit Card,1,0,No
+10628,James Hughes,james.hughes77@outlook.com,07462093556,12345,Buckinghamshire,Semi-detached,Fibre 500,-10.0,24-month,18,2023-01-25,Direct Debit,3,5,No
+10158,William Wood,a@b,07799088117,SN39 9AS,Hampshire,Cottage,Fibre 900,£69.11,24-month,20,2024-07-08,Credit Card,6,2,No
+10551,Emily Taylor,emily.taylor85@btinternet.com,07150666267,OX22 6EN,Cambridgeshire,Farmhouse,Fibre 300,49.14,12-month,21,2023-10-07,Credit Card,6,1,No
+10002,Thomas Wright,,07419283276,NN41 9JP,Oxfordshire,Semi-detached,Fibre 300,48.74,12-month,48,2023-05-03,Direct Debit,9,2,No
+10728,Poppy Clarke,poppy.clarke74@yahoo.co.uk,07812831800,CB28 7SA,Wiltshire,Terraced,Fibre 300,43.0,Monthly,53,2022-04-24,Direct Debit,8,2,no
+10208,Emily Jones,emily.jones1@gmail.com,07851403696,,hampshire,Bungalow,Fibre 500,54.47,Monthly,71,2023-03-07,Bank Transfer,6,2,Yes
+10299,William Wood,william.wood13@outlook.com,07115083535,NN20 5HZ,Wiltshire,Terraced,Fibre 100,33.17,12-month,36,2020-05-10,Credit Card,6,3,No
+10850,Ava Hughes,ava.hughes73@btinternet.com,07406453157,OX21 8EY,Gloucestershire,Terraced,Fibre 500,59.52,24-month,40,2024-09-13,Credit Card,4,3,No
+10436,Noah Patel,noah.patel98@outlook.com,07162526546,SO35 2QU,Oxfordshire,Semi-detached,Fibre 900,69.19,Monthly,60,2021-06-12,Credit Card,8,0,Yes
+10869,Sophie Turner,john.smith,07674831730,SO26 3YH,Gloucestershire,Cottage,Fibre 900,63.64,24-month,36,2020-08-18,Bank Transfer,2,1,No
+10411,Henry Edwards,no-at-sign.com,07xx,NN39 2JL,Wiltshire,Detached,Fibre 500,54.44,24-month,13,2021-01-20,Direct Debit,8,1,No
+10614,James Edwards,james.edwards37@gmail.com,07105276981,RG36 1ZF,  Berkshire ,Detached,Fibre 500,54.89,Monthly,20,2021-09-17,Bank Transfer,5,3,No
+10907,Lily Williams,lily.williams53@btinternet.com,07238115223,SN36 3GG,Wiltshire,Cottage,Fibre 300,43.08,12-month,-1,Jun 2023,Direct Debit,,1,1
+10912,Sophie Williams,sophie.williams9@btinternet.com,07065673374,MK29 1DR,Buckinghamshire,Semi-detached,Fibre 900,66.1,Monthly,,2021-07-22,Bank Transfer,1,1,N
+10996,Sophie Wood,sophie.wood93@yahoo.co.uk,07453856535,SN13 3SS,Oxfordshire,Terraced,Fibre 300,47.77,24-month,31,2020-01-09,Credit Card,,0,No
+10962,Grace Edwards,grace.edwards5@gmail.com,07297711506,SN44 2TZ,Wiltshire,Farmhouse,Fibre 500,59.31,12-month,29,2020-08-07,Direct Debit,8,0,Yes
+10700,William Smith,william.smith20@yahoo.co.uk,07589222560,12345,Oxfordshire,Farmhouse,Fibre 100,29.69,24-month,38,2025-08-28,Direct Debit,1,0,No
+10778,Harry Edwards,harry.edwards66@btinternet.com,07494771290,CB24 1BS,Gloucestershire,Bungalow,Fibre 900,65.11,24-month,53,2023-05-05,Direct Debit,3,2,yes
+10306,Thomas Patel,,07372742209,GL12 5EX,Hampshire,Semi-detached,Fibre 900,63.53,Monthly,9,2025-05-05,Credit Card,5,0,No
+10919,Thomas Clarke,thomas.clarke49@yahoo.co.uk,07474370194,MK13 2DT,Berkshire,Farmhouse,Fibre 100,34.77,24-month,37,2023-06-02,Credit Card,2,5,Yes
+10493,Jack Thomas,jack.thomas26@btinternet.com,07066248132,CB22 8AT,Gloucestershire,Semi-detached,Fibre 300,47.2,12-month,45,2024-03-05,Bank Transfer,5,0,No
+10423,Henry Wilson,,07589477352,SN34 8AP,Hampshire,Semi-detached,Fibre 300,44.04,Monthly,38,2020-05-23,Direct Debit,3,0,0
+10298,Harry Roberts,harry.roberts30@yahoo.co.uk,07907895677,SO27 6UP,Northamptonshire,Farmhouse,Fibre 900,63.16,12-month,67,2021-05-21,Direct Debit,5,0,No
+10467,Freya Green,freya.green2@gmail.com,07531611776,RG9 1NU,Berkshire,Cottage,Fibre 300,43.89,24-month,21,2024-06-20,Bank Transfer,1,5,Yes
+10884,Poppy Walker,poppy.walker63@outlook.com,07764149003,MK1 3PP,Gloucestershire,Terraced,Fibre 500,58.04,Monthly,21,2022-05-22,Credit Card,8,3,Yes
+10755,Olivia Brown,olivia.brown43@outlook.com,07846405103,OX9 8HA,Northamptonshire,Semi-detached,Fibre 900,66.4,Monthly,42,Mar 2023,Bank Transfer,1,1,No
+10106,Grace Davies,grace.davies56@gmail.com,07179904210,SN45 1GU,Buckinghamshire,Bungalow,Fibre 100,31.61,24-month,32,2022-03-12,Direct Debit,4,0,No
+10858,Amelia Wood,,07149860995,MK1 5ZH,wiltshire,Farmhouse,Fibre 300,48.42,12-month,63,05/04/2022,Direct Debit,3,1,Yes
+10055,George Jones,a@b,07779010432,SO8 5JN,Gloucestershire,Detached,Fibre 500,54.66,24-month,61,2024-08-03,Direct Debit,7,0,No
+10120,Poppy Hall,poppy.hall43@gmail.com,07336884443,GL4 7YX,Berkshire,Semi-detached,Fibre 300,43.37,Monthly,7,2023-02-10,Bank Transfer,10,5,No
+10310,Charlie Wood,charlie.wood30@gmail.com,07091436391,OX9 6UN,Cambridgeshire,Semi-detached,Fibre 300,45.62,24-month,65,2020-04-24,Bank Transfer,,2,No
+10025,Lily Thomas,lily.thomas38@outlook.com,07352408240,OX36 5FU,Gloucestershire,Detached,Fibre 500,57.01,12-month,13,2023-08-11,Direct Debit,0,1,Yes
+10072,Lily Brown,lily.brown53@outlook.com,07773454019,CB35 1GS,Wiltshire,Detached,Fibre 300,49.97,12-month,1,2023-03-24,Credit Card,0,0,No
+10530,Lily Taylor,lily.taylor72@gmail.com,07033242605,OX33 1EW,Northamptonshire,Bungalow,Fibre 300,46.7,12-month,53,2021-06-08,Credit Card,3,1,Yes
+10044,Freya Wright,freya.wright55@outlook.com,07899809402,NN45 5PQ,Oxfordshire,Semi-detached,Fibre 100,34.08,24-month,36,2025-07-03,Direct Debit,10,0,No
+10275,Charlie Clarke,charlie.clarke90@btinternet.com,07563410856,SN34 9NH,Gloucestershire,Bungalow,Fibre 300,46.85,24-month,70,2022-11-06,Direct Debit,0,1,No
+10478,Emily Brown,emily.brown80@yahoo.co.uk,07726347557,MK49 3GP,Oxfordshire,Detached,Fibre 100,29.32,12-month,52,2024-12-21,Bank Transfer,4,0,Yes
+10314,Noah Smith,noah.smith63@yahoo.co.uk,07666567491,ABCDE,Wiltshire,Semi-detached,Fibre 100,33.33,12-month,65,2025-06-17,Bank Transfer,7,2,No
+10336,Grace Patel,grace.patel53@outlook.com,07170243765,NN24 7GX,Northamptonshire,Detached,Fibre 300,49.92,24-month,11,2023-03-05,Credit Card,6,0,No
+10689,Jack Turner,jack.turner13@outlook.com,07880879919,SO10 4ND,Hampshire,Cottage,Fibre 500,54.53,24-month,35,05/04/2022,Bank Transfer,4,5,No
+10430,Emily Thomas,emily.thomas60@yahoo.co.uk,07919711121,SN21 1GA,Cambridgeshire,Terraced,Fibre 500,55.61,Monthly,16,2025-04-10,Bank Transfer,10,1,No
+10950,Amelia Brown,amelia.brown9@gmail.com,123,MK10 3GJ,Cambridgeshire,Farmhouse,Fibre 300,47.22,Monthly,44,2025-09-01,Credit Card,2,0,No
+10833,George Green,george.green9@gmail.com,07440762914,CB3 5YD,Cambridgeshire,Cottage,Fibre 100,28.82,Monthly,4,2024-10-16,Credit Card,2,5,No
+10588,Lily Evans,no-at-sign.com,07060119875,SO7 8WS,Oxfordshire,Detached,Fibre 300,49.37,Monthly,52,2020-01-19,Direct Debit,5,3,No
+10703,Thomas Turner,thomas.turner8@outlook.com,07702042620,GL40 8EF,Gloucestershire,Semi-detached,Fibre 900,65.14,Monthly,46,2024-04-25,Bank Transfer,6,3,Yes
+10327,Amelia Hughes,amelia.hughes83@btinternet.com,07649215182,SO45 1RX,Berkshire,Detached,Fibre 300,46.62,24-month,50,Dec 2024,Bank Transfer,1,1,No
+10879,Henry Hall,henry.hall27@btinternet.com,07446746215,MK35 5DU,Northamptonshire,Terraced,Fibre 900,69.51,24-month,4,2020-07-03,Credit Card,0,2,No
+10603,Amelia Hall,amelia.hall31@gmail.com,07734167812,RG48 8WG,Wiltshire,Detached,Fibre 500,53.09,Monthly,37,2025-02-16,Bank Transfer,8,0,0
+10927,Freya Williams,freya.williams83@btinternet.com,07209451676,RG1 7HS,Cambridgeshire,Terraced,Fibre 300,43.97,24-month,25,2023-04-01,Direct Debit,1,0,No
+10980,Amelia Clarke,amelia.clarke84@yahoo.co.uk,07166811339,RG13 7TA,Berkshire,Terraced,Fibre 900,63.94,12-month,25,2025-04-23,Credit Card,0,0,no
+10971,Emily Brown,emily.brown13@btinternet.com,07421524831,SO35 7HS,Northamptonshire,Farmhouse,Fibre 100,28.18,12-month,59,2023-06-13,Bank Transfer,9,3,Yes
+10762,Grace Williams,john.smith,07890057795,OX4 2UJ,Wiltshire,Cottage,Fibre 100,£34.68,24-month,47,2020-01-26,Credit Card,3,5,No
+10331,Jack Taylor,jack.taylor19@yahoo.co.uk,07340163611,SN34 5YU,Gloucestershire,Bungalow,Fibre 500,55.43,24-month,43,2022-09-09,Bank Transfer,1,0,No
+10060,Sophie Wright,sophie.wright68@outlook.com,07565431027,SO36 2LL,Berkshire,Semi-detached,Fibre 900,69.96,12-month,10,2025-08-07,Direct Debit,2,0,Yes
+10745,Olivia Wood,olivia.wood72@outlook.com,07152787304,SO12 6DP,Wiltshire,Detached,Fibre 900,66.11,12-month,65,2023-06-27,Bank Transfer,3,2,No
+10371,Noah Patel,no-at-sign.com,07459196639,MK24 2TG,Oxfordshire,Bungalow,Fibre 900,64.76,12-month,58,2022-10-27,Bank Transfer,8,2,Yes
+10092,Poppy Patel,no-at-sign.com,07058911352,,Gloucestershire,Detached,Fibre 900,63.68,Monthly,69,2024-12-17,Bank Transfer,9,1,Yes
+10722,Oliver Clarke,oliver.clarke48@gmail.com,07968519537,RG17 3RS,Cambridgeshire,Semi-detached,Fibre 100,34.62,24-month,22,2025-06-14,Direct Debit,,0,Yes
+10490,James Davies,,07560229394,SO44 5HL,Hampshire,Terraced,Fibre 500,53.06,12-month,23,2023-05-27,Direct Debit,7,1,No
+10462,James Green,james.green3@btinternet.com,07035624395,RG42 4YQ,Wiltshire,Semi-detached,Fibre 500,58.4,Monthly,1,2022-03-04,Direct Debit,8,0,No
+10218,Charlie Jones,,07743280634,SO7 6UD,Berkshire,Terraced,Fibre 100,29.32,Monthly,47,2021-01-24,Bank Transfer,3,5,Yes
+10513,Poppy Clarke,poppy.clarke59@yahoo.co.uk,07439742925,OX8 1PX,Berkshire,Cottage,Fibre 500,53.98,24-month,14,Sep 2023,Bank Transfer,6,2,Yes
+10620,Charlie Turner,,07827172173,CB29 4YY,Wiltshire,Detached,Fibre 300,45.27,Monthly,14,2021-10-19,Bank Transfer,3,3,No
+10425,William Hughes,william.hughes95@yahoo.co.uk,07973203319,SN10 3UA,Buckinghamshire,Detached,Fibre 900,69.26,Monthly,43,2021-09-26,Credit Card,6,5,No
+10332,Jack Green,jack.green62@btinternet.com,07924082226,NN4 6JZ,Hampshire,Terraced,Fibre 300,46.19,12-month,45,2022-08-17,Credit Card,4,3,No
+10859,Amelia Williams,amelia.williams85@gmail.com,07159485340,OX45 2GT,Hampshire,Terraced,Fibre 100,32.88,Monthly,21,2021-04-27,Bank Transfer,,1,Yes
+10989,Jack Smith,jack.smith3@btinternet.com,07167449234,CB24 7YW,Buckinghamshire,Detached,Fibre 500,59.17,12-month,-5,2022-01-21,Credit Card,6,3,No
+10582,Oliver Davies,oliver.davies12@yahoo.co.uk,07xx,CB27 3LW,Cambridgeshire,Cottage,Fibre 900,65.58,Monthly,45,2022-05-27,Direct Debit,9,3,No
+10355,Noah Edwards,noah.edwards71@outlook.com,07303419909,RG3 1PD,Northamptonshire,Detached,Fibre 100,34.85,12-month,40,2023-09-07,Credit Card,6,2,No
+10482,Thomas Edwards,thomas.edwards9@btinternet.com,07208780572,GL44 6DL,Northamptonshire,Terraced,Fibre 900,63.18,24-month,64,2023-07-23,Direct Debit,6,1,Yes
+10545,Harry Edwards,harry.edwards78@gmail.com,07666450573,OX14 7FT,Wiltshire,Terraced,Fibre 500,58.55,12-month,,2021-03-01,Direct Debit,,1,Yes
+10110,Lily Jones,lily.jones6@gmail.com,07386571918,SN41 7DY,Oxfordshire,Farmhouse,Fibre 300,47.63,Monthly,36,2021-05-09,Credit Card,6,2,No
+10514,Isla Walker,isla.walker73@yahoo.co.uk,07908027112,SN7 9GJ,Gloucestershire,Cottage,Fibre 100,34.8,12-month,37,2020-07-11,Direct Debit,7,3,No
+10602,Amelia Davies,amelia.davies17@yahoo.co.uk,07778956133,RG5 9NN,Northamptonshire,Bungalow,Fibre 900,63.33,Monthly,31,2024-06-02,Direct Debit,6,1,1
+10995,James Patel,james.patel11@yahoo.co.uk,07497534115,OX 99,Oxfordshire,Detached,Fibre 900,67.49,Monthly,60,2024-05-24,Direct Debit,6,2,Yes
+10507,Lily Walker,lily.walker6@outlook.com,07567756777,SN10 7SA,Wiltshire,Cottage,Fibre 300,45.66,24-month,30,2021-07-12,Direct Debit,6,0,No
+10334,Grace Turner,grace.turner78@gmail.com,07728321528,MK4 7UR,Wiltshire,Cottage,Fibre 500,59.78,12-month,32,2025-04-27,Bank Transfer,1,1,No
+10848,Isla Wilson,isla.wilson64@gmail.com,07970566036,GL27 3NX,Hampshire,Detached,Fibre 500,56.12,12-month,20,2023-11-05,Credit Card,6,0,No
+10294,Poppy Evans,poppy.evans95@yahoo.co.uk,07636205015,OX36 2FN,Berkshire,Semi-detached,Fibre 300,47.41,12-month,62,2020-01-07,Direct Debit,4,0,No
+10286,Grace Turner,grace.turner84@gmail.com,07180715695,SO12 1ET,Buckinghamshire,Semi-detached,Fibre 900,66.1,Monthly,51,2025-01-25,Credit Card,10,2,No
+10938,Noah Roberts,,07522426537,CB45 3FD,Gloucestershire,Cottage,Fibre 500,54.7,24-month,3,2025-01-15,Direct Debit,,1,Yes
+10447,James Edwards,james.edwards21@outlook.com,07753273524,GL2 4YT,Berkshire,Semi-detached,Fibre 900,67.78,12-month,71,2021-03-15,Bank Transfer,10,0,yes
+10692,William Taylor,william.taylor77@btinternet.com,07255966472,GL16 1TL,Wiltshire,Semi-detached,Fibre 500,55.57,24-month,24,2024-02-09,Direct Debit,6,0,No
+10652,James Turner,james.turner76@btinternet.com,07867782312,MK29 1LT,Wiltshire,Terraced,Fibre 100,30.85,12-month,14,2021-11-26,Credit Card,1,0,No
+10968,Olivia Patel,olivia.patel56@gmail.com,07348508951,SN14 8AW,Buckinghamshire,Detached,Fibre 100,33.34,24-month,59,2020-10-09,Bank Transfer,4,2,No
+10277,Jack Wood,jack.wood13@btinternet.com,123,CB29 2QW,Hampshire,Bungalow,Fibre 300,46.9,12-month,47,2022-10-16,Bank Transfer,6,5,Yes
+10758,Sophie Wood,,07477041309,OX40 2QH,Hampshire,Detached,Fibre 300,44.29,Monthly,30,2023-03-12,Credit Card,2,0,No
+10137,Charlie Clarke,charlie.clarke54@btinternet.com,07212021697,RG12 7QZ,Oxfordshire,Terraced,Fibre 500,59.15,24-month,50,2021-08-16,Direct Debit,6,5,No
+10501,Emily Taylor,emily.taylor80@gmail.com,07962543848,OX32 6GB,Cambridgeshire,Terraced,Fibre 500,55.14,12-month,64,2023-06-02,Credit Card,10,5,No
+10404,Poppy Jones,poppy.jones24@gmail.com,07879508304,NN2 6XB,Cambridgeshire,Cottage,Fibre 300,43.75,24-month,15,2023-02-17,Direct Debit,3,1,No
+10523,Olivia Walker,olivia.walker74@outlook.com,07236161880,GL37 1LX,Wiltshire,Terraced,Fibre 300,44.58,24-month,44,2022-08-04,Credit Card,5,3,Yes
+10780,Amelia Edwards,amelia.edwards68@gmail.com,07273063435,NN33 9GD,Northamptonshire,Bungalow,Fibre 900,68.6,24-month,26,2020-07-13,Credit Card,,2,No
+10977,Henry Jones,henry.jones32@gmail.com,not-a-number,CB22 7JZ,GLOUCESTERSHIRE,Semi-detached,Fibre 100,31.36,12-month,-1,2025-04-20,Bank Transfer,,0,No
+10580,Jack Smith,jack.smith86@gmail.com,07001529113,RG7 8XQ,Oxfordshire,Terraced,Fibre 100,33.23,24-month,2,2020-12-05,Credit Card,5,3,No
+10237,Lily Brown,lily.brown34@gmail.com,07290257252,OX18 6SQ,Oxfordshire,Cottage,Fibre 500,55.03,24-month,66,2020-09-07,Bank Transfer,2,0,No
+10988,Grace Clarke,grace.clarke53@gmail.com,07170690149,RG6 2AH,Northamptonshire,Terraced,Fibre 500,59.52,12-month,59,2020-06-13,Credit Card,5,3,Yes
+10215,Ava Roberts,ava.roberts4@gmail.com,07910939111,,Northamptonshire,Cottage,Fibre 500,56.26,Monthly,25,2025-08-09,Credit Card,10,2,No
+10894,George Roberts,,07241571276,CB48 9JP,Northamptonshire,Semi-detached,Fibre 300,49.57,12-month,50,2023-09-11,Bank Transfer,6,1,No
+10244,Charlie Wright,charlie.wright66@btinternet.com,07427114773,SN2 2BD,Berkshire,Terraced,Fibre 900,63.18,Monthly,52,2023-10-22,Credit Card,2,1,No
+10552,Ava Edwards,ava.edwards77@outlook.com,07596111102,SO32 2FB,Oxfordshire,Farmhouse,Fibre 300,44.23,Monthly,44,2022-06-22,Bank Transfer,5,0,No
+10837,William Patel,william.patel6@btinternet.com,07342444748,OX18 8SA,Berkshire,Terraced,Fibre 300,£49.7,12-month,27,2021-04-11,Direct Debit,0,5,Yes
+10863,Oliver Smith,oliver.smith68@btinternet.com,07758682405,GL27 7QL,Buckinghamshire,Detached,Fibre 100,-10.0,12-month,7,2022-05-03,Bank Transfer,9,5,No
+10667,Noah Williams,noah.williams65@outlook.com,07289540017,SN11 5TJ,Gloucestershire,Semi-detached,Fibre 500,£59.95,Monthly,61,2023-09-26,Credit Card,0,5,No
+10621,Amelia Hall,amelia.hall31@yahoo.co.uk,07882325539,CB21 9NL,Hampshire,Detached,Fibre 500,56.41,24-month,-5,Dec 2023,Credit Card,3,0,Yes
+10078,Freya Green,freya.green97@gmail.com,07047868633,,Gloucestershire,Detached,Fibre 300,48.66,12-month,29,2024-01-08,Direct Debit,1,0,No
+10029,Henry Hughes,henry.hughes98@gmail.com,07278742967,GL31 6SP,Buckinghamshire,Terraced,Fibre 100,28.72,Monthly,35,2022-07-23,Credit Card,4,3,No
+10450,George Williams,george.williams48@outlook.com,07954429477,NN10 3FZ,Northamptonshire,Farmhouse,Fibre 500,54.79,Monthly,4,2020-04-19,Credit Card,2,0,No
+10289,James Green,james.green74@gmail.com,07036133254,GL41 2AU,Hampshire,Detached,Fibre 300,47.14,24-month,43,2022-05-08,Direct Debit,7,1,No
+10049,Jack Williams,jack.williams57@btinternet.com,07449058147,RG3 1QN,  Gloucestershire ,Terraced,Fibre 900,69.04,Monthly,9,2024-10-17,Credit Card,7,0,Yes
+10670,Lily Evans,lily.evans28@gmail.com,07104502589,SO15 3DT,  Northamptonshire ,Semi-detached,Fibre 500,59.79,24-month,69,2022-08-09,Bank Transfer,3,2,No
+10798,Isla Thomas,isla.thomas15@outlook.com,07729476380,CB37 1RP,Northamptonshire,Detached,Fibre 500,54.08,12-month,49,2024-12-20,Bank Transfer,5,0,No
+10414,Noah Taylor,noah.taylor9@btinternet.com,07789320649,SO41 4QU,Wiltshire,Cottage,Fibre 300,48.87,12-month,1,2025-08-16,Bank Transfer,6,2,Yes
+10165,Ava Davies,ava.davies26@outlook.com,07395211179,OX49 9BU,Buckinghamshire,Bungalow,Fibre 500,55.2,24-month,27,2022-08-06,Bank Transfer,4,3,No
+10930,Sophie Wood,sophie.wood28@gmail.com,07889044104,OX18 4DQ,Hampshire,Farmhouse,Fibre 100,34.25,12-month,70,2020-11-07,Credit Card,3,0,No
+10178,Jack Clarke,jack.clarke9@outlook.com,07827448570,SO47 3AZ,Buckinghamshire,Bungalow,Fibre 500,54.66,24-month,71,2020-11-18,Credit Card,3,5,No
+10693,Olivia Thomas,olivia.thomas54@outlook.com,07145430796,CB43 8JE,Oxfordshire,Detached,Fibre 300,46.73,24-month,32,2025-02-16,Bank Transfer,,0,No
+10065,Ava Clarke,ava.clarke32@btinternet.com,07210469632,MK37 6HG,Berkshire,Bungalow,Fibre 100,31.26,12-month,35,2023-01-03,Credit Card,8,5,No
+10141,Poppy Evans,poppy.evans28@btinternet.com,07735160917,RG43 9FU,Oxfordshire,Bungalow,Fibre 300,-29.99,24-month,16,2023-10-16,Bank Transfer,2,0,No
+10985,Charlie Hall,charlie.hall35@outlook.com,07633488933,NN14 8QE,Hampshire,Farmhouse,Fibre 300,49.31,12-month,66,2025-01-17,Credit Card,5,1,No
+10351,Henry Hall,henry.hall47@outlook.com,07030587210,,Wiltshire,Bungalow,Fibre 300,49.79,12-month,12,2021-04-27,Direct Debit,0,0,1
+10861,Oliver Hughes,john.smith,07998460586,RG40 5YR,Cambridgeshire,Terraced,Fibre 500,56.78,Monthly,52,2024-08-05,Direct Debit,6,0,No
+10440,Freya Thomas,freya.thomas54@yahoo.co.uk,07075409150,SO16 3DX,Gloucestershire,Semi-detached,Fibre 300,48.08,24-month,38,2023-07-09,Credit Card,7,1,Yes
+10346,Isla Evans,isla.evans3@yahoo.co.uk,07422693121,SO16 8RE,Wiltshire,Terraced,Fibre 900,68.24,Monthly,24,2024-02-13,Credit Card,0,0,No
+10254,Emily Smith,emily.smith33@outlook.com,07864518376,OX26 5ND,Cambridgeshire,Cottage,Fibre 100,29.46,Monthly,7,2023-11-11,Bank Transfer,6,0,No
+10694,Amelia Taylor,amelia.taylor12@btinternet.com,07845235426,RG17 5UB,Gloucestershire,Farmhouse,Fibre 500,54.35,Monthly,71,2025-11-01,Bank Transfer,8,3,No
+10344,Freya Davies,freya.davies36@outlook.com,07240338105,MK21 2XL,Wiltshire,Farmhouse,Fibre 500,59.28,12-month,6,2022-01-21,Direct Debit,5,1,No
+10221,Jack Taylor,jack.taylor97@outlook.com,07625827390,SN7 7GA,Berkshire,Detached,Fibre 100,28.03,Monthly,36,2020-12-21,Bank Transfer,4,3,Yes
+10235,Emily Wilson,emily.wilson76@outlook.com,07912347851,SO6 1SL,Hampshire,Semi-detached,Fibre 900,66.88,24-month,54,2024-03-07,Direct Debit,6,1,Yes
+10547,Noah Roberts,noah.roberts19@gmail.com,07840083850,,Buckinghamshire,Bungalow,Fibre 300,45.28,12-month,2,2020-09-19,Direct Debit,7,5,Y
+10499,Poppy Walker,poppy.walker91@yahoo.co.uk,07244182226,GL35 7GX,Berkshire,Terraced,Fibre 900,69.87,24-month,61,2021-02-22,Direct Debit,7,0,No
+10595,George Walker,george.walker99@gmail.com,07849932312,CB19 3SR,Oxfordshire,Farmhouse,Fibre 100,32.35,Monthly,38,2024-08-05,Credit Card,10,0,Yes
+10940,Poppy Clarke,poppy.clarke37@yahoo.co.uk,07883571921,,Gloucestershire,Cottage,Fibre 300,45.68,24-month,29,2024-07-21,Credit Card,4,1,No
+10249,Lily Taylor,,07496391919,MK18 2YW,Berkshire,Farmhouse,Fibre 300,44.46,Monthly,37,2025-05-17,Credit Card,6,2,No
+10819,Emily Davies,emily.davies5@btinternet.com,07503374698,CB14 1RU,Berkshire,Terraced,Fibre 500,54.47,12-month,53,2023-12-26,Direct Debit,8,0,No
+10381,Harry Wilson,harry.wilson19@btinternet.com,07076502412,OX39 6UY,Oxfordshire,Farmhouse,Fibre 300,49.1,12-month,43,2020-01-27,Direct Debit,9,1,No
+10071,Sophie Williams,sophie.williams92@yahoo.co.uk,07157473384,NN9 2ZY,Cambridgeshire,Semi-detached,Fibre 500,53.35,24-month,6,2021-11-08,Direct Debit,1,3,No
+10094,Amelia Smith,amelia.smith95@outlook.com,07382825867,CB26 3GS,Hampshire,Detached,Fibre 500,58.15,Monthly,14,2023-10-14,Credit Card,0,1,No
+10033,Lily Jones,lily.jones13@yahoo.co.uk,07718702621,RG17 6ZR,Gloucestershire,Cottage,Fibre 300,48.96,24-month,65,2023-06-21,Bank Transfer,7,0,No
+10259,Harry Brown,,07759900489,SO20 7QF,Oxfordshire,Bungalow,Fibre 100,29.25,Monthly,7,2024-08-11,Credit Card,2,0,No
+10204,Emily Walker,emily.walker97@gmail.com,07792171747,RG15 4FZ,Northamptonshire,Cottage,Fibre 300,45.73,24-month,69,2025-06-26,Credit Card,7,5,No
+10359,Freya Smith,freya.smith49@yahoo.co.uk,07296136715,RG30 9TE,Gloucestershire,Semi-detached,Fibre 300,48.11,12-month,14,2023-04-13,Credit Card,1,2,No
+10601,James Green,no-at-sign.com,07373125523,MK26 2TX,Gloucestershire,Farmhouse,Fibre 500,53.06,Monthly,9,2025-02-03,Bank Transfer,,0,Yes
+10398,Thomas Brown,thomas.brown44@outlook.com,07603319036,OX1 4BD,Oxfordshire,Semi-detached,Fibre 500,-29.99,12-month,46,2020-06-12,Bank Transfer,10,1,No
+10077,James Evans,james.evans45@btinternet.com,07180170462,SN42 7QR,Berkshire,Farmhouse,Fibre 100,30.62,24-month,6,2025-09-05,Bank Transfer,,0,No
+10084,Grace Williams,,07387509977,OX 99,  Oxfordshire ,Detached,Fibre 300,46.7,12-month,9,2024-05-01,Bank Transfer,10,3,No
+10319,Sophie Walker,sophie.walker90@btinternet.com,07620918435,RG40 8WS,Cambridgeshire,Detached,Fibre 100,34.89,12-month,,2020-11-12,Direct Debit,5,5,No
+10082,Ava Turner,ava.turner60@btinternet.com,07854458771,RG49 6HQ,Buckinghamshire,Farmhouse,Fibre 500,53.31,Monthly,37,2025-03-01,Credit Card,8,3,No
+10947,Thomas Green,,07289890749,CB21 9EF,Buckinghamshire,Cottage,Fibre 100,32.35,12-month,51,2023-03-14,Credit Card,9,5,Yes
+10707,Olivia Thomas,olivia.thomas53@gmail.com,07355373096,NN37 7ZG,Berkshire,Farmhouse,Fibre 500,53.54,24-month,5,2024-11-12,Direct Debit,9,3,No
+10538,Lily Brown,lily.brown29@btinternet.com,07379223410,CB43 5SY,Hampshire,Farmhouse,Fibre 100,29.48,Monthly,32,2020-07-23,Credit Card,7,0,yes
+10543,George Turner,george.turner42@gmail.com,07248088062,SN4 8FF,Cambridgeshire,Bungalow,Fibre 300,48.83,24-month,32,2022-08-08,Credit Card,2,0,No
+10825,William Taylor,william.taylor58@outlook.com,07017092640,RG4 4AW,Oxfordshire,Bungalow,Fibre 500,57.47,Monthly,1,2023-03-13,Direct Debit,8,0,Yes
+10428,Lily Green,lily.green81@yahoo.co.uk,07090797727,,Wiltshire,Terraced,Fibre 100,33.14,Monthly,-1,2020-07-27,Direct Debit,0,5,No
+10309,Harry Thomas,,07649718924,GL39 6RF,Buckinghamshire,Semi-detached,Fibre 500,57.44,24-month,6,2022-11-16,Direct Debit,5,0,Yes
+10005,Amelia Wright,amelia.wright31@gmail.com,07911718227,SN17 9ZS,CAMBRIDGESHIRE,Bungalow,Fibre 500,58.28,24-month,31,2021-12-10,Credit Card,10,2,Yes
+10788,Grace Edwards,grace.edwards30@yahoo.co.uk,07021516758,SO45 5RJ,Cambridgeshire,Terraced,Fibre 100,34.06,24-month,2,2022-04-10,Bank Transfer,1,0,no
+10104,William Edwards,a@b,07037613791,OX24 6FR,Hampshire,Cottage,Fibre 300,46.81,Monthly,51,2023-02-01,Bank Transfer,1,0,No
+10097,George Evans,,07767721903,NN3 5JX,Northamptonshire,Semi-detached,Fibre 900,68.46,24-month,72,2025-08-18,Bank Transfer,1,0,No
+10296,Noah Evans,noah.evans77@yahoo.co.uk,07630993842,MK16 1LF,Berkshire,Semi-detached,Fibre 900,68.08,12-month,48,2025-10-03,Direct Debit,8,3,no
+10408,Harry Hall,harry.hall74@outlook.com,07732702164,RG48 2FB,HAMPSHIRE,Detached,Fibre 900,67.82,Monthly,-1,2021-09-28,Bank Transfer,6,3,No
+10445,Charlie Evans,charlie.evans23@yahoo.co.uk,07268653694,MK24 2PW,Hampshire,Semi-detached,Fibre 300,49.0,12-month,15,2023-05-27,Credit Card,2,0,Yes
+10903,Ava Turner,john.smith,07916194232,GL23 5BD,Cambridgeshire,Detached,Fibre 100,34.43,Monthly,5,2022-01-14,Bank Transfer,10,3,yes
+10281,Poppy Turner,poppy.turner97@outlook.com,07780182043,CB46 8DX,BUCKINGHAMSHIRE,Farmhouse,Fibre 100,32.11,12-month,67,2020-06-14,Direct Debit,6,0,No
+10266,Oliver Hughes,oliver.hughes15@gmail.com,07722601645,RG49 8ZL,Buckinghamshire,Semi-detached,Fibre 100,29.47,Monthly,65,Oct 2025,Bank Transfer,1,3,No
+10739,Amelia Jones,,07429906745,SO36 7QG,Northamptonshire,Detached,Fibre 300,45.63,Monthly,35,12/06/2020,Bank Transfer,9,3,Yes
+10886,Harry Williams,harry.williams75@gmail.com,07543776618,CB4 9QW,Oxfordshire,Detached,Fibre 100,28.69,24-month,,2024-08-08,Direct Debit,,1,No
+10534,Henry Evans,henry.evans43@outlook.com,07864496392,NN13 6XX,Buckinghamshire,Semi-detached,Fibre 500,58.58,24-month,40,2024-03-04,Bank Transfer,4,1,No
+10432,Henry Green,henry.green90@outlook.com,07654358841,CB17 4TL,Oxfordshire,Detached,Fibre 300,46.61,24-month,69,2021-08-05,Credit Card,9,2,No
+10911,Ava Edwards,ava.edwards93@outlook.com,07699055855,RG24 5AX,Northamptonshire,Semi-detached,Fibre 900,67.02,24-month,33,2020-07-20,Credit Card,9,0,No
+10656,Poppy Davies,a@b,07018167784,GL28 6GL,Northamptonshire,Cottage,Fibre 500,59.41,12-month,30,May 2022,Direct Debit,8,1,No
+10118,Poppy Davies,poppy.davies43@outlook.com,07135521570,NN14 4DQ,Northamptonshire,Detached,Fibre 100,33.03,Monthly,64,2023-08-24,Credit Card,2,3,Yes
+10405,Henry Wright,henry.wright37@btinternet.com,07205955657,NN40 1GQ,Oxfordshire,Cottage,Fibre 900,£69.5,24-month,10,2020-02-20,Direct Debit,5,2,No
+10250,Grace Green,grace.green86@btinternet.com,07820829737,NN41 9ZS,Oxfordshire,Bungalow,Fibre 500,54.39,12-month,66,2021-04-05,Bank Transfer,10,1,Yes
+10377,Olivia Evans,olivia.evans50@btinternet.com,07371539885,NN46 8FW,Gloucestershire,Semi-detached,Fibre 100,29.52,12-month,28,2023-08-28,Bank Transfer,8,1,Yes
+10615,George Walker,george.walker42@gmail.com,07986787442,SN32 6WP,Northamptonshire,Bungalow,Fibre 900,67.42,24-month,54,2024-07-12,Credit Card,9,1,No
+10009,Olivia Hughes,olivia.hughes8@outlook.com,07812191361,CB38 1ZD,Hampshire,Terraced,Fibre 900,67.08,24-month,65,2022-05-07,Bank Transfer,5,1,No
+10357,George Walker,george.walker6@btinternet.com,07633991297,,Gloucestershire,Farmhouse,Fibre 500,53.65,12-month,47,2021-05-06,Direct Debit,4,2,No
+10196,Isla Williams,isla.williams19@gmail.com,07099451016,SN11 5ZZ,Wiltshire,Farmhouse,Fibre 100,£33.24,12-month,45,2020-02-25,Credit Card,5,2,Yes
+10631,Lily Hughes,lily.hughes40@btinternet.com,07915795546,SN16 5UE,Wiltshire,Cottage,Fibre 900,66.22,Monthly,48,2020-01-18,Direct Debit,1,0,No
+10081,Jack Taylor,jack.taylor69@gmail.com,07304699013,CB31 4PN,Oxfordshire,Semi-detached,Fibre 900,69.55,24-month,48,2020-12-25,Credit Card,3,1,Yes
+10526,Freya Brown,freya.brown4@btinternet.com,07607174811,,Buckinghamshire,Semi-detached,Fibre 900,67.22,12-month,45,2020-06-10,Bank Transfer,7,1,Y
+10830,Sophie Hughes,sophie.hughes67@outlook.com,not-a-number,OX25 7TZ,Hampshire,Cottage,Fibre 900,67.09,Monthly,64,2022-10-10,Bank Transfer,15,0,No
+10905,James Wright,james.wright58@btinternet.com,07563558422,RG41 2TF,Hampshire,Farmhouse,Fibre 100,28.92,24-month,44,2022-07-12,Direct Debit,4,3,No
+10239,Thomas Taylor,thomas.taylor62@gmail.com,07545279852,NN2 2JF,Wiltshire,Terraced,Fibre 100,29.58,Monthly,17,2021-03-03,Credit Card,1,0,No
+10323,Charlie Smith,charlie.smith38@outlook.com,07377294209,MK20 9EL,Berkshire,Terraced,Fibre 900,68.79,12-month,41,2022-12-13,Direct Debit,5,0,No
+10211,Jack Turner,jack.turner66@btinternet.com,07795654420,NN47 5BU,Wiltshire,Bungalow,Fibre 100,28.35,12-month,61,2025-10-01,Credit Card,7,0,No
+10846,George Wright,george.wright44@yahoo.co.uk,07237597953,GL37 3RB,Oxfordshire,Bungalow,Fibre 300,48.01,12-month,3,2020-03-28,Credit Card,5,5,No
+10548,William Jones,william.jones43@btinternet.com,07742231964,SO15 1BN,Oxfordshire,Semi-detached,Fibre 100,29.35,24-month,20,2021-07-26,Direct Debit,6,1,No
+10497,Charlie Williams,charlie.williams39@btinternet.com,07960335826,SO12 8AH,Hampshire,Bungalow,Fibre 900,67.66,12-month,14,2025-11-19,Direct Debit,10,3,No
+10227,Grace Evans,grace.evans31@yahoo.co.uk,07107427990,RG30 3RG,Buckinghamshire,Terraced,Fibre 300,46.24,24-month,46,2020-11-03,Credit Card,5,0,No
+10891,Poppy Thomas,poppy.thomas43@yahoo.co.uk,07234286449,RG28 1GL,HAMPSHIRE,Farmhouse,Fibre 500,54.34,Monthly,53,2025-01-24,Bank Transfer,5,1,Yes
+10814,Oliver Edwards,oliver.edwards36@gmail.com,07617551887,OX6 8ZZ,Cambridgeshire,Semi-detached,Fibre 500,55.09,Monthly,24,2020-03-10,Bank Transfer,3,5,No
+10828,William Patel,william.patel2@outlook.com,07424253690,,Cambridgeshire,Detached,Fibre 100,29.27,12-month,11,2024-08-13,Bank Transfer,0,1,1
+10177,Olivia Wright,a@b,07735857306,MK47 3LB,Berkshire,Terraced,Fibre 300,46.05,12-month,,2024-12-16,Direct Debit,9,0,No
+10974,Lily Walker,lily.walker74@yahoo.co.uk,07749979905,SN9 2UE,Gloucestershire,Cottage,Fibre 900,66.81,12-month,68,2022-07-12,Bank Transfer,1,0,No
+10433,Henry Green,henry.green81@gmail.com,07502675512,MK20 3TX,Wiltshire,Detached,Fibre 100,31.06,24-month,42,2023-10-19,Bank Transfer,6,3,Yes
+10943,Olivia Jones,olivia.jones9@outlook.com,07878104802,CB22 5DP,Wiltshire,Bungalow,Fibre 100,32.77,24-month,7,2025-04-02,Credit Card,3,5,Yes
+10516,William Roberts,,07103903397,OX23 2YQ,Wiltshire,Farmhouse,Fibre 900,£64.48,24-month,4,2020-11-24,Bank Transfer,4,1,No
+10350,Harry Brown,harry.brown12@outlook.com,07522655767,SO39 6FJ,Hampshire,Farmhouse,Fibre 900,66.84,24-month,36,2024-08-18,Bank Transfer,3,3,No
+10518,Sophie Clarke,sophie.clarke28@yahoo.co.uk,07804032537,SO47 6TR,  Wiltshire ,Farmhouse,Fibre 100,31.35,24-month,30,2022-11-28,Direct Debit,1,0,No
+10007,Lily Hall,lily.hall85@gmail.com,07656670106,MK7 4HH,Berkshire,Semi-detached,Fibre 300,45.94,12-month,13,2023-04-28,Direct Debit,7,0,No
+10155,Henry Turner,henry.turner47@btinternet.com,07918463865,MK32 8ZA,Wiltshire,Farmhouse,Fibre 300,44.15,Monthly,49,2024-11-09,Direct Debit,2,0,No
+10944,Grace Taylor,grace.taylor22@btinternet.com,07808122681,MK49 5TL,Berkshire,Detached,Fibre 300,£49.09,24-month,54,2021-02-27,Direct Debit,0,2,No
+10055,George Jones,a@b,07779010432,SO8 5JN,Gloucestershire,Detached,Fibre 500,54.66,24-month,61,2024-08-03,Direct Debit,7,0,No
+10329,George Hughes,george.hughes78@yahoo.co.uk,07883103032,NN14 3ZX,Cambridgeshire,Bungalow,Fibre 900,65.5,Monthly,41,2025-10-14,Direct Debit,8,1,No
+10542,Ava Hall,ava.hall30@gmail.com,07190924876,SN16 1HZ,Gloucestershire,Detached,Fibre 500,58.4,12-month,22,2021-09-04,Credit Card,8,2,No
+10439,Grace Turner,grace.turner1@outlook.com,07594389760,RG19 1EU,Berkshire,Cottage,Fibre 900,63.34,24-month,11,2025-06-09,Credit Card,5,1,No
+10809,Harry Hughes,harry.hughes23@outlook.com,07250182562,NN29 3XS,Cambridgeshire,Bungalow,Fibre 900,68.31,Monthly,22,2025-01-03,Direct Debit,2,1,No
+10900,Charlie Smith,charlie.smith7@gmail.com,07420288661,SO35 1DZ,Oxfordshire,Semi-detached,Fibre 500,55.03,Monthly,11,17/05/2021,Bank Transfer,5,1,No
+10370,Noah Smith,noah.smith11@outlook.com,07244731584,RG48 8SW,Hampshire,Semi-detached,Fibre 500,54.74,Monthly,18,2025-12-09,Credit Card,1,1,1
+10604,Noah Thomas,,07797363831,SN35 6SA,Buckinghamshire,Semi-detached,Fibre 900,67.0,12-month,22,2025-01-16,Bank Transfer,9,3,Yes
+10973,Jack Edwards,jack.edwards6@gmail.com,07406291187,,Berkshire,Detached,Fibre 300,46.62,Monthly,36,2020-09-04,Credit Card,9,3,0
+10593,Ava Roberts,ava.roberts25@btinternet.com,07543788260,CB15 6ZE,Oxfordshire,Detached,Fibre 100,32.66,12-month,-1,2025-12-01,Bank Transfer,0,2,No
+10876,Olivia Brown,olivia.brown7@yahoo.co.uk,07368715689,GL48 1YT,Berkshire,Bungalow,Fibre 300,46.11,Monthly,30,2021-04-21,Credit Card,10,1,No
+10554,Poppy Davies,poppy.davies44@btinternet.com,07277584466,CB20 6HJ,Berkshire,Semi-detached,Fibre 500,£57.91,Monthly,5,2020-01-19,Direct Debit,2,0,Yes
+10753,Noah Wright,a@b,07585615473,GL42 6RR,Cambridgeshire,Bungalow,Fibre 300,46.4,Monthly,8,2022-06-26,Direct Debit,1,3,1
+10873,Jack Taylor,jack.taylor84@btinternet.com,07182070669,OX8 1TY,Wiltshire,Semi-detached,Fibre 100,31.36,Monthly,20,2024-09-05,Credit Card,8,1,No
+10532,Sophie Green,sophie.green62@outlook.com,07986239847,GL28 1SD,gloucestershire,Terraced,Fibre 900,69.23,Monthly,29,2025-01-12,Credit Card,6,1,Yes
+10866,William Smith,william.smith60@gmail.com,07356748095,RG41 4YL,Oxfordshire,Cottage,Fibre 500,57.08,24-month,41,2024-01-05,Bank Transfer,6,0,No
+10228,Grace Thomas,grace.thomas95@yahoo.co.uk,07085016579,OX24 6GX,Gloucestershire,Bungalow,Fibre 300,47.96,Monthly,11,2021-06-08,Bank Transfer,1,5,No
+10390,George Davies,george.davies61@outlook.com,not-a-number,SO45 2TS,  Hampshire ,Semi-detached,Fibre 300,43.19,12-month,66,2020-10-13,Direct Debit,9,1,No
+10759,Harry Wilson,harry.wilson93@gmail.com,07577204410,OX46 8YL,Gloucestershire,Bungalow,Fibre 300,44.5,12-month,11,2022-04-27,Bank Transfer,10,0,No
+10212,William Taylor,william.taylor79@outlook.com,07444019292,RG24 3LJ,Berkshire,Semi-detached,Fibre 500,58.59,Monthly,33,2022-02-05,Bank Transfer,2,5,Yes
+10079,Thomas Edwards,thomas.edwards52@gmail.com,07738302843,MK37 6JN,Wiltshire,Terraced,Fibre 100,31.64,12-month,32,2022-05-02,Bank Transfer,9,0,Yes
+10148,Noah Evans,noah.evans69@outlook.com,07612075011,OX12 5XD,Cambridgeshire,Cottage,Fibre 900,£65.84,12-month,14,2025-07-14,Credit Card,15,3,No
+10302,Isla Brown,a@b,07231643348,GL30 1QW,Oxfordshire,Semi-detached,Fibre 300,45.28,12-month,5,2023-03-04,Direct Debit,15,3,Yes
+10448,Isla Davies,isla.davies96@gmail.com,07068761648,GL46 9AT,Berkshire,Terraced,Fibre 900,63.41,12-month,9,2025-01-12,Credit Card,8,5,Yes
+10361,George Taylor,george.taylor39@gmail.com,07768342016,MK49 5GH,Buckinghamshire,Farmhouse,Fibre 500,56.36,24-month,52,2025-03-23,Credit Card,5,3,No
+10531,Lily Patel,lily.patel50@outlook.com,07881228217,GL37 3JS,Buckinghamshire,Semi-detached,Fibre 300,48.79,12-month,13,2020-07-02,Credit Card,,0,No
+10529,William Wright,william.wright5@btinternet.com,07468611145,RG26 9JF,Gloucestershire,Detached,Fibre 100,29.12,24-month,54,2021-11-07,Credit Card,10,2,0
+10043,Harry Taylor,harry.taylor96@gmail.com,07528098851,SO23 7BN,Northamptonshire,Cottage,Fibre 100,28.72,24-month,56,Mar 2021,Credit Card,3,0,No
+10673,Poppy Brown,poppy.brown13@gmail.com,07786190254,RG44 7BG,Wiltshire,Terraced,Fibre 300,43.16,24-month,13,2024-06-08,Credit Card,4,0,Y
+10133,William Edwards,william.edwards44@outlook.com,07753260332,CB47 1YW,Wiltshire,Detached,Fibre 500,55.56,24-month,56,2020-07-21,Credit Card,8,0,No
+10575,Jack Brown,jack.brown74@outlook.com,07406557820,GL41 1LH,Wiltshire,Semi-detached,Fibre 100,29.63,Monthly,65,2025-03-07,Direct Debit,3,0,No
+10311,Oliver Walker,oliver.walker83@btinternet.com,07403553380,CB44 4ZR,Buckinghamshire,Semi-detached,Fibre 100,31.09,Monthly,67,2020-08-03,Direct Debit,0,0,No
+10634,Grace Hall,grace.hall27@gmail.com,07180533962,,Wiltshire,Detached,Fibre 500,55.46,Monthly,64,2024-04-27,Direct Debit,7,0,No
+10567,Grace Evans,grace.evans45@yahoo.co.uk,07269694439,GL46 7LZ,Berkshire,Detached,Fibre 900,69.83,12-month,25,2024-04-24,Credit Card,,0,No
+10820,Isla Hall,isla.hall11@yahoo.co.uk,07908788653,MK44 1RU,Cambridgeshire,Bungalow,Fibre 900,65.89,12-month,61,2025-03-23,Bank Transfer,9,5,Yes
+10000,Amelia Smith,amelia.smith18@outlook.com,07181960013,CB33 1XH,Hampshire,Semi-detached,Fibre 500,56.13,12-month,32,2020-03-23,Credit Card,5,1,No
+10477,Grace Smith,grace.smith88@yahoo.co.uk,07553470574,SN14 9XP,Hampshire,Cottage,Fibre 900,68.46,Monthly,33,2023-02-11,Credit Card,9,1,No
+10316,William Turner,william.turner97@btinternet.com,07119524364,OX11 8AE,Gloucestershire,Terraced,Fibre 900,65.91,12-month,40,2025-05-24,Credit Card,2,0,No
+10737,Jack Patel,jack.patel80@outlook.com,07974185630,SN29 6AB,Oxfordshire,Semi-detached,Fibre 500,53.31,12-month,70,2025-07-25,Bank Transfer,6,0,No
+10572,George Smith,george.smith73@btinternet.com,07507321464,NN38 4RZ,Buckinghamshire,Detached,Fibre 500,55.65,24-month,71,2021-04-11,Direct Debit,5,2,Yes
+10380,Harry Turner,harry.turner80@outlook.com,07666134732,CB23 5ZN,Oxfordshire,Detached,Fibre 100,29.29,24-month,36,2024-08-24,Credit Card,3,0,No
+10832,Jack Turner,jack.turner91@btinternet.com,07779256041,CB17 9GB,Northamptonshire,Bungalow,Fibre 900,68.68,Monthly,52,2022-04-20,Bank Transfer,3,0,No
+10972,James Evans,james.evans1@outlook.com,07048379363,GL49 6YG,Wiltshire,Terraced,Fibre 900,69.9,24-month,71,Nov 2020,Direct Debit,7,0,Yes
+10961,Olivia Williams,olivia.williams32@gmail.com,07427557672,12345,Oxfordshire,Terraced,Fibre 300,44.99,12-month,31,2021-02-17,Bank Transfer,99,1,no
+10172,Sophie Patel,sophie.patel40@btinternet.com,07564240082,MK19 8XA,Berkshire,Farmhouse,Fibre 300,45.09,12-month,12,2022-10-08,Direct Debit,8,2,N
+10125,James Walker,james.walker63@yahoo.co.uk,07132475469,GL13 8HS,Berkshire,Bungalow,Fibre 500,59.06,Monthly,40,2024-03-03,Credit Card,99,3,No
+10666,George Brown,george.brown63@yahoo.co.uk,07056820922,MK32 1YA,Oxfordshire,Detached,Fibre 500,57.41,Monthly,38,2025-06-14,Credit Card,0,5,No
+10354,Poppy Jones,poppy.jones96@outlook.com,07891775662,OX24 7HL,Gloucestershire,Detached,Fibre 300,43.53,24-month,51,2022-01-08,Credit Card,2,0,No
+10834,Olivia Hughes,olivia.hughes39@btinternet.com,07224059208,,Berkshire,Farmhouse,Fibre 900,65.99,Monthly,42,2024-05-18,Bank Transfer,6,0,0
+10939,Ava Hall,ava.hall64@yahoo.co.uk,07911501016,OX 99,Oxfordshire,Semi-detached,Fibre 100,30.8,24-month,15,2024-12-07,Bank Transfer,4,5,No
+10090,Oliver Davies,no-at-sign.com,07240659657,MK28 3NP,Cambridgeshire,Farmhouse,Fibre 900,65.19,12-month,26,2022-05-24,Bank Transfer,11,5,No
+10978,Jack Brown,jack.brown77@gmail.com,07258147621,SN46 4RB,Gloucestershire,Terraced,Fibre 900,66.78,Monthly,35,2024-10-09,Credit Card,4,0,No
+10181,Freya Turner,freya.turner87@yahoo.co.uk,07761228685,SN35 8QP,Buckinghamshire,Cottage,Fibre 900,65.88,24-month,14,2023-12-11,Bank Transfer,3,1,Yes
+10363,Noah Wright,noah.wright48@gmail.com,07504481776,,Buckinghamshire,Detached,Fibre 300,49.47,12-month,25,2023-06-06,Bank Transfer,9,0,Yes
+10274,Thomas Williams,thomas.williams11@gmail.com,07556260602,OX41 9NS,Hampshire,Terraced,Fibre 100,32.9,12-month,67,2025-12-11,Credit Card,0,1,No
+10964,James Clarke,james.clarke48@gmail.com,07304450020,SN42 7WJ,Berkshire,Bungalow,Fibre 500,57.28,Monthly,45,2025-05-21,Credit Card,0,0,No
+10069,William Edwards,william.edwards5@outlook.com,07913075626,CB27 9ZU,Oxfordshire,Terraced,Fibre 900,63.96,Monthly,19,2024-06-22,Credit Card,8,3,No
+10291,Charlie Brown,charlie.brown59@gmail.com,07676991507,MK38 4EE,Oxfordshire,Bungalow,Fibre 900,67.98,24-month,30,2021-10-05,Bank Transfer,8,1,No
+10131,George Williams,,07725217525,OX1 8LH,Wiltshire,Bungalow,Fibre 300,-29.99,12-month,44,2020-03-20,Credit Card,99,3,1
+10300,Lily Wood,lily.wood30@outlook.com,07373898775,GL21 4SS,Cambridgeshire,Farmhouse,Fibre 300,46.14,24-month,51,2020-06-05,Bank Transfer,2,1,No
+10605,Amelia Clarke,amelia.clarke64@btinternet.com,07368205068,OX 99,Buckinghamshire,Cottage,Fibre 900,67.71,Monthly,8,2023-11-28,Bank Transfer,5,0,No
+10326,Charlie Davies,charlie.davies51@outlook.com,07749261764,RG24 1EE,Gloucestershire,Detached,Fibre 100,31.41,24-month,16,2024-04-01,Bank Transfer,9,5,No
+10144,Freya Jones,freya.jones79@gmail.com,07838638406,OX 99,Oxfordshire,Terraced,Fibre 500,54.75,24-month,58,2023-04-21,Bank Transfer,10,2,No
+10898,Grace Green,grace.green80@gmail.com,07670683353,GL3 2RE,Wiltshire,Cottage,Fibre 500,58.49,24-month,59,2020-02-13,Bank Transfer,3,1,No
+10972,James Evans,james.evans1@outlook.com,07048379363,GL49 6YG,Wiltshire,Terraced,Fibre 900,69.9,24-month,71,Nov 2020,Direct Debit,7,0,Yes
+10668,Olivia Wright,olivia.wright74@gmail.com,07509271152,SO6 1QJ,Berkshire,Detached,Fibre 100,33.74,Monthly,12,2021-01-02,Credit Card,1,3,No
+10135,Lily Evans,lily.evans46@outlook.com,07642087375,CB1 1DE,Berkshire,Semi-detached,Fibre 300,49.64,24-month,34,2020-12-24,Direct Debit,4,1,Yes
+10451,Sophie Wood,sophie.wood45@outlook.com,07298585672,RG12 8RA,Gloucestershire,Cottage,Fibre 900,64.56,Monthly,62,2021-03-09,Bank Transfer,1,1,N
+10164,Harry Green,harry.green53@yahoo.co.uk,07588043416,MK5 9GU,Buckinghamshire,Cottage,Fibre 300,44.52,24-month,30,2022-03-24,Bank Transfer,3,5,No
+10028,George Thomas,george.thomas22@gmail.com,07499471746,NN33 9UT,Gloucestershire,Bungalow,Fibre 300,43.27,12-month,10,2025-06-20,Credit Card,0,0,No
+10587,Emily Jones,emily.jones28@outlook.com,07353849516,CB10 2DE,Berkshire,Bungalow,Fibre 500,56.26,Monthly,31,2024-01-20,Direct Debit,3,0,No
+10193,Emily Clarke,emily.clarke60@yahoo.co.uk,07264908277,GL47 9EG,Wiltshire,Farmhouse,Fibre 900,65.88,12-month,,2020-03-15,Bank Transfer,3,5,No
+10429,Jack Brown,jack.brown43@gmail.com,07529580660,12345,Gloucestershire,Semi-detached,Fibre 500,56.09,12-month,25,2024-04-23,Bank Transfer,6,0,No
+10665,Lily Roberts,lily.roberts13@gmail.com,07xx,SO18 3GF,Berkshire,Cottage,Fibre 900,66.58,Monthly,24,2023-01-26,Bank Transfer,4,2,No
+10986,Emily Davies,emily.davies71@outlook.com,07550743509,MK11 9WZ,Buckinghamshire,Bungalow,Fibre 300,44.89,12-month,50,2025-01-08,Bank Transfer,6,3,No
+10169,Poppy Evans,poppy.evans42@yahoo.co.uk,07877169472,SN41 6SZ,Hampshire,Detached,Fibre 300,43.54,12-month,37,2021-06-11,Bank Transfer,4,1,Yes
+10525,Oliver Clarke,oliver.clarke85@yahoo.co.uk,07609456534,SO40 8ZY,Oxfordshire,Terraced,Fibre 100,31.43,Monthly,55,2023-06-12,Direct Debit,4,5,Yes
+10140,Thomas Walker,thomas.walker59@outlook.com,07589975711,CB1 6QN,Buckinghamshire,Terraced,Fibre 500,53.73,Monthly,7,2023-03-27,Bank Transfer,6,0,No
+10173,Grace Turner,grace.turner21@outlook.com,07663416389,NN19 9LS,Cambridgeshire,Detached,Fibre 900,64.27,12-month,51,2020-11-15,Bank Transfer,7,1,Yes
+10006,William Clarke,william.clarke9@outlook.com,07509839301,OX15 2BP,Gloucestershire,Bungalow,Fibre 100,29.66,24-month,32,2023-04-18,Direct Debit,9,5,No
+10764,Freya Taylor,,07436023442,SN24 3DR,Oxfordshire,Semi-detached,Fibre 900,65.39,Monthly,1,2024-05-25,Direct Debit,2,0,No
+10519,James Edwards,james.edwards1@yahoo.co.uk,07476921053,CB28 6DL,Hampshire,Terraced,Fibre 100,28.15,Monthly,2,2020-05-05,Credit Card,7,1,No
+10678,Isla Walker,isla.walker21@outlook.com,07501736542,SO12 5ET,northamptonshire,Semi-detached,Fibre 500,57.06,24-month,2,2021-11-19,Bank Transfer,2,1,1
+10073,Henry Edwards,henry.edwards59@yahoo.co.uk,07887287431,MK11 8LG,OXFORDSHIRE,Terraced,Fibre 100,30.35,12-month,43,2024-11-25,Direct Debit,2,3,Yes
+10713,Ava Taylor,ava.taylor7@yahoo.co.uk,07342362203,CB20 8NG,Northamptonshire,Farmhouse,Fibre 100,-10.0,Monthly,29,2020-05-08,Bank Transfer,7,3,Yes
+10675,Thomas Evans,thomas.evans46@gmail.com,07950310064,CB20 1HY,Gloucestershire,Detached,Fibre 300,44.93,Monthly,60,2020-04-14,Direct Debit,8,1,No
+10238,Freya Walker,freya.walker88@yahoo.co.uk,07518952028,NN24 8SP,Wiltshire,Detached,Fibre 500,54.52,24-month,39,2021-04-26,Bank Transfer,9,0,0
+10145,Noah Roberts,noah.roberts24@gmail.com,07281606484,SN11 5AP,Berkshire,Terraced,Fibre 900,69.55,Monthly,23,2021-06-20,Direct Debit,10,1,Yes
+10823,James Evans,james.evans42@outlook.com,07490145996,RG2 7ZG,GLOUCESTERSHIRE,Bungalow,Fibre 300,45.37,24-month,-1,2023-04-01,Credit Card,4,0,No
+10234,Freya Clarke,freya.clarke25@btinternet.com,07759980562,SO24 7QA,Northamptonshire,Cottage,Fibre 100,30.45,12-month,66,2024-02-07,Bank Transfer,7,3,Yes
+10220,George Smith,george.smith13@yahoo.co.uk,07792911179,CB5 4SP,  Hampshire ,Cottage,Fibre 300,43.84,24-month,7,2024-09-05,Credit Card,,0,yes
+10214,Amelia Turner,amelia.turner43@yahoo.co.uk,07441496739,CB34 6GP,Oxfordshire,Terraced,Fibre 500,53.05,Monthly,56,2020-07-04,Bank Transfer,1,5,0
+10688,Emily Jones,,07493396504,SO11 8HF,Wiltshire,Farmhouse,Fibre 900,63.93,Monthly,56,2020-05-05,Credit Card,3,3,No
+10132,Grace Patel,grace.patel69@gmail.com,07350583003,CB45 6NF,Gloucestershire,Farmhouse,Fibre 900,66.51,12-month,1,2021-02-27,Direct Debit,4,1,Yes
+10215,Ava Roberts,ava.roberts4@gmail.com,07910939111,,Northamptonshire,Cottage,Fibre 500,56.26,Monthly,25,2025-08-09,Credit Card,10,2,No
+10457,George Roberts,george.roberts58@yahoo.co.uk,07469660606,MK42 3TL,Oxfordshire,Terraced,Fibre 500,54.41,24-month,46,2025-05-10,Credit Card,0,2,Yes
+10684,Harry Thomas,harry.thomas84@yahoo.co.uk,07328116599,CB45 1FA,Wiltshire,Detached,Fibre 500,57.43,Monthly,63,2022-12-23,Direct Debit,3,0,No
+10422,Grace Taylor,grace.taylor21@gmail.com,07812371067,SN41 9UF,Hampshire,Farmhouse,Fibre 900,63.05,Monthly,17,2023-05-24,Bank Transfer,4,2,No
+10185,Oliver Taylor,oliver.taylor90@btinternet.com,07227837693,CB16 2LS,Buckinghamshire,Terraced,Fibre 900,69.46,Monthly,65,2020-11-14,Credit Card,5,2,No
+10041,Grace Wood,grace.wood58@btinternet.com,07589178390,NN30 1BU,Hampshire,Farmhouse,Fibre 100,32.79,12-month,9,2025-08-03,Direct Debit,5,0,No
+10638,Grace Williams,grace.williams7@btinternet.com,07878211602,OX41 5EX,Gloucestershire,Semi-detached,Fibre 100,-29.99,24-month,28,2024-10-17,Bank Transfer,8,5,No
+10108,George Wilson,george.wilson29@btinternet.com,07536541951,OX12 4WB,Hampshire,Detached,Fibre 100,34.13,12-month,71,2022-06-03,Bank Transfer,7,0,No
+10616,William Williams,william.williams89@gmail.com,07650200024,,Gloucestershire,Semi-detached,Fibre 500,53.91,Monthly,16,2022-06-03,Direct Debit,0,2,No
+10056,George Roberts,george.roberts31@yahoo.co.uk,07962185188,12345,Buckinghamshire,Cottage,Fibre 900,68.22,12-month,,2020-06-08,Bank Transfer,10,0,No
+10449,Amelia Brown,amelia.brown93@gmail.com,07256523734,GL22 2TU,CAMBRIDGESHIRE,Cottage,Fibre 300,45.39,24-month,34,2023-06-26,Credit Card,4,1,No
+10773,Freya Taylor,freya.taylor66@outlook.com,07794026208,MK33 2UL,Buckinghamshire,Semi-detached,Fibre 300,46.26,12-month,18,2025-04-14,Credit Card,2,1,No
+10589,Freya Williams,freya.williams43@btinternet.com,07774491609,CB26 6ZQ,Wiltshire,Detached,Fibre 100,£28.52,24-month,32,2020-02-28,Bank Transfer,10,1,No
+10895,Grace Brown,grace.brown38@outlook.com,07979399816,GL23 4WD,gloucestershire,Farmhouse,Fibre 900,69.27,24-month,69,Apr 2025,Credit Card,1,0,No
+10435,Harry Roberts,harry.roberts51@btinternet.com,07270232441,SN16 4SD,Cambridgeshire,Semi-detached,Fibre 300,-10.0,12-month,45,2020-08-06,Credit Card,1,5,Yes
+10024,James Taylor,james.taylor89@btinternet.com,07349578856,MK23 8LN,Northamptonshire,Semi-detached,Fibre 500,53.83,Monthly,29,2022-02-24,Bank Transfer,2,1,No
+10810,Harry Roberts,harry.roberts78@gmail.com,07662702660,NN22 1YQ,Hampshire,Semi-detached,Fibre 300,£44.29,12-month,2,2022-11-02,Direct Debit,3,0,No
+10494,Harry Hall,harry.hall48@yahoo.co.uk,07021306090,SO37 2JB,Gloucestershire,Detached,Fibre 100,32.53,12-month,22,2024-11-13,Credit Card,10,3,Yes
+10826,Freya Wilson,freya.wilson97@yahoo.co.uk,07007288959,,Gloucestershire,Farmhouse,Fibre 500,56.77,12-month,39,2024-11-04,Bank Transfer,9,3,No
+10981,George Wilson,george.wilson89@gmail.com,07983063236,MK20 1EX,Gloucestershire,Terraced,Fibre 300,-10.0,12-month,35,2022-03-10,Bank Transfer,4,0,No
+10928,James Jones,james.jones17@yahoo.co.uk,07648333679,SO2 9GX,Hampshire,Farmhouse,Fibre 500,58.06,24-month,65,2020-12-07,Credit Card,0,2,No
+10965,William Green,william.green31@gmail.com,07040934675,NN41 2XF,Cambridgeshire,Farmhouse,Fibre 900,66.78,Monthly,51,Feb 2020,Bank Transfer,,0,Yes
+10338,Sophie Wood,sophie.wood87@gmail.com,07569067447,GL49 7JZ,Wiltshire,Terraced,Fibre 100,31.57,Monthly,31,2022-02-28,Credit Card,,3,No
+10051,Jack Brown,jack.brown93@yahoo.co.uk,07925192546,SN39 2NX,Hampshire,Terraced,Fibre 900,68.53,Monthly,37,2025-12-27,Bank Transfer,10,0,Yes
+10383,Grace Davies,grace.davies4@btinternet.com,07396531361,NN41 9TW,  Wiltshire ,Cottage,Fibre 300,49.36,12-month,46,2022-07-19,Credit Card,4,1,No
+10539,Poppy Green,poppy.green27@yahoo.co.uk,07768550789,,GLOUCESTERSHIRE,Bungalow,Fibre 100,33.85,24-month,70,2023-03-26,Credit Card,3,1,no
+10991,Charlie Roberts,charlie.roberts67@outlook.com,07493680635,MK15 1DA,Gloucestershire,Semi-detached,Fibre 100,31.06,24-month,53,2023-10-11,Direct Debit,9,1,No
+10660,Amelia Smith,,07614038453,GL38 9BU,Northamptonshire,Farmhouse,Fibre 100,33.47,24-month,38,2025-03-07,Credit Card,4,3,No
+10963,George Edwards,george.edwards30@btinternet.com,07922198369,GL21 8HT,Hampshire,Farmhouse,Fibre 100,28.79,Monthly,7,2022-03-19,Bank Transfer,10,5,Yes
+10264,Lily Hall,lily.hall86@yahoo.co.uk,07158377674,SO6 7QZ,Wiltshire,Farmhouse,Fibre 500,57.4,Monthly,,2020-09-11,Credit Card,10,1,No
+10954,Ava Hall,ava.hall46@gmail.com,not-a-number,NN26 8GA,Oxfordshire,Farmhouse,Fibre 500,54.37,Monthly,69,2024-04-19,Direct Debit,7,5,No
+10741,Amelia Davies,no-at-sign.com,07124553129,OX1 4RF,Wiltshire,Detached,Fibre 300,49.5,Monthly,41,2025-08-08,Bank Transfer,2,5,Yes
+10712,George Brown,george.brown51@yahoo.co.uk,07589635957,OX36 7DY,Cambridgeshire,Detached,Fibre 300,44.82,12-month,60,2024-05-07,Credit Card,5,3,Yes
+10444,Freya Wright,freya.wright39@yahoo.co.uk,07457702992,MK37 7SA,Northamptonshire,Bungalow,Fibre 100,33.2,Monthly,27,2023-09-05,Credit Card,9,0,No
+10395,Henry Taylor,henry.taylor13@yahoo.co.uk,07173098503,NN17 7QD,Wiltshire,Cottage,Fibre 300,43.51,24-month,67,Sep 2021,Bank Transfer,4,3,No
+10541,Sophie Thomas,sophie.thomas29@outlook.com,123,CB6 3DZ,Oxfordshire,Cottage,Fibre 900,63.54,12-month,21,2023-03-10,Direct Debit,6,1,1
+10495,Ava Patel,ava.patel62@btinternet.com,07278532426,NN11 6AS,Northamptonshire,Semi-detached,Fibre 500,53.29,12-month,45,2025-09-28,Direct Debit,6,0,No
+10018,Harry Roberts,harry.roberts41@yahoo.co.uk,07812236231,SO27 6XT,Hampshire,Detached,Fibre 300,44.44,12-month,35,2023-10-23,Direct Debit,9,3,Yes
+10746,Lily Wood,lily.wood46@gmail.com,07673446717,RG48 7GY,Hampshire,Bungalow,Fibre 100,34.51,12-month,13,2021-04-27,Credit Card,2,1,1
+10522,Freya Wilson,freya.wilson42@outlook.com,07562965754,SN44 8XS,Buckinghamshire,Farmhouse,Fibre 500,53.6,12-month,48,2021-06-12,Bank Transfer,7,5,1
+10594,Emily Roberts,emily.roberts33@btinternet.com,07926999699,SO43 5XZ,Berkshire,Detached,Fibre 300,49.21,12-month,3,2021-09-26,Credit Card,9,3,No
+10479,Poppy Taylor,poppy.taylor92@gmail.com,07964258562,SO7 5ZY,Gloucestershire,Cottage,Fibre 300,49.99,12-month,12,2020-04-18,Direct Debit,10,1,No
+10367,Harry Taylor,harry.taylor81@gmail.com,07920981960,SN30 6GJ,Cambridgeshire,Cottage,Fibre 100,29.35,Monthly,-1,2025-07-25,Credit Card,10,0,Y
+10083,George Evans,george.evans73@btinternet.com,07378547772,MK11 3XU,Wiltshire,Bungalow,Fibre 500,59.92,Monthly,30,2024-01-27,Direct Debit,10,0,No
+10061,Isla Clarke,isla.clarke91@yahoo.co.uk,07188442258,CB8 4FJ,Berkshire,Detached,Fibre 100,30.52,24-month,41,2022-08-26,Bank Transfer,2,0,No
+10483,Emily Turner,no-at-sign.com,07862895090,MK38 2DZ,Gloucestershire,Bungalow,Fibre 500,55.89,Monthly,43,2025-04-08,Bank Transfer,2,0,No
+10272,Olivia Turner,olivia.turner91@gmail.com,07077119918,OX33 2GE,Cambridgeshire,Cottage,Fibre 500,54.09,12-month,20,2025-08-25,Bank Transfer,7,0,No
+10285,Harry Green,harry.green56@yahoo.co.uk,07398554743,MK22 4TZ,Buckinghamshire,Detached,Fibre 100,34.39,Monthly,18,2025-01-20,Credit Card,0,0,No
+10360,Poppy Patel,poppy.patel36@gmail.com,07708272359,OX39 7BQ,Hampshire,Farmhouse,Fibre 300,44.48,Monthly,61,2020-11-14,Credit Card,4,0,No
+10354,Poppy Jones,poppy.jones96@outlook.com,07891775662,OX24 7HL,Gloucestershire,Detached,Fibre 300,43.53,24-month,51,2022-01-08,Credit Card,2,0,No
+10611,Harry Walker,harry.walker93@yahoo.co.uk,07725629269,ABCDE,Buckinghamshire,Detached,Fibre 300,44.55,24-month,69,2020-09-23,Credit Card,5,2,No
+10278,Grace Wilson,grace.wilson63@outlook.com,07728813770,SN36 6EZ,Hampshire,Detached,Fibre 300,43.84,24-month,65,2022-01-17,Direct Debit,1,2,No
+10012,Amelia Taylor,amelia.taylor48@gmail.com,07982620450,MK14 4EQ,Hampshire,Bungalow,Fibre 300,48.24,Monthly,70,2021-03-14,Direct Debit,2,2,Yes
+10182,Freya Thomas,freya.thomas51@btinternet.com,07004908240,NN15 4PA,Northamptonshire,Bungalow,Fibre 500,56.57,24-month,58,2024-03-04,Direct Debit,,2,No
+10368,Harry Williams,harry.williams59@gmail.com,07911244211,RG24 4RE,Berkshire,Detached,Fibre 100,30.89,12-month,14,2025-02-07,Bank Transfer,6,3,No
+10527,Amelia Smith,john.smith,07827496804,GL45 9UG,Berkshire,Cottage,Fibre 300,48.96,Monthly,4,2022-10-11,Credit Card,1,0,No
+10643,George Wilson,george.wilson36@btinternet.com,07882089348,SO35 9JZ,OXFORDSHIRE,Farmhouse,Fibre 500,53.95,12-month,32,2023-08-05,Bank Transfer,7,0,Yes
+10223,Noah Thomas,noah.thomas20@gmail.com,07772200543,SO17 6ZT,Oxfordshire,Detached,Fibre 100,33.17,24-month,25,2021-03-26,Direct Debit,7,0,N
+10599,Poppy Walker,poppy.walker49@gmail.com,07809414915,OX30 7GW,Cambridgeshire,Bungalow,Fibre 100,34.64,24-month,7,2023-11-05,Direct Debit,5,1,No
+10765,Emily Clarke,,07032655132,RG27 2TZ,NORTHAMPTONSHIRE,Terraced,Fibre 900,66.89,24-month,24,2021-05-12,Bank Transfer,5,2,No
+10706,Emily Hughes,emily.hughes1@btinternet.com,07002687644,SO32 7NY,Berkshire,Bungalow,Fibre 900,66.14,12-month,37,2020-07-27,Direct Debit,6,2,Yes
+10570,Emily Williams,emily.williams55@outlook.com,07078197543,RG13 5UR,Northamptonshire,Semi-detached,Fibre 500,56.35,12-month,36,25/01/2021,Direct Debit,10,5,Yes
+10486,Amelia Williams,amelia.williams91@btinternet.com,07282709081,NN19 2QG,Wiltshire,Detached,Fibre 500,£56.47,24-month,23,2021-10-11,Credit Card,10,3,Yes
+10465,Sophie Wright,sophie.wright84@btinternet.com,07431670450,SN16 3YA,Wiltshire,Bungalow,Fibre 500,54.08,24-month,9,2023-01-02,Bank Transfer,3,1,No
+10932,Poppy Wood,poppy.wood56@gmail.com,07115866861,GL37 8RT,Buckinghamshire,Bungalow,Fibre 300,48.14,24-month,62,2021-11-07,Direct Debit,6,0,Yes
+10636,Jack Davies,jack.davies6@outlook.com,07499809497,,Gloucestershire,Semi-detached,Fibre 100,31.23,12-month,41,2025-02-27,Credit Card,6,1,No
+10176,Lily Roberts,lily.roberts86@gmail.com,07313650249,GL26 4AB,Berkshire,Terraced,Fibre 300,£47.16,12-month,47,2020-04-06,Credit Card,1,2,No
+10695,George Davies,george.davies17@btinternet.com,07966563370,GL18 1BQ,Wiltshire,Farmhouse,Fibre 900,69.52,Monthly,60,2020-06-11,Bank Transfer,8,0,No
+10655,Isla Patel,isla.patel72@outlook.com,07862175080,GL39 7JB,Northamptonshire,Cottage,Fibre 300,47.99,Monthly,4,2020-07-20,Direct Debit,5,0,No
+10613,Olivia Taylor,olivia.taylor40@btinternet.com,07154715531,CB47 3QZ,Cambridgeshire,Farmhouse,Fibre 500,56.32,24-month,27,2020-04-26,Credit Card,7,2,No
+10456,William Roberts,william.roberts14@btinternet.com,07493925236,SN11 3PW,Berkshire,Terraced,Fibre 500,57.16,12-month,68,2025-05-08,Credit Card,7,1,No
+10544,Isla Edwards,isla.edwards18@btinternet.com,07047876886,RG42 9QZ,Hampshire,Cottage,Fibre 100,31.65,12-month,9,2021-09-28,Credit Card,2,0,No
+10393,Charlie Hall,charlie.hall15@yahoo.co.uk,07017590251,RG25 3YX,Cambridgeshire,Semi-detached,Fibre 100,29.76,12-month,8,2025-05-08,Direct Debit,2,3,No
+10163,Charlie Hughes,charlie.hughes53@outlook.com,07818184518,NN35 5TR,Berkshire,Semi-detached,Fibre 100,33.29,12-month,34,2025-08-19,Direct Debit,7,0,No
+10248,Olivia Clarke,olivia.clarke35@btinternet.com,07079056965,GL32 2HP,Berkshire,Bungalow,Fibre 900,68.67,24-month,66,2022-03-20,Credit Card,5,3,No
+10662,Harry Taylor,harry.taylor58@gmail.com,07851699497,OX34 1QX,Cambridgeshire,Farmhouse,Fibre 300,-10.0,Monthly,37,2022-09-05,Credit Card,8,3,No
+10920,Harry Williams,harry.williams90@gmail.com,07578061902,SN16 2ER,Berkshire,Terraced,Fibre 100,31.82,12-month,21,2020-07-21,Credit Card,10,3,No
+10997,Olivia Davies,olivia.davies10@btinternet.com,07199899651,OX 99,Cambridgeshire,Terraced,Fibre 500,59.72,12-month,47,2023-07-03,Credit Card,4,5,Yes
+10375,Ava Jones,ava.jones42@gmail.com,07632135800,,Gloucestershire,Cottage,Fibre 100,30.3,24-month,18,2023-05-23,Direct Debit,2,5,No
+10412,Lily Smith,lily.smith74@yahoo.co.uk,07678274117,SO32 5DF,Northamptonshire,Terraced,Fibre 500,57.67,12-month,27,2020-12-26,Direct Debit,1,2,No
+10074,William Walker,william.walker24@gmail.com,07275304637,NN22 5YY,Oxfordshire,Cottage,Fibre 100,32.57,24-month,52,2021-01-22,Direct Debit,7,1,No
+10916,Isla Brown,isla.brown77@outlook.com,07220416782,GL23 4YG,Hampshire,Farmhouse,Fibre 900,67.22,12-month,38,2020-07-08,Direct Debit,5,0,No
+10113,Harry Smith,harry.smith17@btinternet.com,07151070296,SO32 1RS,Wiltshire,Cottage,Fibre 100,29.49,Monthly,26,2022-05-15,Direct Debit,,1,no
+10500,George Green,george.green22@btinternet.com,07095799270,,Buckinghamshire,Detached,Fibre 900,64.23,24-month,49,2022-11-13,Direct Debit,1,1,No
+10585,Ava Hall,ava.hall28@btinternet.com,07144170646,SN23 6NB,Wiltshire,Farmhouse,Fibre 300,48.51,24-month,48,2025-06-11,Bank Transfer,,0,No
+10114,Lily Hall,lily.hall36@gmail.com,07626383806,MK31 9UQ,Buckinghamshire,Farmhouse,Fibre 900,64.88,Monthly,8,2022-10-08,Direct Debit,4,0,Yes
+10417,Charlie Taylor,charlie.taylor84@gmail.com,07083583286,CB19 3QP,Hampshire,Semi-detached,Fibre 500,56.86,Monthly,46,2020-01-28,Direct Debit,8,0,Yes
+10089,Sophie Turner,a@b,07466183982,SO11 3LN,Northamptonshire,Farmhouse,Fibre 100,29.01,Monthly,42,2023-05-14,Credit Card,7,0,No
+10958,Ava Clarke,ava.clarke61@outlook.com,07281673374,,Berkshire,Cottage,Fibre 100,34.73,24-month,54,2025-12-06,Credit Card,4,0,No
+10901,George Jones,george.jones10@outlook.com,07607917913,SO4 2PU,Gloucestershire,Terraced,Fibre 300,49.18,12-month,41,2020-04-05,Bank Transfer,1,1,No
+10633,William Jones,william.jones32@gmail.com,123,NN32 5HR,Wiltshire,Detached,Fibre 900,67.92,Monthly,58,2020-10-14,Direct Debit,5,2,Yes
+10677,Freya Jones,freya.jones92@btinternet.com,07774037842,CB43 4YN,Northamptonshire,Bungalow,Fibre 100,32.88,12-month,70,2021-01-01,Credit Card,7,5,Yes
+10011,Amelia Williams,amelia.williams96@gmail.com,07824493534,RG17 1DS,Northamptonshire,Detached,Fibre 500,53.01,Monthly,15,2025-05-06,Bank Transfer,7,3,No
+10396,Freya Brown,freya.brown5@gmail.com,07564350238,MK49 1JU,Gloucestershire,Bungalow,Fibre 900,69.32,24-month,34,2020-06-03,Credit Card,9,0,Yes
+10557,Jack Edwards,jack.edwards14@gmail.com,07783325848,SO34 4SB,Berkshire,Terraced,Fibre 500,57.13,12-month,44,2024-08-02,Credit Card,5,0,Yes
+10042,George Thomas,george.thomas59@yahoo.co.uk,07896118367,CB27 6TR,Hampshire,Terraced,Fibre 500,53.66,12-month,-1,2022-11-09,Credit Card,2,5,yes
+10167,Lily Edwards,lily.edwards64@outlook.com,07636556472,SN37 4EL,Cambridgeshire,Bungalow,Fibre 500,56.02,12-month,47,2021-03-26,Bank Transfer,2,5,No
+10416,Freya Walker,,07766404735,OX 99,Wiltshire,Bungalow,Fibre 500,54.43,24-month,41,2020-10-20,Credit Card,2,0,No
+10787,George Green,george.green2@btinternet.com,07335084243,GL40 9JY,Wiltshire,Cottage,Fibre 100,31.78,12-month,1,2024-02-08,Direct Debit,0,1,No
+10426,Emily Wood,emily.wood49@btinternet.com,07675485819,OX 99,Berkshire,Farmhouse,Fibre 100,-10.0,12-month,31,Feb 2025,Credit Card,10,2,No
+10917,Amelia Davies,amelia.davies39@gmail.com,07850220619,OX7 4JH,Buckinghamshire,Bungalow,Fibre 300,44.57,24-month,65,2023-02-20,Direct Debit,0,0,No
+10420,Sophie Turner,sophie.turner74@outlook.com,07063757914,MK10 2EX,  Wiltshire ,Semi-detached,Fibre 100,34.04,12-month,58,2024-04-03,Direct Debit,6,5,No
+10714,Freya Smith,freya.smith91@yahoo.co.uk,07294690217,RG19 2TL,Cambridgeshire,Detached,Fibre 100,30.1,12-month,71,2020-03-08,Bank Transfer,5,0,No
+10731,George Wood,george.wood92@outlook.com,07921883527,GL34 8PA,Hampshire,Farmhouse,Fibre 300,46.44,Monthly,26,2025-01-14,Bank Transfer,5,0,No
+10257,Oliver Wilson,oliver.wilson77@btinternet.com,07421529108,SO30 8EJ,Cambridgeshire,Semi-detached,Fibre 100,34.61,12-month,52,2022-12-16,Credit Card,2,3,No
+10335,Lily Roberts,,07963480797,,Buckinghamshire,Cottage,Fibre 500,£55.47,Monthly,28,2022-12-06,Credit Card,5,0,No
+10015,Grace Walker,grace.walker25@outlook.com,07662994680,NN19 4SY,Buckinghamshire,Farmhouse,Fibre 900,66.08,24-month,38,2021-09-16,Bank Transfer,2,0,No
+10657,Harry Patel,harry.patel2@gmail.com,07539128788,NN35 7ZY,Hampshire,Bungalow,Fibre 300,46.68,Monthly,58,2025-10-02,Credit Card,5,5,No
+10324,Ava Jones,ava.jones39@btinternet.com,07208656756,SO5 9NN,Cambridgeshire,Terraced,Fibre 300,48.98,12-month,63,2020-03-11,Bank Transfer,0,1,Yes
+10789,Jack Smith,jack.smith54@btinternet.com,07427896157,CB36 6PE,Wiltshire,Bungalow,Fibre 100,33.38,12-month,36,2023-06-26,Direct Debit,2,1,No
+10222,George Evans,george.evans53@btinternet.com,07329092791,NN23 7AX,Cambridgeshire,Semi-detached,Fibre 300,43.81,24-month,35,12/10/2020,Bank Transfer,8,1,Yes
+10179,Poppy Roberts,poppy.roberts15@yahoo.co.uk,07181022031,RG13 2BY,Hampshire,Terraced,Fibre 500,56.42,24-month,53,2025-10-09,Direct Debit,5,1,No
+10099,Jack Roberts,jack.roberts18@gmail.com,07604223253,SO32 3YL,Hampshire,Farmhouse,Fibre 500,56.15,24-month,35,2020-07-17,Bank Transfer,,2,Yes
+10521,Henry Jones,henry.jones93@yahoo.co.uk,07734043370,OX37 7XU,Cambridgeshire,Terraced,Fibre 100,33.93,Monthly,36,2022-06-03,Bank Transfer,5,5,Yes
+10022,Sophie Turner,sophie.turner65@gmail.com,07506716572,SO12 9LZ,Berkshire,Farmhouse,Fibre 900,66.04,24-month,48,2024-05-11,Direct Debit,1,1,Yes
+10356,Amelia Walker,amelia.walker65@gmail.com,07209679042,SN44 8DD,Cambridgeshire,Semi-detached,Fibre 900,68.64,24-month,65,2021-12-06,Bank Transfer,8,2,Yes
+10696,James Williams,james.williams9@outlook.com,07425731609,NN15 2HR,Gloucestershire,Farmhouse,Fibre 900,69.94,Monthly,23,2021-02-07,Credit Card,9,2,No
+10896,James Patel,james.patel49@outlook.com,07072014896,RG36 1XF,Hampshire,Terraced,Fibre 300,44.92,Monthly,61,2020-03-04,Credit Card,6,1,No
+10340,Emily Brown,no-at-sign.com,07635020005,CB19 8LZ,Gloucestershire,Farmhouse,Fibre 500,54.28,12-month,47,2022-06-10,Direct Debit,1,0,No
+10431,Emily Jones,emily.jones36@outlook.com,07295633432,NN17 8LD,Berkshire,Cottage,Fibre 900,67.04,12-month,37,2025-09-15,Bank Transfer,10,0,No
+10576,Thomas Jones,thomas.jones5@outlook.com,07135462127,SO1 3QB,Wiltshire,Terraced,Fibre 900,68.89,12-month,29,2020-02-25,Direct Debit,3,0,1
+10867,Poppy Thomas,no-at-sign.com,07158925849,OX30 4NF,Oxfordshire,Semi-detached,Fibre 500,53.66,24-month,-1,2023-11-15,Credit Card,4,3,Yes
+10203,Freya Wright,freya.wright91@outlook.com,07493214958,RG4 3AU,Oxfordshire,Detached,Fibre 500,55.68,Monthly,35,2023-07-06,Bank Transfer,9,5,No
+10736,Jack Wilson,jack.wilson52@outlook.com,07270664890,OX35 3LX,Northamptonshire,Cottage,Fibre 100,31.63,Monthly,5,2020-09-18,Bank Transfer,8,1,No
+10093,Sophie Green,sophie.green45@outlook.com,07071461125,NN22 8HW,Berkshire,Cottage,Fibre 900,66.32,12-month,,2025-12-15,Credit Card,1,1,No
+10583,Freya Jones,freya.jones27@btinternet.com,07369987950,SN9 2BL,Oxfordshire,Detached,Fibre 900,69.05,12-month,7,2024-02-18,Bank Transfer,0,1,0
+10068,Poppy Roberts,poppy.roberts91@btinternet.com,07947055169,NN47 1ZU,Northamptonshire,Terraced,Fibre 500,58.47,24-month,65,2024-04-24,Direct Debit,9,5,No
+10650,Jack Davies,jack.davies55@gmail.com,07235466226,MK45 5BE,Hampshire,Terraced,Fibre 300,45.33,24-month,65,2022-04-02,Direct Debit,10,3,No
+10284,George Wright,george.wright72@btinternet.com,07700794200,RG18 5RQ,Cambridgeshire,Bungalow,Fibre 300,48.87,12-month,32,2020-03-24,Bank Transfer,9,0,No
+10836,Harry Evans,harry.evans13@btinternet.com,07007773217,MK4 4SD,Wiltshire,Detached,Fibre 900,64.02,12-month,,2024-12-27,Bank Transfer,9,0,No
+10434,Ava Thomas,ava.thomas87@btinternet.com,07640381664,SO38 1GW,Wiltshire,Cottage,Fibre 500,59.2,24-month,44,2024-04-19,Direct Debit,2,2,No
+10153,James Wood,james.wood5@outlook.com,07848872563,NN9 8WW,Gloucestershire,Farmhouse,Fibre 100,30.54,Monthly,52,2025-04-28,Bank Transfer,10,0,No
+10075,Charlie Wood,charlie.wood48@yahoo.co.uk,07933272795,SO45 9UX,Cambridgeshire,Semi-detached,Fibre 500,-29.99,24-month,16,2020-09-15,Bank Transfer,5,0,no
+10761,Isla Hall,isla.hall5@gmail.com,07346861630,RG1 3XR,Berkshire,Terraced,Fibre 100,32.56,Monthly,14,2021-01-02,Bank Transfer,5,1,Yes
+10446,Emily Smith,emily.smith88@outlook.com,07169666309,CB9 9DZ,HAMPSHIRE,Detached,Fibre 500,55.27,Monthly,60,2021-10-21,Credit Card,10,0,No
+10188,Amelia Smith,amelia.smith49@outlook.com,07815798123,OX 99,Northamptonshire,Cottage,Fibre 500,£56.42,24-month,50,2021-01-12,Bank Transfer,5,2,No
+10271,Noah Wilson,noah.wilson64@btinternet.com,07433800545,SN12 9BD,Buckinghamshire,Farmhouse,Fibre 900,63.79,Monthly,13,2020-09-08,Credit Card,4,2,No
+10236,Olivia Roberts,olivia.roberts29@btinternet.com,07002447146,SN32 4AE,Northamptonshire,Farmhouse,Fibre 500,59.95,Monthly,64,2024-12-12,Bank Transfer,7,3,No
+10487,Amelia Turner,amelia.turner47@outlook.com,07237360507,GL34 2PW,Hampshire,Bungalow,Fibre 100,32.49,12-month,44,2022-03-15,Direct Debit,4,3,Yes
+10559,Oliver Turner,oliver.turner99@yahoo.co.uk,07907938841,CB25 9PG,Cambridgeshire,Detached,Fibre 900,67.79,Monthly,3,2022-11-08,Credit Card,0,0,No
+10117,Henry Brown,henry.brown18@yahoo.co.uk,07267528953,SN25 5NF,Wiltshire,Terraced,Fibre 500,53.0,24-month,39,2024-07-28,Bank Transfer,0,0,No
+10851,Grace Walker,grace.walker25@outlook.com,07597487680,MK44 8BG,Cambridgeshire,Terraced,Fibre 900,67.85,12-month,16,2025-02-18,Credit Card,3,0,No
+10512,Poppy Edwards,,07388436604,NN14 3NA,Oxfordshire,Terraced,Fibre 100,32.5,12-month,38,2020-06-15,Direct Debit,7,3,No
+10578,Charlie Turner,charlie.turner89@gmail.com,07203818769,SN4 9GX,Cambridgeshire,Semi-detached,Fibre 900,64.67,Monthly,12,2024-10-18,Direct Debit,3,0,No
+10827,Isla Patel,isla.patel2@outlook.com,07808203917,OX41 3SH,Northamptonshire,Cottage,Fibre 900,64.88,12-month,51,2024-07-21,Bank Transfer,,1,1
+10126,William Hughes,william.hughes26@outlook.com,07030705345,RG33 7EA,Cambridgeshire,Cottage,Fibre 100,31.41,12-month,23,2021-08-19,Bank Transfer,5,2,No
+10116,Lily Jones,lily.jones78@outlook.com,07308705932,MK46 3PB,Oxfordshire,Semi-detached,Fibre 100,32.1,Monthly,8,2020-09-28,Credit Card,1,2,Yes
+10473,Grace Green,grace.green10@yahoo.co.uk,07342619237,SN44 5PA,Gloucestershire,Bungalow,Fibre 300,45.17,Monthly,32,2025-10-16,Direct Debit,10,5,No
+10723,Lily Patel,lily.patel46@outlook.com,07920616581,SN39 3AQ,Wiltshire,Semi-detached,Fibre 500,57.14,Monthly,22,2020-06-28,Credit Card,3,0,No
+10057,George Jones,george.jones83@yahoo.co.uk,07277221704,CB3 4BP,Northamptonshire,Bungalow,Fibre 500,55.78,24-month,70,2023-05-02,Bank Transfer,3,1,1
+10704,Freya Hughes,freya.hughes73@gmail.com,07873126773,GL39 3FT,Hampshire,Terraced,Fibre 900,68.34,12-month,52,2022-12-19,Bank Transfer,8,5,Yes
+10948,Emily Smith,emily.smith95@yahoo.co.uk,07805014171,SO22 8XY,Cambridgeshire,Bungalow,Fibre 300,43.48,Monthly,72,2024-06-28,Credit Card,5,0,N
+10369,Thomas Wilson,thomas.wilson23@gmail.com,07990155799,OX11 9LE,Cambridgeshire,Bungalow,Fibre 300,43.2,Monthly,39,2024-09-25,Direct Debit,,2,No
+10268,Ava Hall,,07727601227,RG31 1TY,Cambridgeshire,Semi-detached,Fibre 300,45.05,12-month,12,2020-06-01,Direct Debit,10,3,Yes
+10046,Grace Brown,grace.brown6@yahoo.co.uk,07369003432,NN19 6EA,Berkshire,Terraced,Fibre 500,56.0,Monthly,63,2023-09-23,Direct Debit,8,2,No
+10349,Olivia Edwards,olivia.edwards68@btinternet.com,07592624945,OX 99,Gloucestershire,Detached,Fibre 300,49.02,Monthly,-1,2025-03-11,Direct Debit,6,5,Yes
+10195,Isla Brown,isla.brown80@gmail.com,07407778097,CB14 8TS,Berkshire,Detached,Fibre 300,47.2,Monthly,26,2021-09-09,Bank Transfer,11,1,No
+10102,Lily Taylor,lily.taylor2@btinternet.com,07051627136,GL47 2EP,Buckinghamshire,Cottage,Fibre 300,43.95,Monthly,29,2025-11-05,Direct Debit,8,0,No
+10868,Sophie Edwards,sophie.edwards9@yahoo.co.uk,07864823088,SN39 6WR,Northamptonshire,Detached,Fibre 500,56.98,Monthly,15,2021-11-25,Direct Debit,2,3,No
+10721,Isla Smith,isla.smith19@outlook.com,07162654963,CB48 1XH,Cambridgeshire,Cottage,Fibre 500,55.05,12-month,38,2020-05-17,Bank Transfer,7,2,No
+10767,James Wood,james.wood34@btinternet.com,07083781919,OX32 5ZY,Wiltshire,Detached,Fibre 500,56.05,Monthly,40,2020-07-19,Bank Transfer,8,1,Yes
+10263,Poppy Clarke,poppy.clarke7@outlook.com,07450189616,NN12 4RD,Oxfordshire,Semi-detached,Fibre 500,54.13,12-month,17,2022-11-25,Bank Transfer,2,0,No
+10443,Harry Edwards,harry.edwards82@btinternet.com,07958678055,MK23 8FT,Berkshire,Semi-detached,Fibre 500,56.72,Monthly,59,2025-07-09,Credit Card,0,0,Yes
+10705,Sophie Davies,sophie.davies15@outlook.com,07916543089,MK12 4EF,Oxfordshire,Semi-detached,Fibre 300,43.84,Monthly,,2022-01-25,Credit Card,7,3,yes
+10304,Henry Jones,henry.jones45@btinternet.com,07469263296,RG25 3YE,Hampshire,Terraced,Fibre 100,34.61,Monthly,37,2021-05-21,Bank Transfer,4,0,No
+10341,Jack Wright,jack.wright31@yahoo.co.uk,07439611291,OX38 4HT,GLOUCESTERSHIRE,Detached,Fibre 500,59.58,24-month,68,2022-05-24,Credit Card,3,0,No
+10626,Amelia Evans,amelia.evans53@btinternet.com,07720191116,SO7 3GB,Gloucestershire,Bungalow,Fibre 300,48.04,12-month,16,2021-12-11,Bank Transfer,8,5,No
+10743,Olivia Walker,olivia.walker47@gmail.com,07491477447,CB49 6HQ,Wiltshire,Cottage,Fibre 100,31.06,24-month,68,2025-12-28,Bank Transfer,4,0,Yes
+10149,Freya Smith,freya.smith46@gmail.com,123,SO43 1UG,Cambridgeshire,Semi-detached,Fibre 100,33.22,24-month,6,2022-11-05,Credit Card,10,2,No
+10124,George Williams,george.williams37@gmail.com,07856467997,OX12 5RF,Hampshire,Detached,Fibre 100,30.76,12-month,14,2025-04-02,Bank Transfer,7,1,yes
+10817,Freya Taylor,freya.taylor40@gmail.com,07761437884,NN14 8BR,Hampshire,Detached,Fibre 500,56.79,12-month,55,2025-06-14,Credit Card,6,5,No
+10855,Freya Davies,freya.davies92@gmail.com,123,RG29 8TH,Cambridgeshire,Detached,Fibre 100,£30.89,24-month,4,2024-12-02,Credit Card,6,1,Yes
+10050,Henry Evans,henry.evans8@outlook.com,07715182037,RG34 9ZG,  Buckinghamshire ,Cottage,Fibre 500,59.42,12-month,61,2023-06-22,Bank Transfer,0,2,No
+10353,Jack Clarke,jack.clarke20@gmail.com,07009282066,RG36 5YW,Northamptonshire,Terraced,Fibre 100,29.58,Monthly,37,2022-02-17,Credit Card,,1,Yes
+10966,Isla Taylor,isla.taylor32@gmail.com,07346018422,OX7 4XX,Wiltshire,Cottage,Fibre 100,33.56,Monthly,41,2020-09-24,Direct Debit,10,0,Yes
+10142,Amelia Green,amelia.green54@btinternet.com,07934654722,SO39 9NX,Buckinghamshire,Terraced,Fibre 500,58.15,24-month,65,Apr 2025,Direct Debit,9,1,No
+10470,Oliver Walker,oliver.walker85@btinternet.com,07158415608,SN7 4TE,Gloucestershire,Bungalow,Fibre 900,67.98,Monthly,71,2022-05-15,Credit Card,8,0,no
+10399,George Edwards,george.edwards85@gmail.com,07114837537,NN24 9NJ,Northamptonshire,Cottage,Fibre 900,67.87,24-month,62,2020-01-12,Credit Card,9,5,No
+10653,Isla Jones,isla.jones30@yahoo.co.uk,07xx,,Northamptonshire,Bungalow,Fibre 300,44.21,Monthly,68,2020-11-18,Bank Transfer,3,2,No
+10320,Poppy Patel,poppy.patel55@yahoo.co.uk,07716493289,OX9 8DN,Berkshire,Semi-detached,Fibre 900,69.26,Monthly,11,2023-11-18,Direct Debit,3,1,No
+10019,James Wright,james.wright69@btinternet.com,07893734670,SO22 7GT,Wiltshire,Bungalow,Fibre 500,56.73,12-month,50,2024-10-22,Direct Debit,1,3,No
+10842,Poppy Edwards,poppy.edwards29@yahoo.co.uk,07113266115,NN36 6XB,Buckinghamshire,Semi-detached,Fibre 100,33.59,Monthly,70,2021-11-04,Direct Debit,9,3,No
+10946,Grace Patel,grace.patel62@btinternet.com,07628836368,MK2 2RG,Berkshire,Farmhouse,Fibre 100,29.19,Monthly,66,2021-07-14,Credit Card,7,0,No
+10841,Poppy Evans,poppy.evans93@yahoo.co.uk,07623039744,OX33 9BS,Berkshire,Detached,Fibre 300,46.53,24-month,31,2024-08-02,Bank Transfer,2,0,No
+10407,Jack Brown,jack.brown47@btinternet.com,07158815793,RG27 4YF,Cambridgeshire,Farmhouse,Fibre 300,47.71,24-month,57,Oct 2021,Credit Card,5,2,No
+10537,Amelia Walker,amelia.walker31@btinternet.com,07339994853,SN2 9YP,Cambridgeshire,Semi-detached,Fibre 500,58.63,12-month,37,2021-09-20,Direct Debit,2,0,No
+10879,Henry Hall,henry.hall27@btinternet.com,07446746215,MK35 5DU,Northamptonshire,Terraced,Fibre 900,69.51,24-month,4,2020-07-03,Credit Card,0,2,No
+10038,Amelia Davies,amelia.davies79@yahoo.co.uk,07317461200,NN32 2EJ,Wiltshire,Farmhouse,Fibre 900,£66.17,24-month,4,2025-12-18,Credit Card,9,0,Yes
+10175,Olivia Thomas,olivia.thomas24@btinternet.com,07346013673,OX13 8EW,Cambridgeshire,Farmhouse,Fibre 900,65.71,12-month,10,2022-03-21,Bank Transfer,0,0,No
+10245,Harry Wood,harry.wood38@outlook.com,07778485880,OX28 2RT,Buckinghamshire,Farmhouse,Fibre 900,66.09,Monthly,60,2020-03-18,Bank Transfer,4,0,no
+10937,Emily Roberts,,07777196199,RG7 7QZ,Hampshire,Cottage,Fibre 900,68.39,12-month,28,2023-07-10,Direct Debit,9,3,No
+10697,George Wood,george.wood77@gmail.com,07297352595,CB16 3GF,Berkshire,Semi-detached,Fibre 900,67.89,Monthly,23,2024-10-20,Direct Debit,0,1,No
+10785,Lily Walker,lily.walker54@btinternet.com,07810248085,MK30 9BA,Wiltshire,Terraced,Fibre 300,44.79,12-month,6,2021-03-07,Credit Card,2,0,No
+10893,Grace Roberts,grace.roberts48@btinternet.com,07336952474,SO28 6JP,Cambridgeshire,Bungalow,Fibre 100,32.05,24-month,35,2025-07-05,Bank Transfer,9,2,no
+10154,Thomas Wilson,thomas.wilson46@btinternet.com,07037314530,CB34 6RU,Berkshire,Detached,Fibre 300,43.27,24-month,19,2022-02-23,Bank Transfer,10,1,No
+10287,Harry Edwards,harry.edwards64@outlook.com,07504793036,GL18 9UG,Cambridgeshire,Terraced,Fibre 500,£58.16,24-month,29,2025-10-19,Direct Debit,1,0,No
+10630,Olivia Wilson,olivia.wilson56@gmail.com,07690632248,GL22 6LG,Oxfordshire,Semi-detached,Fibre 100,32.9,12-month,57,2020-04-02,Direct Debit,0,2,Yes
+10569,Charlie Wood,charlie.wood82@outlook.com,07236533774,SO4 5AS,Berkshire,Semi-detached,Fibre 500,53.42,Monthly,57,2025-08-17,Credit Card,99,3,N
+10774,Thomas Smith,thomas.smith21@gmail.com,07918285181,SO5 3PQ,Oxfordshire,Cottage,Fibre 100,32.65,12-month,38,2020-01-02,Credit Card,9,0,No
+10017,William Clarke,,07727889579,SO36 8GU,Berkshire,Cottage,Fibre 100,33.25,24-month,72,2022-09-16,Bank Transfer,3,1,Yes
+10127,Oliver Taylor,oliver.taylor7@btinternet.com,07293333468,OX44 1UF,Wiltshire,Bungalow,Fibre 500,58.6,Monthly,4,2022-10-26,Credit Card,10,1,Yes
+10322,Ava Thomas,ava.thomas15@gmail.com,07159319525,SO37 1NB,Cambridgeshire,Farmhouse,Fibre 100,34.85,12-month,38,2022-11-26,Direct Debit,8,1,No
+10255,Harry Patel,a@b,07612481569,MK30 1BG,Berkshire,Terraced,Fibre 900,63.94,12-month,53,2021-11-10,Credit Card,9,0,No
+10992,Emily Wood,emily.wood59@btinternet.com,07586703656,,Northamptonshire,Cottage,Fibre 500,57.75,Monthly,19,2025-10-09,Credit Card,8,3,No
+10973,Jack Edwards,jack.edwards6@gmail.com,07406291187,,Berkshire,Detached,Fibre 300,46.62,Monthly,36,2020-09-04,Credit Card,9,3,0
+10190,George Roberts,george.roberts84@outlook.com,07925188125,SN47 1PS,Hampshire,Cottage,Fibre 300,46.09,24-month,56,2025-05-05,Direct Debit,11,0,N
+10115,William Wright,william.wright32@gmail.com,07348039652,SN16 6QY,Oxfordshire,Terraced,Fibre 300,47.89,24-month,21,2024-03-19,Direct Debit,7,1,No
+10644,James Edwards,james.edwards10@yahoo.co.uk,07319359236,GL15 4US,Oxfordshire,Cottage,Fibre 100,29.3,Monthly,12,2020-05-11,Bank Transfer,8,0,Yes
+10606,Freya Clarke,freya.clarke73@btinternet.com,07218219259,SO30 1XY,Northamptonshire,Semi-detached,Fibre 100,31.0,24-month,34,2024-05-26,Bank Transfer,0,0,No
+10180,James Evans,james.evans82@btinternet.com,07058650948,OX47 2ND,Cambridgeshire,Bungalow,Fibre 900,63.67,24-month,11,2021-09-13,Direct Debit,3,1,No
+10301,Lily Wright,lily.wright55@btinternet.com,07684590902,SN22 7RH,Hampshire,Detached,Fibre 500,56.73,Monthly,29,2023-02-11,Bank Transfer,7,1,No
+10790,Henry Patel,henry.patel34@yahoo.co.uk,07260972360,,  Northamptonshire ,Farmhouse,Fibre 100,33.4,12-month,44,2021-01-12,Direct Debit,7,0,No
+10743,Olivia Walker,olivia.walker47@gmail.com,07491477447,CB49 6HQ,Wiltshire,Cottage,Fibre 100,31.06,24-month,68,2025-12-28,Bank Transfer,4,0,Yes
+10754,Ava Green,ava.green61@outlook.com,07727028966,SO1 6JN,Wiltshire,Bungalow,Fibre 100,£28.57,12-month,18,2022-02-27,Bank Transfer,10,3,No
+10715,Isla Turner,isla.turner44@btinternet.com,07275233282,CB1 3AF,Buckinghamshire,Farmhouse,Fibre 500,57.01,Monthly,55,2021-04-01,Direct Debit,0,1,No
+10792,Olivia Wilson,olivia.wilson99@yahoo.co.uk,07686272884,OX29 7SL,Wiltshire,Detached,Fibre 300,46.11,12-month,43,2025-04-05,Credit Card,1,1,no
+10517,William Green,william.green43@yahoo.co.uk,07354614707,,Hampshire,Detached,Fibre 300,48.19,Monthly,26,2021-10-24,Bank Transfer,4,1,No
+10372,James Brown,james.brown24@btinternet.com,07531355251,OX21 1PH,Berkshire,Bungalow,Fibre 300,48.56,Monthly,42,2024-02-13,Credit Card,9,1,No
+10045,William Evans,william.evans44@btinternet.com,07254599102,SN49 1DL,Berkshire,Terraced,Fibre 900,65.96,24-month,54,2023-07-09,Direct Debit,8,0,No
+10945,Ava Smith,john.smith,07798421891,NN9 7ZJ,Berkshire,Farmhouse,Fibre 900,68.12,12-month,64,2025-01-25,Bank Transfer,1,3,Yes
+10157,Poppy Hughes,poppy.hughes28@gmail.com,07797723692,SN40 9LG,Buckinghamshire,Farmhouse,Fibre 100,32.17,Monthly,37,Jul 2021,Direct Debit,1,0,N
+10960,Jack Edwards,jack.edwards57@btinternet.com,07312343888,OX20 9QD,Northamptonshire,Terraced,Fibre 300,44.06,Monthly,17,2022-10-27,Direct Debit,6,1,No
+10171,Emily Davies,,07228200557,,  Wiltshire ,Terraced,Fibre 300,46.77,24-month,37,2024-08-21,Bank Transfer,10,3,No
+10016,William Edwards,william.edwards87@outlook.com,07433200379,GL30 7YH,Hampshire,Farmhouse,Fibre 500,55.79,Monthly,12,2025-12-01,Direct Debit,6,1,No
+10511,Harry Wood,harry.wood9@yahoo.co.uk,07xx,CB41 1PQ,Berkshire,Bungalow,Fibre 900,64.01,12-month,60,2022-08-11,Bank Transfer,8,1,No
+10048,Emily Walker,emily.walker10@outlook.com,07818835523,GL10 5HG,Wiltshire,Terraced,Fibre 300,43.52,24-month,43,2023-08-25,Bank Transfer,9,5,Y
+10786,Charlie Hughes,charlie.hughes71@btinternet.com,07574670675,GL28 2JY,Buckinghamshire,Terraced,Fibre 100,33.23,Monthly,50,2020-06-02,Bank Transfer,1,3,No
+10874,Oliver Wood,oliver.wood6@btinternet.com,07350675789,SO34 4HP,buckinghamshire,Terraced,Fibre 900,66.11,12-month,39,2023-04-24,Direct Debit,,1,No
+10515,William Hall,william.hall27@gmail.com,07721433080,OX42 4UB,Oxfordshire,Semi-detached,Fibre 900,68.3,Monthly,20,2021-09-11,Credit Card,6,3,No
+10716,Oliver Hall,,07167507627,MK49 6JB,Wiltshire,Cottage,Fibre 900,67.48,Monthly,57,2020-02-06,Direct Debit,9,1,Yes
+10480,Lily Davies,lily.davies57@outlook.com,07320430977,SO36 9YH,Hampshire,Semi-detached,Fibre 300,48.93,24-month,32,2023-11-19,Credit Card,4,2,No
+10283,Noah Davies,noah.davies15@btinternet.com,07405786170,SO41 4AL,Gloucestershire,Semi-detached,Fibre 300,48.33,24-month,64,2021-05-19,Credit Card,7,0,No
+10749,Emily Wood,emily.wood60@gmail.com,07059844514,CB28 8GW,Hampshire,Bungalow,Fibre 300,43.72,Monthly,,2025-04-21,Direct Debit,3,2,Yes
+10865,Olivia Turner,olivia.turner96@yahoo.co.uk,07134909619,RG39 8YU,Wiltshire,Cottage,Fibre 300,45.35,Monthly,4,2024-05-04,Direct Debit,5,3,No
+10225,Thomas Evans,thomas.evans43@outlook.com,07209042177,SO11 6JN,Wiltshire,Terraced,Fibre 500,59.66,Monthly,35,2024-09-28,Direct Debit,,3,Yes
+10026,Amelia Taylor,amelia.taylor74@gmail.com,07022941318,SO39 4WR,Berkshire,Farmhouse,Fibre 900,65.07,24-month,63,2023-05-19,Bank Transfer,0,0,No
+10813,Noah Hall,noah.hall37@yahoo.co.uk,07164231654,NN8 4TG,  Berkshire ,Farmhouse,Fibre 100,32.6,12-month,2,2024-06-16,Credit Card,0,3,No
+10437,Harry Davies,harry.davies6@outlook.com,07346156262,NN20 7UB,Northamptonshire,Farmhouse,Fibre 300,44.25,12-month,64,2025-09-27,Direct Debit,7,0,No
+10990,Lily Walker,lily.walker92@outlook.com,07428617892,MK29 2NB,Wiltshire,Cottage,Fibre 500,53.38,24-month,6,2021-09-11,Bank Transfer,7,3,No
+10364,Charlie Roberts,no-at-sign.com,123,GL41 8WY,Oxfordshire,Terraced,Fibre 900,65.02,12-month,37,2021-04-25,Credit Card,8,3,No
+10229,Ava Walker,ava.walker36@btinternet.com,07015577881,RG46 9XN,Berkshire,Bungalow,Fibre 500,55.57,24-month,35,2025-02-07,Credit Card,1,0,Yes
+10037,George Turner,george.turner22@yahoo.co.uk,07474517123,SO36 6DR,Oxfordshire,Cottage,Fibre 500,56.75,12-month,68,2022-11-24,Bank Transfer,4,3,No
+10669,James Smith,james.smith65@gmail.com,07948543298,RG27 9YH,Hampshire,Cottage,Fibre 900,63.91,12-month,33,2022-08-25,Direct Debit,6,0,No
+10144,Freya Jones,freya.jones79@gmail.com,07838638406,OX 99,Oxfordshire,Terraced,Fibre 500,54.75,24-month,58,2023-04-21,Bank Transfer,10,2,No
+10374,Emily Williams,emily.williams44@gmail.com,07017164455,SO6 9PU,Oxfordshire,Farmhouse,Fibre 900,65.08,12-month,5,2023-11-04,Credit Card,9,0,No
+10469,Noah Wilson,noah.wilson31@gmail.com,07265097753,SO29 4TZ,Northamptonshire,Bungalow,Fibre 100,31.07,24-month,19,2022-11-25,Bank Transfer,5,2,No
+10002,Thomas Wright,,07419283276,NN41 9JP,Oxfordshire,Semi-detached,Fibre 300,48.74,12-month,48,2023-05-03,Direct Debit,9,2,No
+10885,George Wilson,,07331454615,RG19 4FQ,Gloucestershire,Detached,Fibre 300,44.82,24-month,1,2023-09-17,Credit Card,9,2,no
+10734,Emily Williams,emily.williams81@yahoo.co.uk,07729669417,SO32 1XA,Berkshire,Cottage,Fibre 100,32.79,12-month,57,2022-09-12,Bank Transfer,11,1,0
+10756,Oliver Clarke,oliver.clarke76@outlook.com,07530969067,SO17 1YG,Wiltshire,Bungalow,Fibre 100,31.75,12-month,68,2024-09-15,Credit Card,5,2,No
+10194,Oliver Walker,oliver.walker15@gmail.com,07751868926,SO3 3PY,Wiltshire,Semi-detached,Fibre 300,49.07,Monthly,16,2025-01-14,Credit Card,4,5,No
+10889,George Smith,george.smith5@btinternet.com,07151459920,GL26 7JH,Wiltshire,Semi-detached,Fibre 900,63.94,Monthly,53,2022-01-02,Credit Card,3,0,No
+10899,Harry Evans,harry.evans35@yahoo.co.uk,07376734814,OX37 9LD,Oxfordshire,Detached,Fibre 300,49.04,12-month,30,2024-04-02,Direct Debit,4,0,No
+10503,Oliver Taylor,oliver.taylor66@yahoo.co.uk,07102131251,SN37 4DD,Oxfordshire,Terraced,Fibre 900,63.08,12-month,11,2024-02-05,Bank Transfer,10,5,No
+10596,Grace Smith,grace.smith40@outlook.com,07838935953,SN43 9AN,Oxfordshire,Cottage,Fibre 900,69.71,24-month,23,2020-03-23,Bank Transfer,9,3,No
+10864,James Williams,james.williams69@btinternet.com,07608357017,OX16 7HB,Northamptonshire,Cottage,Fibre 300,44.07,Monthly,26,2024-11-14,Direct Debit,2,0,No
+10579,William Turner,william.turner43@yahoo.co.uk,07822067323,GL34 3ZT,Gloucestershire,Farmhouse,Fibre 100,33.04,24-month,34,2020-12-25,Credit Card,7,0,No
+10849,Noah Wright,noah.wright4@yahoo.co.uk,07153017316,RG7 6SB,Buckinghamshire,Bungalow,Fibre 100,-10.0,Monthly,47,2022-03-06,Credit Card,4,0,No
+10680,Jack Clarke,jack.clarke42@btinternet.com,07921299642,SO3 4JS,Wiltshire,Detached,Fibre 500,59.18,Monthly,72,2023-06-12,Bank Transfer,2,0,No
+10162,Olivia Edwards,olivia.edwards47@gmail.com,07302146566,CB34 1DD,Northamptonshire,Terraced,Fibre 300,48.8,24-month,22,27/06/2022,Credit Card,3,1,1
+10732,Freya Wood,freya.wood99@outlook.com,07192797617,GL23 7YX,Cambridgeshire,Bungalow,Fibre 100,32.84,12-month,35,2025-08-06,Bank Transfer,10,0,No
+10152,Isla Smith,isla.smith92@outlook.com,07645257775,NN32 9EG,Gloucestershire,Cottage,Fibre 500,59.0,Monthly,32,2024-04-09,Bank Transfer,10,0,0
+10711,William Wright,william.wright48@btinternet.com,07579220300,NN18 7NR,Gloucestershire,Semi-detached,Fibre 300,48.05,Monthly,37,2024-01-27,Direct Debit,2,2,No
+10730,Thomas Hall,thomas.hall72@outlook.com,07389633761,MK41 2XR,Wiltshire,Farmhouse,Fibre 300,46.17,Monthly,30,2023-09-10,Direct Debit,0,0,No
+10786,Charlie Hughes,charlie.hughes71@btinternet.com,07574670675,GL28 2JY,Buckinghamshire,Terraced,Fibre 100,33.23,Monthly,50,2020-06-02,Bank Transfer,1,3,No
+10111,Thomas Thomas,thomas.thomas18@outlook.com,07912127756,GL35 6HT,Northamptonshire,Farmhouse,Fibre 300,44.85,Monthly,10,2020-03-26,Bank Transfer,4,0,No
+10226,Noah Hughes,noah.hughes2@yahoo.co.uk,07633569392,OX27 1BU,Oxfordshire,Farmhouse,Fibre 900,66.71,12-month,60,2025-02-15,Credit Card,3,0,N
+10718,Lily Patel,lily.patel14@btinternet.com,07992406583,RG10 8FP,Gloucestershire,Semi-detached,Fibre 500,54.08,24-month,34,2020-10-26,Bank Transfer,5,3,Yes
+10103,Thomas Wright,thomas.wright79@btinternet.com,07731121965,SO21 3JL,Gloucestershire,Semi-detached,Fibre 300,46.86,24-month,20,2025-10-10,Bank Transfer,0,1,No
+10421,Olivia Patel,olivia.patel95@yahoo.co.uk,07520599604,CB49 9UX,Berkshire,Cottage,Fibre 500,59.71,Monthly,53,2022-08-23,Credit Card,8,0,No
+10419,Poppy Roberts,poppy.roberts39@gmail.com,07473149764,SO6 4SX,Northamptonshire,Farmhouse,Fibre 500,54.98,24-month,55,2024-09-08,Credit Card,0,5,Yes
+10781,Amelia Jones,no-at-sign.com,07434123016,OX20 9SA,Cambridgeshire,Farmhouse,Fibre 300,43.99,24-month,12,2025-11-28,Bank Transfer,6,0,No
+10586,Noah Smith,noah.smith40@btinternet.com,07xx,GL24 4XW,Wiltshire,Cottage,Fibre 100,30.31,Monthly,61,2023-10-27,Bank Transfer,0,2,No
+10811,Harry Hughes,harry.hughes98@yahoo.co.uk,07389222471,GL38 4RA,Oxfordshire,Farmhouse,Fibre 300,49.75,24-month,32,2021-08-16,Bank Transfer,0,2,Yes
+10672,Jack Walker,jack.walker36@btinternet.com,07065795515,SO11 4YG,Oxfordshire,Bungalow,Fibre 100,28.23,12-month,58,Feb 2022,Credit Card,10,1,No
+10119,Charlie Wright,charlie.wright74@btinternet.com,07327104054,GL5 6GR,Wiltshire,Terraced,Fibre 900,63.52,Monthly,13,2022-10-20,Credit Card,0,3,No
+10053,Olivia Hall,john.smith,07473834735,RG30 5RW,Hampshire,Semi-detached,Fibre 500,-10.0,24-month,31,2021-05-02,Bank Transfer,7,2,No
+10151,Freya Taylor,freya.taylor13@yahoo.co.uk,07397552314,GL13 6UT,Buckinghamshire,Bungalow,Fibre 500,57.61,24-month,9,2024-03-19,Bank Transfer,5,2,Yes
+10403,Isla Clarke,isla.clarke2@btinternet.com,07705783609,GL18 9PD,Berkshire,Semi-detached,Fibre 900,64.8,12-month,3,2022-08-05,Direct Debit,10,0,0
+10984,Charlie Hall,charlie.hall73@outlook.com,07533861941,GL41 9HZ,Oxfordshire,Bungalow,Fibre 900,68.54,12-month,23,2021-05-21,Bank Transfer,2,1,No
+10207,Harry Evans,harry.evans85@outlook.com,07278469973,CB44 6NY,Northamptonshire,Farmhouse,Fibre 300,48.01,12-month,1,2020-10-01,Bank Transfer,8,3,No
+10658,Lily Brown,lily.brown33@outlook.com,07630198642,NN9 4XJ,Berkshire,Semi-detached,Fibre 500,56.64,Monthly,58,2024-02-05,Direct Debit,10,5,No
+10924,Jack Green,jack.green68@yahoo.co.uk,07784962249,NN46 6EA,Northamptonshire,Farmhouse,Fibre 900,67.37,12-month,53,2020-07-19,Direct Debit,9,3,No
+10793,Noah Turner,noah.turner89@btinternet.com,07259238687,OX27 1LW,Hampshire,Bungalow,Fibre 900,67.75,Monthly,61,2020-12-11,Credit Card,3,1,No
+10008,Freya Smith,freya.smith53@outlook.com,07773602606,,  Berkshire ,Semi-detached,Fibre 100,29.32,Monthly,31,2020-10-24,Bank Transfer,0,2,no
+10979,Freya Thomas,freya.thomas41@gmail.com,07630930796,MK40 1YS,Northamptonshire,Cottage,Fibre 500,59.16,24-month,30,2024-08-05,Bank Transfer,4,0,No
+10036,James Green,james.green78@gmail.com,07743953394,SN41 2BN,Berkshire,Detached,Fibre 500,57.05,24-month,2,2021-02-10,Credit Card,6,0,No
+10452,Lily Clarke,lily.clarke95@outlook.com,07350615814,GL4 8YW,Cambridgeshire,Semi-detached,Fibre 100,29.78,24-month,68,2021-12-21,Direct Debit,3,5,No
+10651,Isla Brown,isla.brown24@yahoo.co.uk,07767746259,GL25 1ED,Wiltshire,Cottage,Fibre 300,47.95,Monthly,20,2020-06-28,Bank Transfer,4,3,No
+10253,Jack Hughes,jack.hughes28@btinternet.com,07212347649,OX32 9QE,Buckinghamshire,Bungalow,Fibre 900,65.96,24-month,31,2021-05-26,Direct Debit,5,5,No
+10303,Harry Green,harry.green40@outlook.com,07672994938,RG18 4AF,Berkshire,Detached,Fibre 300,48.76,24-month,17,2021-09-11,Bank Transfer,7,5,Yes
+10777,George Thomas,george.thomas11@btinternet.com,07768225127,SN26 8AW,Hampshire,Farmhouse,Fibre 300,£47.92,12-month,45,2022-12-26,Credit Card,2,0,yes
+10571,Ava Turner,ava.turner93@yahoo.co.uk,07584148460,GL37 2JN,Northamptonshire,Semi-detached,Fibre 300,48.29,24-month,15,2024-10-19,Bank Transfer,2,5,No
+10623,Lily Walker,lily.walker17@outlook.com,07201256083,SN3 1LX,Berkshire,Bungalow,Fibre 300,48.67,24-month,72,2023-09-17,Bank Transfer,9,5,No
+10740,George Walker,george.walker24@outlook.com,07190533470,NN32 5UR,Northamptonshire,Bungalow,Fibre 900,65.01,12-month,23,2022-10-08,Bank Transfer,6,2,No
+10750,Freya Brown,,07145900992,GL29 8YB,Buckinghamshire,Cottage,Fibre 100,29.02,12-month,32,2023-10-07,Direct Debit,5,0,No
+10262,William Hughes,william.hughes32@gmail.com,07715041659,GL21 3AD,Berkshire,Terraced,Fibre 300,47.61,12-month,54,2025-05-20,Bank Transfer,0,2,No
+10610,Sophie Thomas,sophie.thomas59@btinternet.com,07963259423,SN44 9YL,Hampshire,Semi-detached,Fibre 500,59.05,Monthly,24,2024-10-04,Credit Card,6,0,No
+10297,Lily Wood,lily.wood92@yahoo.co.uk,07587774969,OX14 4HT,Cambridgeshire,Farmhouse,Fibre 900,64.52,12-month,23,2023-10-06,Credit Card,4,0,No
+10414,Noah Taylor,noah.taylor9@btinternet.com,07789320649,SO41 4QU,Wiltshire,Cottage,Fibre 300,48.87,12-month,1,2025-08-16,Bank Transfer,6,2,Yes
+10150,Freya Turner,freya.turner1@gmail.com,07996881435,CB27 9FG,Wiltshire,Semi-detached,Fibre 300,47.31,12-month,16,2021-02-06,Bank Transfer,9,0,Yes
+10819,Emily Davies,emily.davies5@btinternet.com,07503374698,CB14 1RU,Berkshire,Terraced,Fibre 500,54.47,12-month,53,2023-12-26,Direct Debit,8,0,No
+10640,Oliver Turner,oliver.turner41@btinternet.com,07712369149,SO6 2GW,Berkshire,Terraced,Fibre 100,33.71,12-month,54,2021-10-22,Credit Card,8,0,Yes
+10925,Charlie Turner,charlie.turner87@outlook.com,07062767293,MK45 1ZT,Cambridgeshire,Cottage,Fibre 500,57.78,12-month,15,2021-02-05,Bank Transfer,1,1,Yes
+10550,Ava Smith,,07847609441,,Berkshire,Semi-detached,Fibre 900,69.47,24-month,62,2024-09-12,Credit Card,,3,No
+10822,Noah Hughes,noah.hughes87@gmail.com,07982718265,ABCDE,Oxfordshire,Bungalow,Fibre 300,45.95,12-month,66,06/05/2024,Credit Card,9,1,No
+10488,Grace Green,grace.green63@gmail.com,07158796474,OX34 1HD,Northamptonshire,Bungalow,Fibre 100,33.22,24-month,-5,2024-03-21,Credit Card,0,0,No
+10710,George Davies,george.davies17@btinternet.com,07973988941,,  Berkshire ,Semi-detached,Fibre 100,28.42,Monthly,43,2020-08-25,Direct Debit,7,2,No
+10147,Sophie Clarke,sophie.clarke88@gmail.com,07561648408,MK33 9TU,Oxfordshire,Cottage,Fibre 300,49.28,Monthly,32,2022-09-03,Direct Debit,2,0,No
+10146,Henry Turner,henry.turner68@yahoo.co.uk,07328182688,SO6 6JH,Buckinghamshire,Cottage,Fibre 500,55.52,Monthly,10,2024-09-16,Bank Transfer,10,0,No
+10751,William Turner,william.turner99@gmail.com,07532601193,12345,Berkshire,Cottage,Fibre 100,28.93,12-month,60,2022-02-08,Bank Transfer,6,0,No
+10970,Thomas Turner,thomas.turner47@yahoo.co.uk,07737138874,OX11 3HN,Hampshire,Detached,Fibre 300,45.1,12-month,4,2023-03-16,Credit Card,3,1,No
+10770,Amelia Green,amelia.green50@gmail.com,07923273798,RG48 1RA,Buckinghamshire,Cottage,Fibre 100,31.79,Monthly,3,2024-07-16,Credit Card,6,1,No
+10659,Charlie Wilson,charlie.wilson92@gmail.com,07983221010,SN15 3AA,Gloucestershire,Terraced,Fibre 300,46.64,12-month,23,2023-07-04,Direct Debit,0,5,Yes
+10348,Olivia Brown,olivia.brown19@btinternet.com,07030366254,CB44 7EU,Wiltshire,Detached,Fibre 500,54.56,12-month,14,Feb 2022,Credit Card,1,2,No
+10463,Freya Wright,freya.wright30@yahoo.co.uk,07334264335,OX9 8ER,Oxfordshire,Farmhouse,Fibre 100,34.06,24-month,42,2021-07-02,Credit Card,7,3,No
+10325,Isla Hughes,isla.hughes38@btinternet.com,07233305912,,Buckinghamshire,Farmhouse,Fibre 300,44.25,Monthly,57,2020-09-21,Credit Card,9,3,No
+10186,Jack Wright,jack.wright45@outlook.com,07979270335,SN49 2EB,Cambridgeshire,Bungalow,Fibre 100,34.48,12-month,40,23/06/2020,Direct Debit,4,5,Yes
+10123,Isla Evans,isla.evans55@gmail.com,07163294511,SO36 7XP,Northamptonshire,Bungalow,Fibre 300,46.2,Monthly,17,2025-10-19,Bank Transfer,6,0,Yes
+10888,Grace Hughes,,07423060023,OX12 9SP,Buckinghamshire,Terraced,Fibre 300,43.12,12-month,32,2021-03-10,Bank Transfer,1,0,No
+10608,Ava Turner,ava.turner62@btinternet.com,07382097461,GL47 8UZ,Berkshire,Farmhouse,Fibre 900,66.78,24-month,58,2024-07-17,Credit Card,2,0,No
+10143,George Wilson,george.wilson72@yahoo.co.uk,07799684608,GL2 7FB,Oxfordshire,Semi-detached,Fibre 500,54.86,Monthly,15,2022-11-09,Direct Debit,0,1,No
+10344,Freya Davies,freya.davies36@outlook.com,07240338105,MK21 2XL,Wiltshire,Farmhouse,Fibre 500,59.28,12-month,6,2022-01-21,Direct Debit,5,1,No
+10197,Harry Hall,a@b,07145868339,OX7 9DU,Northamptonshire,Farmhouse,Fibre 100,32.25,12-month,38,2022-09-19,Bank Transfer,5,0,Yes
+10609,William Hughes,william.hughes83@gmail.com,07858062350,NN2 6RR,Buckinghamshire,Terraced,Fibre 300,46.19,Monthly,64,2020-11-04,Direct Debit,4,0,No
+10279,Sophie Roberts,sophie.roberts19@gmail.com,07296044327,OX8 9QD,Oxfordshire,Farmhouse,Fibre 500,56.36,12-month,63,2024-08-11,Credit Card,7,0,No
+10293,William Turner,william.turner26@yahoo.co.uk,07331537795,MK40 5SP,Wiltshire,Detached,Fibre 100,31.17,Monthly,55,2023-04-01,Bank Transfer,3,1,Yes
+10400,Harry Evans,harry.evans40@outlook.com,07831520377,GL2 8BL,Northamptonshire,Bungalow,Fibre 300,45.68,Monthly,67,2020-05-28,Bank Transfer,6,5,No
+10122,Amelia Taylor,amelia.taylor97@btinternet.com,07938068687,CB31 5DR,Oxfordshire,Bungalow,Fibre 500,56.99,24-month,70,2024-11-20,Direct Debit,1,5,No
+10183,George Thomas,george.thomas33@outlook.com,07419693157,SN32 2ZN,Oxfordshire,Terraced,Fibre 500,58.65,12-month,32,2020-01-25,Credit Card,5,3,Yes
+10202,Olivia Edwards,olivia.edwards6@btinternet.com,07184094353,CB19 5XP,Berkshire,Terraced,Fibre 100,28.81,Monthly,43,2021-05-04,Direct Debit,9,0,No
+10438,Amelia Green,amelia.green17@yahoo.co.uk,07986707660,NN28 5EZ,Berkshire,Bungalow,Fibre 100,30.6,12-month,21,2025-06-28,Bank Transfer,5,0,No
+10246,Grace Williams,grace.williams98@btinternet.com,07197889778,SN33 1RL,Berkshire,Bungalow,Fibre 500,59.79,24-month,50,2025-06-25,Credit Card,5,0,No
+10415,Emily Brown,emily.brown54@yahoo.co.uk,07753612751,MK45 7FU,Berkshire,Bungalow,Fibre 300,45.87,Monthly,15,2020-05-09,Bank Transfer,3,3,No
+10807,Oliver Walker,oliver.walker39@gmail.com,07877067693,CB16 3YY,Hampshire,Cottage,Fibre 100,28.66,24-month,24,2020-03-11,Credit Card,8,1,Yes
+10796,Grace Wilson,grace.wilson79@outlook.com,07851448698,CB3 6GE,Hampshire,Bungalow,Fibre 100,28.05,24-month,38,2021-03-01,Direct Debit,6,0,No
+10959,Grace Smith,grace.smith66@gmail.com,07762099069,CB6 7JA,Cambridgeshire,Bungalow,Fibre 500,57.17,Monthly,68,2023-12-16,Direct Debit,4,2,No
+10799,Poppy Davies,poppy.davies98@outlook.com,07728129163,MK42 1NY,Hampshire,Detached,Fibre 300,43.87,12-month,60,2025-07-15,Credit Card,10,2,No
+10923,Noah Wood,noah.wood13@gmail.com,07406526642,SO29 4QD,Wiltshire,Farmhouse,Fibre 300,44.27,12-month,6,2022-06-08,Direct Debit,7,2,Yes
+10129,William Davies,william.davies88@yahoo.co.uk,07207446660,CB22 4XU,Buckinghamshire,Bungalow,Fibre 100,£30.09,Monthly,52,2025-09-06,Credit Card,1,5,0
+10637,Grace Green,grace.green63@outlook.com,07407794332,,Northamptonshire,Bungalow,Fibre 100,31.97,Monthly,20,2024-08-26,Direct Debit,1,1,No
+10402,Emily Turner,emily.turner21@yahoo.co.uk,07673204413,NN22 7BZ,Northamptonshire,Cottage,Fibre 900,64.87,12-month,55,2025-10-01,Direct Debit,4,2,No
+10936,Freya Wilson,freya.wilson59@btinternet.com,07118425278,SO13 1ZB,Oxfordshire,Farmhouse,Fibre 900,69.34,Monthly,,Jan 2020,Direct Debit,4,0,No
+10801,Poppy Jones,,07439044890,CB12 3QH,Cambridgeshire,Semi-detached,Fibre 300,44.2,Monthly,-5,2021-06-03,Direct Debit,2,2,No
+10735,Oliver Taylor,oliver.taylor15@yahoo.co.uk,07673478536,GL25 5YX,Oxfordshire,Cottage,Fibre 300,45.02,Monthly,-1,2024-03-22,Bank Transfer,8,3,1
+10949,Harry Brown,harry.brown6@btinternet.com,07050092449,SN34 8XU,Buckinghamshire,Terraced,Fibre 500,-29.99,Monthly,68,2025-04-21,Direct Debit,2,1,No
+10219,Harry Turner,harry.turner3@btinternet.com,07050506138,RG44 9FY,Cambridgeshire,Detached,Fibre 500,53.25,Monthly,64,2023-11-01,Credit Card,9,0,No
+10641,Charlie Hughes,charlie.hughes6@yahoo.co.uk,07953141961,MK28 1UX,Cambridgeshire,Semi-detached,Fibre 900,66.4,24-month,7,2025-09-18,Direct Debit,5,3,0
+10951,Lily Evans,lily.evans23@yahoo.co.uk,07662497537,NN2 6UD,Northamptonshire,Cottage,Fibre 100,30.73,24-month,18,2024-06-14,Bank Transfer,7,1,No
+10783,Amelia Green,amelia.green93@gmail.com,07841947855,OX41 2DH,Berkshire,Cottage,Fibre 300,44.55,24-month,,2021-12-04,Direct Debit,7,0,Yes
+10887,Jack Taylor,,07786210781,RG7 1ZR,Buckinghamshire,Farmhouse,Fibre 100,30.1,12-month,33,2023-01-14,Bank Transfer,8,0,No
+10956,Ava Taylor,ava.taylor99@yahoo.co.uk,07337953111,SN16 6YA,Northamptonshire,Semi-detached,Fibre 300,45.8,Monthly,60,2023-05-05,Bank Transfer,6,3,No
+10624,Noah Wright,noah.wright82@outlook.com,07860030443,SO42 2YY,Buckinghamshire,Detached,Fibre 500,56.21,12-month,24,2021-04-28,Bank Transfer,11,0,No
+10872,Poppy Jones,poppy.jones22@btinternet.com,07683848876,CB34 1FA,Berkshire,Farmhouse,Fibre 500,53.54,Monthly,48,2024-07-22,Direct Debit,2,0,No
+10922,Ava Clarke,ava.clarke32@outlook.com,07132465986,,Northamptonshire,Detached,Fibre 500,56.43,24-month,32,2021-11-16,Credit Card,11,0,No
+10386,Charlie Brown,charlie.brown23@yahoo.co.uk,07965923426,CB20 5DN,Berkshire,Bungalow,Fibre 500,54.27,12-month,39,2020-03-17,Credit Card,5,2,Yes
+10627,Noah Edwards,noah.edwards74@yahoo.co.uk,07366538027,NN34 2FN,Wiltshire,Detached,Fibre 300,43.62,Monthly,5,2024-11-13,Bank Transfer,8,0,No
+10509,Harry Walker,harry.walker31@outlook.com,07873670425,NN44 7ZE,Wiltshire,Bungalow,Fibre 900,64.96,24-month,38,Dec 2022,Direct Debit,5,5,No
+10267,James Green,,07776974995,SO20 2FF,Oxfordshire,Semi-detached,Fibre 100,28.77,Monthly,2,2025-04-28,Direct Debit,3,5,No
+10852,Henry Wilson,henry.wilson56@yahoo.co.uk,07733329732,CB37 7NL,Oxfordshire,Semi-detached,Fibre 300,49.07,Monthly,4,2022-04-25,Direct Debit,6,5,Yes
+10441,Olivia Taylor,olivia.taylor19@gmail.com,07916815466,OX12 5DS,Gloucestershire,Semi-detached,Fibre 500,56.99,12-month,48,2024-09-18,Direct Debit,0,2,Yes
+10496,Noah Green,noah.green94@btinternet.com,07776755562,CB16 4HY,Cambridgeshire,Terraced,Fibre 900,67.61,24-month,54,2022-08-18,Credit Card,5,1,No
+10112,Jack Williams,jack.williams51@yahoo.co.uk,07804420678,CB7 8EF,Gloucestershire,Detached,Fibre 100,£28.42,Monthly,32,2021-04-27,Credit Card,5,0,No
+10691,Charlie Hughes,charlie.hughes47@outlook.com,07365974669,SO5 7HL,Wiltshire,Detached,Fibre 500,54.23,12-month,43,2022-01-18,Bank Transfer,0,2,No
+10232,Amelia Jones,amelia.jones34@btinternet.com,07523805525,RG35 3XN,Gloucestershire,Detached,Fibre 500,55.82,12-month,17,2021-08-11,Direct Debit,0,2,No
+10904,Charlie Taylor,charlie.taylor45@yahoo.co.uk,07525274102,MK19 8DT,Northamptonshire,Bungalow,Fibre 900,66.67,12-month,71,2023-07-20,Credit Card,8,1,No
+10607,Olivia Walker,olivia.walker93@btinternet.com,07948424959,GL42 2NQ,Berkshire,Terraced,Fibre 100,31.81,12-month,30,2020-12-21,Credit Card,1,2,yes
+10671,Grace Wood,grace.wood70@yahoo.co.uk,07606739834,NN35 9HX,Northamptonshire,Semi-detached,Fibre 100,30.22,Monthly,52,2023-11-28,Credit Card,6,0,No
+10373,Amelia Turner,amelia.turner88@btinternet.com,07655330770,,Wiltshire,Bungalow,Fibre 500,55.28,12-month,10,01/10/2021,Credit Card,0,0,Yes
+10246,Grace Williams,grace.williams98@btinternet.com,07197889778,SN33 1RL,Berkshire,Bungalow,Fibre 500,59.79,24-month,50,2025-06-25,Credit Card,5,0,No
+10877,Grace Wood,grace.wood61@btinternet.com,07940366401,SO14 3ZP,Berkshire,Semi-detached,Fibre 500,58.3,24-month,34,2025-04-28,Direct Debit,5,5,No
+10233,Lily Roberts,lily.roberts89@yahoo.co.uk,07170281406,CB29 6DP,Oxfordshire,Bungalow,Fibre 300,47.48,24-month,57,2024-04-26,Credit Card,3,0,No
+10816,Thomas Wilson,thomas.wilson94@btinternet.com,07410095385,MK31 5GD,Hampshire,Terraced,Fibre 300,44.94,12-month,67,2024-10-01,Direct Debit,9,1,Yes
+10676,Harry Turner,harry.turner84@outlook.com,07599285535,MK10 1QR,Gloucestershire,Detached,Fibre 500,53.41,12-month,13,2024-10-01,Bank Transfer,0,3,0
+10317,Isla Williams,,07179323023,NN27 8ZE,Wiltshire,Detached,Fibre 300,45.04,12-month,63,2020-05-03,Credit Card,0,1,Yes
+10648,Harry Patel,harry.patel30@gmail.com,123,SN7 9YL,BUCKINGHAMSHIRE,Cottage,Fibre 100,32.19,12-month,55,2023-01-02,Direct Debit,9,1,No
+10410,Henry Hughes,henry.hughes42@btinternet.com,07728941347,MK4 9WY,Hampshire,Cottage,Fibre 500,55.25,12-month,59,2021-03-02,Bank Transfer,3,3,No
+10934,Charlie Green,charlie.green90@btinternet.com,07758015846,SO36 8ZH,Oxfordshire,Semi-detached,Fibre 300,43.04,24-month,13,2022-04-06,Credit Card,2,5,Yes
+10709,Sophie Roberts,sophie.roberts39@outlook.com,07544344149,GL26 4ZJ,Northamptonshire,Cottage,Fibre 900,67.04,12-month,-1,2021-10-09,Credit Card,4,0,No
+10358,Harry Taylor,harry.taylor61@yahoo.co.uk,07472197054,SO27 3TQ,Buckinghamshire,Cottage,Fibre 300,43.57,12-month,59,2024-08-09,Bank Transfer,15,0,No
+10258,Poppy Evans,poppy.evans24@btinternet.com,07620443973,MK38 8DA,Berkshire,Semi-detached,Fibre 500,59.09,24-month,25,2023-11-07,Bank Transfer,6,3,No
+10744,Amelia Wright,amelia.wright34@outlook.com,07493053788,OX15 4EW,Cambridgeshire,Farmhouse,Fibre 500,53.57,Monthly,59,2025-04-08,Bank Transfer,8,0,Yes
+10627,Noah Edwards,noah.edwards74@yahoo.co.uk,07366538027,NN34 2FN,Wiltshire,Detached,Fibre 300,43.62,Monthly,5,2024-11-13,Bank Transfer,8,0,No
+10632,Noah Smith,noah.smith13@outlook.com,07764172680,ABCDE,Gloucestershire,Semi-detached,Fibre 900,67.14,24-month,71,2020-06-23,Direct Debit,7,0,No
+10282,Charlie Thomas,charlie.thomas70@gmail.com,07242241246,SN4 6GA,Oxfordshire,Cottage,Fibre 100,30.72,12-month,15,2021-07-11,Credit Card,6,0,No
+10376,George Walker,george.walker86@btinternet.com,07188397745,RG15 2LN,Gloucestershire,Cottage,Fibre 300,46.9,Monthly,53,2025-11-24,Direct Debit,1,0,no
+10384,Olivia Hughes,olivia.hughes59@btinternet.com,07954107272,NN40 9GN,Berkshire,Cottage,Fibre 500,53.44,12-month,16,2020-08-02,Direct Debit,,0,No
+10224,Ava Clarke,ava.clarke96@outlook.com,07531531363,SO15 2UY,berkshire,Detached,Fibre 500,59.22,Monthly,54,2021-10-15,Direct Debit,6,2,No
+10994,William Edwards,william.edwards64@yahoo.co.uk,07594434852,MK13 8TL,oxfordshire,Semi-detached,Fibre 900,66.32,12-month,64,2023-09-16,Credit Card,,1,No
+10847,Jack Thomas,,07489445381,GL36 1XE,Hampshire,Cottage,Fibre 500,57.39,24-month,18,2021-05-27,Credit Card,5,3,Yes
+10472,Noah Thomas,noah.thomas50@yahoo.co.uk,07867752401,NN46 9NH,Gloucestershire,Detached,Fibre 100,33.28,Monthly,52,2021-08-27,Direct Debit,3,3,No
+10347,Olivia Williams,,07900185132,RG49 8GN,Buckinghamshire,Farmhouse,Fibre 300,44.07,Monthly,11,2024-12-09,Bank Transfer,8,0,No
+10505,Isla Wood,isla.wood26@outlook.com,07428931132,MK49 4GR,Northamptonshire,Bungalow,Fibre 100,30.88,24-month,11,2022-04-14,Credit Card,11,1,N
+10639,Amelia Taylor,amelia.taylor85@yahoo.co.uk,07801864482,SN49 2TQ,Cambridgeshire,Bungalow,Fibre 900,69.87,24-month,3,2022-08-01,Bank Transfer,2,0,No
+10115,William Wright,william.wright32@gmail.com,07348039652,SN16 6QY,Oxfordshire,Terraced,Fibre 300,47.89,24-month,21,2024-03-19,Direct Debit,7,1,No
+10797,Oliver Wilson,oliver.wilson10@btinternet.com,07xx,GL26 4TB,Buckinghamshire,Terraced,Fibre 900,63.07,Monthly,35,2022-10-07,Direct Debit,2,3,Yes
+10967,William Brown,william.brown2@btinternet.com,07389173690,,Berkshire,Farmhouse,Fibre 900,66.36,Monthly,29,2020-01-12,Direct Debit,1,1,No
+10941,James Evans,james.evans85@outlook.com,07665282468,MK17 3UF,Northamptonshire,Detached,Fibre 100,28.27,Monthly,64,2025-12-22,Bank Transfer,2,0,Yes
+10619,Noah Turner,noah.turner69@gmail.com,07276817225,RG30 6LQ,Northamptonshire,Farmhouse,Fibre 900,63.94,Monthly,45,2024-01-11,Direct Debit,9,0,Yes
+10890,Isla Jones,isla.jones84@outlook.com,07019011348,NN14 4YE,Cambridgeshire,Semi-detached,Fibre 500,57.48,12-month,49,2021-09-13,Direct Debit,3,0,No
+10835,Sophie Green,sophie.green61@gmail.com,07530796618,SO37 6UF,Northamptonshire,Detached,Fibre 300,45.16,12-month,1,2023-05-04,Bank Transfer,2,2,No
+10645,Jack Smith,jack.smith97@yahoo.co.uk,07472419165,OX13 5LA,Hampshire,Farmhouse,Fibre 300,48.91,12-month,47,2025-08-24,Direct Debit,8,0,No
+10881,Emily Davies,emily.davies55@outlook.com,07509962183,SO25 8TE,Hampshire,Farmhouse,Fibre 300,45.89,Monthly,4,Mar 2020,Bank Transfer,6,1,No
+10556,Thomas Green,thomas.green42@outlook.com,07659202461,RG22 3BF,Cambridgeshire,Bungalow,Fibre 500,57.22,12-month,58,2021-12-06,Credit Card,0,0,No
+10999,Isla Davies,isla.davies74@outlook.com,07276405473,SO12 3DL,Oxfordshire,Cottage,Fibre 300,43.46,Monthly,1,2024-07-13,Direct Debit,4,5,No
+10577,Grace Brown,grace.brown35@outlook.com,07888995729,CB29 7GZ,Berkshire,Cottage,Fibre 900,65.2,24-month,30,2021-12-26,Direct Debit,3,3,0
+10795,Grace Taylor,grace.taylor19@yahoo.co.uk,07273627320,SN12 3UE,Gloucestershire,Detached,Fibre 100,33.84,12-month,31,2025-08-14,Bank Transfer,1,5,No
+10085,Amelia Brown,a@b,07845461567,CB45 4ND,Oxfordshire,Detached,Fibre 300,45.83,12-month,31,2024-08-02,Bank Transfer,0,0,No
+10242,Amelia Walker,amelia.walker67@gmail.com,07275480157,GL25 5TZ,Northamptonshire,Terraced,Fibre 100,34.82,12-month,60,2021-09-14,Credit Card,6,1,No
+10698,Lily Davies,,07661850761,OX36 8BW,Wiltshire,Farmhouse,Fibre 500,57.24,Monthly,29,2024-03-27,Direct Debit,6,0,No
+10909,Grace Roberts,grace.roberts72@btinternet.com,07097830280,GL2 5EZ,Northamptonshire,Terraced,Fibre 100,34.59,Monthly,47,2022-02-20,Credit Card,2,0,No
+10159,Grace Williams,grace.williams11@outlook.com,07498643009,GL34 1RH,Buckinghamshire,Farmhouse,Fibre 500,55.53,Monthly,62,2023-11-19,Credit Card,4,3,No
+10524,Ava Hughes,ava.hughes29@gmail.com,07723081721,NN16 7NH,Gloucestershire,Semi-detached,Fibre 500,53.15,Monthly,53,Feb 2022,Direct Debit,10,0,No
+10035,Henry Williams,henry.williams59@yahoo.co.uk,07407482175,NN41 7LT,Northamptonshire,Semi-detached,Fibre 300,49.99,12-month,60,2020-04-13,Bank Transfer,5,1,No
+10540,Sophie Green,sophie.green30@yahoo.co.uk,07697093170,SO37 6QR,Oxfordshire,Farmhouse,Fibre 500,56.04,12-month,32,2023-02-14,Credit Card,5,1,No
+10170,Oliver Clarke,,07220234132,SO7 2DU,Oxfordshire,Detached,Fibre 500,58.39,24-month,67,2020-02-09,Bank Transfer,2,0,N
+10654,Sophie Thomas,sophie.thomas33@btinternet.com,07454752311,SN13 3TN,Berkshire,Terraced,Fibre 100,£34.57,24-month,5,2020-08-15,Credit Card,3,1,no
+10926,Sophie Smith,no-at-sign.com,07778045797,OX 99,Oxfordshire,Farmhouse,Fibre 300,43.16,Monthly,19,2025-10-17,Direct Debit,1,1,1
+10892,Thomas Patel,thomas.patel23@yahoo.co.uk,07973561526,SO24 6YD,Northamptonshire,Farmhouse,Fibre 300,48.34,12-month,36,2021-06-26,Direct Debit,10,0,Yes
+10882,Isla Jones,isla.jones88@outlook.com,07349980137,SO36 4SU,Buckinghamshire,Bungalow,Fibre 300,48.17,Monthly,17,2023-08-20,Direct Debit,5,0,No
+10983,Olivia Walker,olivia.walker42@yahoo.co.uk,07190826110,CB21 7PZ,Northamptonshire,Semi-detached,Fibre 500,58.24,24-month,,2021-01-21,Direct Debit,3,5,Yes
+10733,Charlie Green,charlie.green98@btinternet.com,07295912573,NN40 9YY,Wiltshire,Cottage,Fibre 500,55.27,24-month,,2022-11-14,Bank Transfer,10,0,Yes
+10095,Oliver Taylor,oliver.taylor47@outlook.com,07537147859,SO40 7YE,Buckinghamshire,Cottage,Fibre 100,33.91,24-month,69,2021-11-23,Credit Card,9,0,Y
+10563,James Walker,james.walker13@outlook.com,07988192778,,Northamptonshire,Bungalow,Fibre 900,68.75,12-month,11,2020-02-02,Credit Card,10,0,No
+10240,Lily Hall,lily.hall5@gmail.com,07890714014,OX49 2EZ,Cambridgeshire,Bungalow,Fibre 100,34.3,Monthly,26,2025-06-01,Direct Debit,2,1,No
+10742,Isla Hall,isla.hall80@outlook.com,07585585229,NN11 6FP,Gloucestershire,Farmhouse,Fibre 500,53.8,24-month,69,2022-08-12,Bank Transfer,1,5,No
+10574,Amelia Jones,amelia.jones16@btinternet.com,07497315391,GL17 9JB,Berkshire,Terraced,Fibre 500,54.93,Monthly,2,2025-12-24,Direct Debit,7,1,N
+10690,Sophie Jones,sophie.jones29@outlook.com,07343031158,,Buckinghamshire,Farmhouse,Fibre 500,58.44,12-month,69,2025-10-22,Credit Card,7,2,Yes
+10460,Isla Walker,isla.walker47@btinternet.com,07534490216,SO26 8BW,Oxfordshire,Bungalow,Fibre 900,65.6,24-month,30,2023-01-17,Credit Card,8,5,No
+10553,Isla Roberts,isla.roberts75@gmail.com,07109032671,NN38 5ZW,Gloucestershire,Bungalow,Fibre 500,54.98,Monthly,13,2023-10-28,Credit Card,2,0,Yes
+10857,Sophie Wood,sophie.wood54@btinternet.com,07259062003,SO13 9QR,Northamptonshire,Farmhouse,Fibre 300,£48.09,12-month,55,2024-08-09,Credit Card,9,5,No
+10913,George Wright,george.wright25@yahoo.co.uk,07769929644,NN30 8GP,Oxfordshire,Bungalow,Fibre 300,44.96,Monthly,3,2021-12-05,Credit Card,2,1,No
+10206,Jack Evans,jack.evans70@yahoo.co.uk,07321971997,MK36 2TG,Northamptonshire,Farmhouse,Fibre 900,63.48,Monthly,56,2025-10-25,Credit Card,5,5,No
+10392,Harry Patel,harry.patel74@outlook.com,07884259959,SO5 1AG,Cambridgeshire,Detached,Fibre 900,67.65,12-month,61,2025-08-11,Direct Debit,3,0,No
+10794,Sophie Smith,sophie.smith74@outlook.com,07615976405,,Oxfordshire,Terraced,Fibre 300,46.31,24-month,61,2023-08-23,Credit Card,5,1,No
+10397,George Thomas,george.thomas64@gmail.com,07835674300,OX13 9ZR,Oxfordshire,Bungalow,Fibre 100,31.37,12-month,14,2023-12-05,Credit Card,6,0,No
+10766,Charlie Jones,charlie.jones74@gmail.com,07158912686,NN47 9SL,Berkshire,Bungalow,Fibre 300,45.99,24-month,14,2025-07-05,Direct Debit,7,3,N
+10883,Oliver Green,oliver.green4@yahoo.co.uk,07923351746,MK28 5FR,Oxfordshire,Detached,Fibre 100,31.84,Monthly,36,2023-03-13,Direct Debit,1,2,Yes
+10217,Henry Thomas,henry.thomas20@btinternet.com,07006425690,RG31 7RD,Cambridgeshire,Detached,Fibre 900,65.68,24-month,3,2023-02-19,Bank Transfer,5,2,No
+10004,William Thomas,william.thomas99@yahoo.co.uk,07514627048,SN33 2NW,Cambridgeshire,Semi-detached,Fibre 100,30.61,Monthly,15,2024-09-01,Bank Transfer,5,5,No
+10768,Poppy Williams,poppy.williams36@outlook.com,07848647082,GL15 9SP,Northamptonshire,Farmhouse,Fibre 300,44.3,24-month,42,2020-03-03,Direct Debit,3,5,No
+10642,Amelia Clarke,amelia.clarke82@yahoo.co.uk,07096496683,NN40 7AL,Berkshire,Bungalow,Fibre 900,65.18,Monthly,24,2023-01-05,Bank Transfer,5,0,Yes
+10933,Olivia Walker,olivia.walker48@outlook.com,07345819565,RG46 3XQ,Cambridgeshire,Cottage,Fibre 100,-10.0,Monthly,43,2024-11-19,Bank Transfer,2,1,No
+10612,Lily Wood,lily.wood3@yahoo.co.uk,07957443034,OX 99,Gloucestershire,Farmhouse,Fibre 500,57.18,Monthly,50,2020-04-17,Bank Transfer,5,1,No
+10738,Noah Smith,noah.smith13@yahoo.co.uk,07849378467,OX33 8AE,Berkshire,Semi-detached,Fibre 500,55.89,24-month,50,2020-01-04,Bank Transfer,3,3,No
+10546,Charlie Clarke,charlie.clarke60@outlook.com,07260321450,MK30 7SD,Northamptonshire,Cottage,Fibre 900,68.74,24-month,48,2023-01-28,Credit Card,1,2,No
+10725,Olivia Thomas,olivia.thomas83@gmail.com,not-a-number,GL46 6XF,Hampshire,Bungalow,Fibre 300,45.91,12-month,21,2023-05-01,Direct Debit,9,0,No
+10953,Freya Hall,freya.hall28@btinternet.com,07664853207,RG24 9UA,Northamptonshire,Semi-detached,Fibre 300,44.1,24-month,54,2023-10-18,Direct Debit,10,1,No
+10683,Freya Green,freya.green23@btinternet.com,07845401822,RG11 1BG,Cambridgeshire,Bungalow,Fibre 300,45.05,Monthly,66,2025-04-05,Bank Transfer,2,0,No
+10098,Freya Wright,freya.wright55@outlook.com,07134074517,GL16 4YQ,Hampshire,Semi-detached,Fibre 100,32.3,Monthly,57,2021-01-19,Credit Card,8,1,No
+10804,Isla Taylor,isla.taylor77@outlook.com,07419375919,SN12 7TD,Cambridgeshire,Detached,Fibre 100,31.36,Monthly,50,2025-07-05,Credit Card,4,5,No
+10727,Noah Roberts,noah.roberts92@outlook.com,07622132041,OX19 3ZL,Cambridgeshire,Detached,Fibre 300,44.96,12-month,15,2024-10-25,Bank Transfer,1,0,Yes
+10573,Ava Turner,ava.turner56@outlook.com,07801192360,CB30 7XD,Gloucestershire,Terraced,Fibre 500,59.92,24-month,64,2023-12-05,Direct Debit,3,1,no
+10406,Charlie Hughes,charlie.hughes98@btinternet.com,07113989868,GL34 1ZU,Berkshire,Cottage,Fibre 100,29.87,24-month,20,2022-04-11,Direct Debit,5,1,Yes
+10502,Jack Turner,jack.turner95@gmail.com,07904637660,NN45 7PQ,Hampshire,Farmhouse,Fibre 100,32.94,Monthly,17,2022-12-09,Bank Transfer,3,5,No
+10047,Charlie Jones,charlie.jones10@btinternet.com,07596966416,OX21 3ZT,Buckinghamshire,Detached,Fibre 900,66.05,Monthly,3,2021-07-19,Credit Card,8,0,Yes
+10032,William Thomas,william.thomas76@yahoo.co.uk,07972787558,SO30 6HJ,Hampshire,Semi-detached,Fibre 100,33.98,12-month,37,2020-06-24,Credit Card,6,3,No
+10779,Noah Roberts,noah.roberts95@btinternet.com,07682121564,MK11 6LY,Wiltshire,Detached,Fibre 100,34.78,24-month,40,2025-05-26,Credit Card,10,0,No
+10839,Amelia Walker,amelia.walker92@yahoo.co.uk,07965391607,RG1 1NA,Cambridgeshire,Detached,Fibre 900,68.01,12-month,34,2022-02-18,Credit Card,0,1,1
+10200,Noah Hughes,no-at-sign.com,07405682996,,Oxfordshire,Cottage,Fibre 500,55.89,12-month,,2021-06-15,Credit Card,3,1,No
+10134,Amelia Smith,amelia.smith57@btinternet.com,07618472304,SO43 2WL,Wiltshire,Farmhouse,Fibre 100,33.8,Monthly,15,2024-12-20,Direct Debit,4,0,No
+10027,Noah Thomas,noah.thomas23@outlook.com,07812067974,OX15 5NT,Gloucestershire,Terraced,Fibre 100,29.62,12-month,21,2025-10-22,Direct Debit,6,0,No
+10915,Isla Wright,isla.wright98@outlook.com,07332959452,CB6 6XF,Hampshire,Semi-detached,Fibre 900,63.31,Monthly,8,2021-10-14,Credit Card,2,0,Yes
+10230,Isla Roberts,isla.roberts36@outlook.com,07127238046,SN31 6ST,Oxfordshire,Cottage,Fibre 100,29.31,Monthly,14,2021-09-21,Credit Card,6,2,No
+10489,Emily Green,emily.green88@gmail.com,07688285031,RG12 4PD,Cambridgeshire,Farmhouse,Fibre 300,44.44,24-month,46,02/01/2024,Credit Card,3,0,No
+10772,Harry Wright,,07660756999,NN19 5RS,Berkshire,Semi-detached,Fibre 300,48.0,Monthly,42,2020-09-05,Credit Card,10,0,No
+10378,Noah Taylor,john.smith,07491271130,RG12 5AU,Berkshire,Cottage,Fibre 500,54.85,24-month,55,2020-06-14,Direct Debit,2,3,Yes
+10288,George Thomas,,07089487060,MK28 7LE,Berkshire,Farmhouse,Fibre 300,45.52,Monthly,67,2025-04-02,Credit Card,6,5,No
+10418,Lily Jones,lily.jones4@yahoo.co.uk,07330416624,GL5 2WS,Oxfordshire,Detached,Fibre 300,48.19,24-month,37,2024-03-04,Bank Transfer,9,3,0
+10674,James Taylor,james.taylor41@btinternet.com,07950026015,GL22 4GQ,Northamptonshire,Farmhouse,Fibre 300,-10.0,24-month,24,2022-01-15,Credit Card,0,5,No
+10391,Poppy Clarke,poppy.clarke60@outlook.com,07740258835,SO33 2GF,Buckinghamshire,Terraced,Fibre 100,33.02,12-month,46,2023-12-28,Direct Debit,4,1,Yes
+10592,Charlie Williams,charlie.williams96@yahoo.co.uk,07312345506,SN28 2UU,Hampshire,Bungalow,Fibre 900,67.5,Monthly,10,2024-04-17,Credit Card,4,0,No
+10498,George Hall,george.hall95@outlook.com,07275998011,GL2 1BP,Gloucestershire,Cottage,Fibre 500,59.51,12-month,60,2021-12-05,Direct Debit,4,0,No
+10138,Harry Thomas,harry.thomas86@outlook.com,07588916375,SO10 9ZB,Oxfordshire,Terraced,Fibre 500,59.53,24-month,2,2023-08-28,Direct Debit,1,5,No
+10062,Emily Green,emily.green99@btinternet.com,07691251778,MK9 9YG,Wiltshire,Farmhouse,Fibre 900,£66.51,Monthly,68,2020-09-05,Credit Card,2,0,No
+10471,Charlie Wood,charlie.wood3@outlook.com,07358929880,MK35 4WG,Buckinghamshire,Semi-detached,Fibre 300,43.69,Monthly,19,2025-11-28,Bank Transfer,,0,Yes
+10647,Poppy Turner,poppy.turner73@btinternet.com,07415594501,GL40 3ZG,Oxfordshire,Terraced,Fibre 900,68.46,12-month,40,2021-12-13,Bank Transfer,0,2,No
+10128,Charlie Wright,charlie.wright60@outlook.com,07489691085,NN20 2UD,Buckinghamshire,Cottage,Fibre 900,67.47,12-month,33,2022-11-23,Bank Transfer,4,1,No
+10498,George Hall,george.hall95@outlook.com,07275998011,GL2 1BP,Gloucestershire,Cottage,Fibre 500,59.51,12-month,60,2021-12-05,Direct Debit,4,0,No
+10520,James Patel,james.patel12@gmail.com,07379844097,GL47 3HD,Hampshire,Terraced,Fibre 300,45.63,Monthly,2,2023-07-27,Credit Card,6,0,No
+10838,Jack Taylor,jack.taylor89@gmail.com,07851732895,GL18 6RH,Northamptonshire,Detached,Fibre 100,32.23,Monthly,,2024-06-17,Direct Debit,5,2,No
+10577,Grace Brown,grace.brown35@outlook.com,07888995729,CB29 7GZ,Berkshire,Cottage,Fibre 900,65.2,24-month,30,2021-12-26,Direct Debit,3,3,0
+10064,Lily Turner,john.smith,07647102767,RG14 6ZF,Buckinghamshire,Terraced,Fibre 500,55.23,12-month,39,2023-03-25,Credit Card,8,0,No
+10812,Oliver Green,oliver.green61@gmail.com,07626438500,MK15 8GH,NORTHAMPTONSHIRE,Farmhouse,Fibre 100,28.62,12-month,54,2025-03-28,Direct Debit,,0,No
+10014,Henry Thomas,henry.thomas45@btinternet.com,07569816934,OX46 7AW,Cambridgeshire,Cottage,Fibre 100,31.01,24-month,14,2022-10-11,Bank Transfer,1,1,No
+10156,Sophie Edwards,sophie.edwards43@btinternet.com,07177739260,12345,Wiltshire,Semi-detached,Fibre 100,32.4,Monthly,30,2024-03-02,Direct Debit,4,0,Yes
+10040,George Hughes,george.hughes76@outlook.com,07335290422,NN12 2AF,Oxfordshire,Cottage,Fibre 300,48.52,Monthly,9,2024-06-01,Direct Debit,4,0,No
+10492,George Wood,,07130621136,MK29 3TZ,Oxfordshire,Terraced,Fibre 100,34.53,Monthly,61,2021-12-11,Direct Debit,9,0,No
+10379,William Walker,william.walker48@yahoo.co.uk,07106634362,NN34 8WS,Gloucestershire,Terraced,Fibre 100,28.34,Monthly,57,04/04/2020,Direct Debit,0,1,No
+10187,James Walker,james.walker27@outlook.com,07884879206,OX17 3BN,Cambridgeshire,Terraced,Fibre 300,47.32,Monthly,69,2023-11-01,Direct Debit,6,1,No
+10763,Noah Jones,noah.jones12@outlook.com,not-a-number,SO32 3GE,Oxfordshire,Cottage,Fibre 900,65.2,24-month,22,2022-12-14,Direct Debit,7,0,No
+10216,Isla Taylor,isla.taylor50@btinternet.com,07504427173,SO12 8EF,Hampshire,Semi-detached,Fibre 500,57.29,Monthly,8,2023-12-09,Direct Debit,0,0,No
+10921,Jack Davies,jack.davies88@outlook.com,07718592126,NN42 9QS,Cambridgeshire,Farmhouse,Fibre 300,43.58,12-month,20,2021-10-10,Direct Debit,0,0,No
+10791,Thomas Evans,thomas.evans16@btinternet.com,07564783703,GL32 6NJ,Oxfordshire,Semi-detached,Fibre 100,34.21,12-month,65,2020-05-17,Credit Card,7,0,Yes
+10052,William Wright,william.wright24@yahoo.co.uk,07357332214,GL33 9WB,Buckinghamshire,Bungalow,Fibre 100,28.91,12-month,47,2021-03-06,Bank Transfer,9,0,Yes
+10878,Thomas Wilson,thomas.wilson14@outlook.com,07868302915,12345,Cambridgeshire,Semi-detached,Fibre 300,45.09,12-month,57,2025-06-03,Bank Transfer,5,1,No
+10337,Noah Brown,noah.brown18@gmail.com,07665023741,SO32 9UF,Buckinghamshire,Farmhouse,Fibre 300,46.5,24-month,37,2023-03-04,Direct Debit,0,0,No
+10748,Charlie Thomas,charlie.thomas57@yahoo.co.uk,07285759582,GL38 1GF,Gloucestershire,Farmhouse,Fibre 500,58.21,12-month,59,2025-09-20,Bank Transfer,10,0,N
+10719,Freya Roberts,freya.roberts32@outlook.com,07733791212,GL6 1EW,Berkshire,Bungalow,Fibre 500,53.28,24-month,65,2022-12-18,Credit Card,9,0,No
+10724,Henry Walker,henry.walker56@outlook.com,07372629420,SO25 2PL,Oxfordshire,Terraced,Fibre 500,57.67,12-month,52,2020-04-07,Bank Transfer,1,1,No
+10295,Oliver Wilson,oliver.wilson23@outlook.com,07302410261,MK14 5TJ,Buckinghamshire,Cottage,Fibre 500,57.62,24-month,71,23/07/2024,Direct Debit,1,0,No
+10701,Oliver Green,oliver.green31@gmail.com,07075384185,SN1 2JR,Wiltshire,Farmhouse,Fibre 900,67.62,24-month,36,2022-11-13,Direct Debit,9,5,No
+10251,Grace Walker,grace.walker35@btinternet.com,07424936312,CB2 4NT,Berkshire,Bungalow,Fibre 100,34.93,12-month,27,Jan 2025,Direct Debit,4,0,no
+10726,Oliver Turner,oliver.turner40@yahoo.co.uk,07200629877,RG16 6WP,Hampshire,Terraced,Fibre 100,30.8,12-month,50,2025-05-25,Bank Transfer,1,3,No
+10461,Henry Walker,,07182819793,GL44 7LT,Berkshire,Terraced,Fibre 100,29.06,12-month,-5,2020-03-21,Bank Transfer,5,5,Yes
+10455,Freya Wood,freya.wood97@gmail.com,07270587722,GL49 7NE,Berkshire,Cottage,Fibre 500,57.46,24-month,57,2021-04-25,Direct Debit,3,1,No
+10270,James Wilson,james.wilson45@btinternet.com,07738395972,NN47 7SQ,Berkshire,Semi-detached,Fibre 500,57.34,12-month,25,2025-12-03,Bank Transfer,7,0,No
+10815,Oliver Thomas,oliver.thomas29@outlook.com,07456538694,RG37 1GQ,Northamptonshire,Bungalow,Fibre 100,30.58,Monthly,64,2023-03-14,Bank Transfer,9,0,No
+10862,Freya Jones,freya.jones50@gmail.com,07620165557,SO18 6UW,Hampshire,Cottage,Fibre 300,45.28,12-month,54,2023-06-04,Direct Debit,4,5,Yes
+10269,Lily Hughes,lily.hughes52@btinternet.com,07789973080,SO37 6XD,Northamptonshire,Terraced,Fibre 500,55.91,12-month,-5,2020-08-20,Bank Transfer,5,5,Yes
+10201,Amelia Wright,no-at-sign.com,07807823578,NN21 3EW,  Wiltshire ,Semi-detached,Fibre 100,33.06,12-month,26,2023-12-28,Bank Transfer,1,0,No
+10161,Charlie Smith,charlie.smith77@btinternet.com,07611435190,SO26 9NZ,Oxfordshire,Semi-detached,Fibre 100,32.47,12-month,19,2020-04-28,Bank Transfer,8,1,No
+10555,George Williams,george.williams89@yahoo.co.uk,07593766189,NN46 4UB,Buckinghamshire,Semi-detached,Fibre 100,30.73,12-month,37,2020-01-02,Credit Card,6,0,Yes
+10729,Freya Green,freya.green42@gmail.com,07052438380,MK36 3SZ,Wiltshire,Terraced,Fibre 300,48.44,24-month,13,2020-01-15,Credit Card,8,3,No
+10401,Charlie Green,charlie.green27@outlook.com,07626804085,OX39 6LY,Cambridgeshire,Detached,Fibre 900,65.38,24-month,6,2023-07-26,Bank Transfer,0,0,Yes
+10702,Charlie Taylor,charlie.taylor6@btinternet.com,07554912151,SO47 5DD,Buckinghamshire,Cottage,Fibre 500,55.99,Monthly,36,2024-11-03,Bank Transfer,6,1,No
+10476,Poppy Brown,poppy.brown98@gmail.com,07359966057,RG37 9BR,Hampshire,Terraced,Fibre 100,34.35,Monthly,13,2024-03-01,Bank Transfer,5,0,No
+10821,James Walker,james.walker74@yahoo.co.uk,07221704861,SO44 8AS,Hampshire,Semi-detached,Fibre 500,54.3,Monthly,3,2020-07-25,Direct Debit,9,0,Yes
+10771,Olivia Smith,olivia.smith56@outlook.com,07113711815,GL43 9QL,Buckinghamshire,Bungalow,Fibre 500,53.98,24-month,29,2022-03-01,Direct Debit,10,1,N
+10105,Noah Jones,,07866618892,OX 99,Cambridgeshire,Semi-detached,Fibre 100,31.74,12-month,,2024-11-25,Bank Transfer,10,0,No
+10565,Ava Jones,,07898484160,NN27 2PL,Oxfordshire,Semi-detached,Fibre 500,53.47,24-month,40,2020-02-16,Direct Debit,7,2,Yes
+10389,James Williams,james.williams32@gmail.com,07317087601,NN26 8GJ,Northamptonshire,Bungalow,Fibre 100,32.76,24-month,67,2024-02-14,Direct Debit,10,0,1
+10001,Noah Walker,noah.walker13@btinternet.com,07559407816,GL36 5ZQ,Cambridgeshire,Terraced,Fibre 100,28.48,24-month,12,2021-05-03,Direct Debit,1,3,1
+10976,William Hughes,william.hughes90@outlook.com,07013071675,CB44 3ER,Cambridgeshire,Terraced,Fibre 100,29.35,Monthly,51,2021-02-16,Bank Transfer,8,2,No
+10305,Lily Hall,lily.hall97@gmail.com,07185672438,OX30 1DT,Hampshire,Cottage,Fibre 100,33.21,Monthly,48,2023-01-01,Credit Card,1,0,No
+10561,William Brown,william.brown46@gmail.com,07152638409,GL5 3FP,Wiltshire,Bungalow,Fibre 900,68.7,24-month,36,2021-08-25,Bank Transfer,5,0,No
+10931,William Evans,william.evans41@btinternet.com,07580309016,MK25 5TE,BERKSHIRE,Farmhouse,Fibre 900,66.83,Monthly,40,2020-10-02,Direct Debit,7,0,Yes
+10080,Freya Patel,freya.patel68@btinternet.com,07566246287,,Oxfordshire,Bungalow,Fibre 100,30.88,12-month,45,2024-09-05,Credit Card,3,1,No
+10205,Harry Patel,harry.patel60@btinternet.com,07245992816,GL21 9DN,Berkshire,Farmhouse,Fibre 100,32.12,Monthly,45,2024-04-18,Direct Debit,7,3,No
+10034,Ava Roberts,ava.roberts13@btinternet.com,07172400504,MK24 7FJ,hampshire,Bungalow,Fibre 300,47.76,Monthly,12,2021-03-03,Bank Transfer,6,1,Yes
+10942,Olivia Taylor,olivia.taylor41@gmail.com,07190854327,GL26 4BH,Cambridgeshire,Cottage,Fibre 500,59.28,24-month,49,2021-07-20,Bank Transfer,3,0,No
+10775,Olivia Thomas,olivia.thomas7@gmail.com,07128382710,GL47 3HF,Hampshire,Detached,Fibre 900,65.45,Monthly,53,2020-11-09,Bank Transfer,5,0,Yes
+10508,Henry Wilson,,123,NN36 5JH,Berkshire,Bungalow,Fibre 300,48.06,12-month,13,2023-03-16,Bank Transfer,0,2,No
+10427,James Wright,james.wright28@btinternet.com,07983652037,MK34 4AY,Northamptonshire,Cottage,Fibre 900,63.65,12-month,45,2022-09-01,Bank Transfer,4,0,No
+10454,Poppy Patel,poppy.patel15@btinternet.com,07739970469,NN32 3PW,Berkshire,Bungalow,Fibre 500,54.98,24-month,2,2022-05-28,Bank Transfer,3,2,No
+10272,Olivia Turner,olivia.turner91@gmail.com,07077119918,OX33 2GE,Cambridgeshire,Cottage,Fibre 500,54.09,12-month,20,2025-08-25,Bank Transfer,7,0,No
+10366,Ava Turner,ava.turner7@btinternet.com,07962626582,SO15 2FW,Gloucestershire,Terraced,Fibre 900,67.03,12-month,25,2025-05-27,Bank Transfer,2,2,No
+10091,Jack Green,jack.green15@yahoo.co.uk,07939828073,RG19 2SU,Wiltshire,Terraced,Fibre 500,55.11,12-month,51,Mar 2025,Credit Card,6,0,Yes
+10339,Lily Brown,lily.brown30@outlook.com,07126043260,CB6 1RS,Northamptonshire,Terraced,Fibre 300,47.42,Monthly,25,2021-06-14,Credit Card,0,3,0
+10897,Thomas Green,thomas.green19@yahoo.co.uk,07926456339,,Northamptonshire,Detached,Fibre 300,44.5,24-month,,2022-09-28,Bank Transfer,1,0,No
+10564,Charlie Williams,charlie.williams10@btinternet.com,07851744600,NN21 3DF,Gloucestershire,Cottage,Fibre 500,53.78,12-month,44,2022-06-04,Direct Debit,9,1,No
+10345,Isla Thomas,isla.thomas93@gmail.com,07649837354,CB38 7FT,Cambridgeshire,Terraced,Fibre 100,33.07,12-month,69,2021-08-03,Credit Card,2,5,No
+10776,Grace Hall,grace.hall40@yahoo.co.uk,07604227634,SO2 2ZD,Buckinghamshire,Semi-detached,Fibre 500,£53.04,12-month,29,2025-12-26,Bank Transfer,,1,Yes
+10241,Sophie Wilson,sophie.wilson13@gmail.com,07908334280,GL14 9UQ,Wiltshire,Farmhouse,Fibre 300,47.7,Monthly,65,2021-06-13,Credit Card,3,1,Yes
+10013,Ava Thomas,ava.thomas5@btinternet.com,07733754330,CB26 6LD,Northamptonshire,Cottage,Fibre 300,47.48,12-month,-5,2025-09-11,Direct Debit,1,1,No
+10315,Charlie Hall,charlie.hall5@btinternet.com,07502497243,SN1 2DR,Hampshire,Terraced,Fibre 300,47.09,Monthly,32,2024-04-14,Direct Debit,6,1,no
+10600,Oliver Smith,oliver.smith77@btinternet.com,07462072662,SN23 1XD,Berkshire,Terraced,Fibre 900,67.37,12-month,57,2023-01-06,Bank Transfer,9,0,No
+10387,Sophie Hall,sophie.hall60@btinternet.com,07080612943,MK9 9YN,Oxfordshire,Farmhouse,Fibre 900,63.87,24-month,54,2020-08-26,Bank Transfer,7,0,No
+10273,Sophie Walker,sophie.walker57@outlook.com,07603754821,OX 99,Wiltshire,Bungalow,Fibre 300,45.94,Monthly,16,Jul 2021,Credit Card,7,2,No
+10166,Henry Williams,henry.williams62@btinternet.com,07808562718,RG21 1AH,Hampshire,Bungalow,Fibre 100,28.7,12-month,68,2024-05-06,Bank Transfer,4,1,No
+10840,Isla Taylor,isla.taylor51@btinternet.com,07203858864,OX43 8XX,Oxfordshire,Semi-detached,Fibre 100,30.73,Monthly,27,2024-12-11,Direct Debit,6,1,Yes
+10020,Thomas Wilson,thomas.wilson42@btinternet.com,07375564641,RG2 9BQ,Cambridgeshire,Terraced,Fibre 100,28.47,24-month,34,08/01/2020,Direct Debit,0,0,No
+10646,Poppy Turner,poppy.turner52@gmail.com,123,GL15 6ZG,Hampshire,Terraced,Fibre 100,30.63,12-month,70,2024-07-20,Bank Transfer,8,1,Yes
+10818,Charlie Davies,charlie.davies48@gmail.com,07xx,SN29 8GY,Gloucestershire,Detached,Fibre 900,68.43,12-month,71,2022-01-23,Credit Card,10,3,no
+10484,Lily Brown,lily.brown52@gmail.com,07966672521,NN23 3SL,Berkshire,Detached,Fibre 500,54.28,12-month,12,2021-04-12,Bank Transfer,10,0,No
+10710,George Davies,george.davies17@btinternet.com,07973988941,,  Berkshire ,Semi-detached,Fibre 100,28.42,Monthly,43,2020-08-25,Direct Debit,7,2,No
+10504,Amelia Edwards,amelia.edwards26@outlook.com,07121106330,GL25 6WH,Berkshire,Semi-detached,Fibre 100,32.95,12-month,8,2024-12-06,Credit Card,4,0,Yes
+10831,Olivia Thomas,olivia.thomas24@btinternet.com,07269920666,GL30 7GH,Buckinghamshire,Farmhouse,Fibre 300,47.26,24-month,68,2024-11-27,Direct Debit,9,1,No
+10243,Lily Wright,lily.wright87@btinternet.com,07167811266,GL48 3DQ,Cambridgeshire,Cottage,Fibre 300,-29.99,12-month,2,2020-04-27,Credit Card,7,1,No
+10566,Freya Brown,freya.brown11@outlook.com,07522910732,SN48 9JS,oxfordshire,Terraced,Fibre 500,56.65,12-month,21,2024-12-25,Direct Debit,7,1,No
+10875,Jack Walker,jack.walker57@yahoo.co.uk,07052187993,NN46 5LB,Northamptonshire,Cottage,Fibre 500,59.86,24-month,6,2021-02-03,Credit Card,1,1,Yes
+10562,Charlie Hall,charlie.hall28@btinternet.com,07239791378,RG25 6QH,Oxfordshire,Detached,Fibre 100,31.16,Monthly,66,Jun 2024,Bank Transfer,5,2,Yes
+10993,Ava Brown,ava.brown29@outlook.com,07576170731,,Berkshire,Farmhouse,Fibre 100,29.2,12-month,20,Jul 2021,Credit Card,7,2,1
+10686,Poppy Turner,poppy.turner88@gmail.com,07029161746,OX11 9HE,Oxfordshire,Cottage,Fibre 300,44.73,24-month,17,2024-05-03,Bank Transfer,6,3,No
+10957,Sophie Brown,sophie.brown64@yahoo.co.uk,07383855451,12345,Gloucestershire,Bungalow,Fibre 100,29.62,Monthly,68,2020-08-22,Credit Card,5,2,No
+10189,Ava Wood,ava.wood50@yahoo.co.uk,07084325621,SO34 4SJ,Wiltshire,Farmhouse,Fibre 500,59.78,24-month,8,2022-08-18,Direct Debit,3,0,No
+10782,Noah Wilson,noah.wilson77@gmail.com,07789990114,OX1 4NU,Gloucestershire,Semi-detached,Fibre 100,28.74,24-month,26,2023-12-04,Bank Transfer,7,3,N
+10975,Grace Taylor,a@b,07316312975,MK29 3SE,Hampshire,Bungalow,Fibre 900,65.13,12-month,28,2021-08-18,Bank Transfer,1,0,No
+10699,James Patel,james.patel13@btinternet.com,07583882176,NN35 5RU,Cambridgeshire,Cottage,Fibre 100,31.09,12-month,20,2021-03-07,Direct Debit,2,0,No
+10475,Olivia Brown,olivia.brown82@yahoo.co.uk,07856451017,CB38 8JY,Hampshire,Terraced,Fibre 500,54.85,24-month,36,2023-09-20,Bank Transfer,6,3,No
+10681,Thomas Clarke,thomas.clarke57@gmail.com,07115238023,SO45 3EZ,Wiltshire,Detached,Fibre 100,30.46,24-month,17,2020-09-19,Credit Card,0,2,No
+10510,James Clarke,james.clarke27@outlook.com,07535748595,CB9 6YJ,Cambridgeshire,Semi-detached,Fibre 500,56.41,12-month,54,2020-06-17,Direct Debit,6,0,No
+10058,Olivia Walker,olivia.walker56@yahoo.co.uk,07676527758,NN6 7DS,Wiltshire,Bungalow,Fibre 500,55.05,Monthly,16,2020-06-22,Credit Card,4,5,Yes
+10474,Amelia Turner,john.smith,07540641769,SN46 8NJ,Gloucestershire,Detached,Fibre 900,69.97,24-month,20,2024-06-08,Bank Transfer,11,3,Yes
+10560,Oliver Wilson,oliver.wilson21@btinternet.com,07632514488,GL5 3EA,Cambridgeshire,Detached,Fibre 500,58.44,12-month,,2021-02-25,Credit Card,5,0,Yes
+10856,James Clarke,james.clarke7@yahoo.co.uk,07360595298,NN9 5DB,Berkshire,Terraced,Fibre 100,30.07,Monthly,27,2021-08-09,Direct Debit,10,3,Yes
+10747,Grace Thomas,grace.thomas89@gmail.com,07010898573,OX35 4PG,Gloucestershire,Terraced,Fibre 500,53.58,24-month,7,2023-11-17,Credit Card,4,0,N
+10252,Oliver Thomas,oliver.thomas3@btinternet.com,07015941651,SO47 3JE,Gloucestershire,Bungalow,Fibre 300,47.64,24-month,6,2024-05-16,Direct Debit,3,0,No
+10021,George Patel,george.patel90@btinternet.com,07452991241,OX20 7RH,Gloucestershire,Bungalow,Fibre 100,32.82,24-month,28,2021-02-23,Credit Card,10,0,No
+10313,Grace Wood,grace.wood3@btinternet.com,07661498282,NN25 8NT,Northamptonshire,Farmhouse,Fibre 900,66.92,12-month,20,2020-06-05,Bank Transfer,7,1,No
+10459,Lily Williams,lily.williams20@btinternet.com,07294938173,MK37 9LX,Northamptonshire,Terraced,Fibre 100,28.14,Monthly,42,2025-12-24,Credit Card,5,5,No
+10160,Poppy Thomas,poppy.thomas71@btinternet.com,07872588744,MK46 7FE,Cambridgeshire,Farmhouse,Fibre 900,68.47,Monthly,,2020-04-17,Credit Card,5,0,No
+10276,Emily Hall,emily.hall34@yahoo.co.uk,07851017490,RG22 4YY,Cambridgeshire,Cottage,Fibre 100,30.08,24-month,8,2025-10-22,Direct Debit,6,1,No
+10955,Lily Williams,lily.williams86@yahoo.co.uk,07038016258,MK8 6BF,Oxfordshire,Cottage,Fibre 500,59.94,Monthly,35,2025-03-18,Direct Debit,4,1,No
+10191,James Edwards,james.edwards30@outlook.com,07051728975,SN25 8UF,Wiltshire,Semi-detached,Fibre 500,54.57,12-month,30,2020-05-14,Direct Debit,10,1,No
+10385,Lily Roberts,lily.roberts85@yahoo.co.uk,07004254882,GL46 5FH,Hampshire,Bungalow,Fibre 100,34.42,12-month,56,2021-01-16,Credit Card,,3,Yes
+10805,George Wood,george.wood14@btinternet.com,07209617300,SN43 9LP,Wiltshire,Cottage,Fibre 900,63.42,Monthly,33,2025-02-03,Credit Card,3,2,No
+10413,William Walker,william.walker91@gmail.com,07506185380,OX16 3YR,Cambridgeshire,Terraced,Fibre 500,54.36,12-month,59,2021-08-27,Direct Debit,7,1,yes
+10491,Charlie Jones,charlie.jones10@outlook.com,07112712852,NN44 7NX,  Northamptonshire ,Cottage,Fibre 900,68.98,12-month,17,2020-02-13,Direct Debit,1,5,No
+10343,Thomas Wood,thomas.wood52@btinternet.com,07943202939,OX33 8WW,Northamptonshire,Cottage,Fibre 900,68.96,12-month,72,2025-05-18,Direct Debit,2,1,No
+10769,James Wright,james.wright98@outlook.com,07300008863,NN48 7TJ,Gloucestershire,Bungalow,Fibre 500,53.02,24-month,1,2024-10-25,Bank Transfer,1,0,No
+10308,Amelia Wilson,amelia.wilson66@btinternet.com,07155839386,SO8 4HE,Buckinghamshire,Cottage,Fibre 300,44.21,12-month,6,2025-06-01,Credit Card,3,5,No
+10661,Amelia Jones,amelia.jones59@gmail.com,07620545967,GL22 1BS,Hampshire,Terraced,Fibre 100,30.72,12-month,26,2020-02-01,Bank Transfer,6,2,No
+10130,Oliver Turner,oliver.turner29@gmail.com,07534655494,RG8 8BY,Gloucestershire,Farmhouse,Fibre 300,49.22,24-month,,2020-11-13,Bank Transfer,4,3,No
+10663,Charlie Edwards,charlie.edwards70@outlook.com,07688891787,GL24 1QY,Hampshire,Semi-detached,Fibre 900,65.53,Monthly,2,2024-08-13,Direct Debit,9,1,No
+10871,Jack Thomas,jack.thomas60@yahoo.co.uk,07795417675,MK13 9DX,Oxfordshire,Farmhouse,Fibre 900,68.23,12-month,8,2024-02-12,Bank Transfer,1,2,Yes
+10087,Charlie Williams,charlie.williams7@yahoo.co.uk,07163159996,MK2 5TU,Cambridgeshire,Cottage,Fibre 100,£31.86,12-month,65,22/03/2023,Bank Transfer,10,3,No
+10330,Charlie Wilson,charlie.wilson33@gmail.com,07628314359,SN27 3PS,Hampshire,Detached,Fibre 900,69.74,Monthly,59,2020-05-04,Bank Transfer,1,3,No
+10466,Poppy Hall,,07822512073,NN26 6LZ,Buckinghamshire,Detached,Fibre 300,48.47,12-month,54,2020-08-02,Bank Transfer,2,3,No
+10121,Amelia Smith,amelia.smith11@yahoo.co.uk,07714677418,,Wiltshire,Farmhouse,Fibre 300,43.3,12-month,22,2023-05-08,Credit Card,9,0,No
+10860,Emily Wilson,no-at-sign.com,07787188822,CB29 9XU,Oxfordshire,Cottage,Fibre 300,47.59,12-month,44,2020-07-17,Direct Debit,6,0,No
