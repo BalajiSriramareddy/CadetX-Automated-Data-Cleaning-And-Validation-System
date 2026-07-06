@@ -1,0 +1,5 @@
+venv/
+.vscode/
+scratch_test.py
+__pycache__/
+*.pyc
