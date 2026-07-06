@@ -28,7 +28,7 @@ from metadata import (  # noqa: E402
     EMAIL_RE, UK_PHONE_RE, UK_POSTCODE_RE,
 )
 
-# --- thresholds (tune these; they are the levers an interviewer asks about) ---
+# --- thresholds ---
 HIGH_MISSING_PCT = 50.0   # a column more than half empty is suspicious
 HIGH_CARDINALITY = 0.9    # >90% unique -> likely an identifier / free text
 MAX_EXAMPLES = 5          # how many bad examples to show per flag
@@ -38,7 +38,7 @@ PII_TYPES = {"email", "phone", "postcode", "person_name", "identifier"}
 
 # column-NAME hints — trigger checks even when a column is too dirty for
 # value-pattern detection to fire. Biased toward recall: catch suspected
-# PII/formats and let a human confirm (see threshold reasoning in docs).
+# PII/formats.
 NAME_HINTS = {
     "email": ["email", "e-mail", "mail"],
     "phone": ["phone", "mobile", "tel", "contact_number", "contact_no"],
