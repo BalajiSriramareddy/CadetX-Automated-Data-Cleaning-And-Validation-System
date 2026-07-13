@@ -13,7 +13,8 @@ import pandas as pd
 sys.path.append(str(Path(__file__).resolve().parents[1] / "modules" / "m2_cleaning"))
 
 from clean import (quality_score, drop_duplicates, normalise, impute_missing,
-                    _fix_numeric_as_text, _fix_binary_categorical)
+                    _fix_numeric_as_text, _fix_binary_categorical,
+                    _fix_dates, UK_PHONE_RE)
 
 
 def test_perfect_dataset_scores_100():
@@ -67,3 +68,31 @@ def test_impute_missing_fills_all_nulls():
     cleaned, log = impute_missing(df)
     assert cleaned.isna().sum().sum() == 0
     assert len(log) == 2
+def test_ambiguous_uk_date_parsed_dayfirst():
+    """'03/04/2023' must parse as 3 April, not March 4th."""
+    s = pd.Series(["03/04/2023"])
+    result = _fix_dates(s)
+    assert result.iloc[0].day == 3
+    assert result.iloc[0].month == 4
+
+
+def test_unambiguous_date_still_correct():
+    """Day > 12 leaves no ambiguity — sanity check dayfirst didn't break this."""
+    s = pd.Series(["25/12/2023"])
+    result = _fix_dates(s)
+    assert result.iloc[0].day == 25
+    assert result.iloc[0].month == 12
+
+
+def test_uk_phone_regex_rejects_nine_digits():
+    """A number one digit short of a valid UK mobile should not match."""
+    assert UK_PHONE_RE.match("0712345678") is None  # 9 digits after 0
+
+
+def test_uk_phone_regex_accepts_ten_digits():
+    assert UK_PHONE_RE.match("07123456789") is not None  # 10 digits after 0  
+  
+  
+  
+  
+  
