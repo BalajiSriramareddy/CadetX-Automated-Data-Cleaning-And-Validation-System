@@ -36,8 +36,7 @@ from imputation import impute_missing as _impute_missing  # noqa: E402
 
 # Same UK phone pattern Module 1 validates against, so "normalised enough to
 # pass Module 3 validation" and "normalised here" agree with each other.
-UK_PHONE_RE = re.compile(r"^(0|\+44)\d{9,10}$")
-
+UK_PHONE_RE = re.compile(r"^(0|\+44)\d{10}$")
 # characters that show up in "numeric_as_text" columns because of currency
 # symbols / thousands separators, e.g. "£68.48" -> "68.48"
 _CURRENCY_STRIP_RE = re.compile(r"[£$€,\s]")
@@ -72,8 +71,13 @@ def _fix_numeric_as_text(series: pd.Series) -> pd.Series:
 
 
 def _fix_dates(series: pd.Series) -> pd.Series:
-    """Parse mixed date shapes into one consistent datetime dtype."""
-    return pd.to_datetime(series, errors="coerce", format="mixed")
+    """Parse mixed date shapes into one consistent datetime dtype.
+
+    dayfirst=True because the source data uses UK date conventions —
+    without it, ambiguous dates like "03/04/2023" (day <= 12) silently
+    get parsed as US month/day order instead of day/month.
+    """
+    return pd.to_datetime(series, errors="coerce", format="mixed", dayfirst=True)
 
 
 _YES_SET = {"yes", "y", "1", "true"}
