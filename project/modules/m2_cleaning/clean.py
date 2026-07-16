@@ -1,196 +1,107 @@
 """
-MODULE 2 — DATA CLEANING
-------------------------
-Fix and improve the dataset after profiling.
+MODULE 2 · FILE 5 — CLEANING API (ORCHESTRATOR)
+===============================================
+The public entry point for Module 2. Chains the cleaning steps and writes the
+deliverables.
 
-FILE CONTRACT
-  Input :  data/raw/<dataset>.csv  +  outputs/profiling_report.json
+  Input :  a CSV path  (+ optional profiling_report.json from Module 1)
   Output:  data/processed/cleaned_data.csv
-           outputs/cleaning_log.json   (what changed + before/after quality score)
+           outputs/cleaning_log.json   (every action + before/after quality score)
 
-WHAT WAS BUILT (Week 2)
-  - impute missing values       (imputation.py — median/mode, type-aware)
-  - detect & remove duplicates  (exact match; report before/after row count)
-  - normalise formats           (currency-as-text -> float, mixed date shapes
-                                  -> ISO date, inconsistent Yes/No-style
-                                  categories -> one consistent label,
-                                  clearly-invalid identifier values flagged
-                                  instead of silently guessed at)
-  - data-quality score          (computed BEFORE and AFTER, delta reported)
+Pipeline ORDER matters:
+  1. deduplicate   - remove duplicate rows first
+  2. normalise     - fix types/dates/categories (£ -> numeric) BEFORE imputing,
+                     so imputation sees real numbers and uses the median
+  3. impute        - fill remaining missing values by type
+  4. score         - measure quality before vs after to prove it worked
+
+Usage (CLI):
+  python clean.py --input data/raw/broadband_customers.csv
+  python clean.py --input data/raw/any.csv --report outputs/profiling_report.json
 """
 from __future__ import annotations
 
 import argparse
-import re
+import json
+import sys
+from datetime import datetime
 from pathlib import Path
 
 import pandas as pd
 
-import sys
-sys.path.append(str(Path(__file__).resolve().parents[1]))
-from common import (write_json, read_json, CLEANED_DATA, CLEANING_LOG,
-                    PROFILING_REPORT, RAW_DIR)  # noqa: E402
+HERE = Path(__file__).resolve().parent
+sys.path.append(str(HERE))          # sibling files
+sys.path.append(str(HERE.parent))   # common.py
 
-# reuse Module 2's own imputation engine instead of re-implementing it
-from imputation import impute_missing as _impute_missing  # noqa: E402
+from deduplication import remove_duplicates   # noqa: E402
+from normalisation import normalise            # noqa: E402
+from imputation import impute_missing          # noqa: E402
+from quality_score import score_before_after   # noqa: E402
 
-# Same UK phone pattern Module 1 validates against, so "normalised enough to
-# pass Module 3 validation" and "normalised here" agree with each other.
-UK_PHONE_RE = re.compile(r"^(0|\+44)\d{10}$")
-# characters that show up in "numeric_as_text" columns because of currency
-# symbols / thousands separators, e.g. "£68.48" -> "68.48"
-_CURRENCY_STRIP_RE = re.compile(r"[£$€,\s]")
-
-
-def quality_score(df: pd.DataFrame) -> float:
-    """A simple 0-100 dataset health score: completeness + uniqueness."""
-    completeness = 1 - df.isna().sum().sum() / df.size
-    uniqueness = 1 - df.duplicated().sum() / len(df)
-    return round(100 * (0.7 * completeness + 0.3 * uniqueness), 2)
+try:
+    from common import PROCESSED_DIR, OUTPUTS_DIR, CLEANED_DATA, CLEANING_LOG  # noqa: E402
+except Exception:
+    PROCESSED_DIR = HERE.parents[1] / "data" / "processed"
+    OUTPUTS_DIR = HERE.parents[1] / "outputs"
+    CLEANED_DATA = PROCESSED_DIR / "cleaned_data.csv"
+    CLEANING_LOG = OUTPUTS_DIR / "cleaning_log.json"
 
 
-def impute_missing(df: pd.DataFrame, report: dict | None = None):
-    """Fill missing values using Module 2's own imputation engine."""
-    cleaned, log = _impute_missing(df, report=report)
-    return cleaned, log
+def clean_dataset(df: pd.DataFrame, report: dict | None = None):
+    """Run the full cleaning pipeline. Returns (cleaned_df, log_dict)."""
+    before = df.copy()
 
+    df, dedup_log = remove_duplicates(df, report)
+    df, norm_log = normalise(df, report)
+    df, impute_log = impute_missing(df, report)
 
-def drop_duplicates(df: pd.DataFrame) -> tuple[pd.DataFrame, dict]:
-    """Remove exact duplicate rows. Returns (deduped_df, log_entry)."""
-    n_before = len(df)
-    deduped = df.drop_duplicates(keep="first").reset_index(drop=True)
-    n_removed = n_before - len(deduped)
-    return deduped, {"exact_duplicates_removed": n_removed, "rows_before": n_before,
-                      "rows_after": len(deduped)}
+    quality = score_before_after(before, df)
 
-
-def _fix_numeric_as_text(series: pd.Series) -> pd.Series:
-    """'£68.48' / '29.32' -> 68.48 / 29.32 (float). Non-numeric leftovers -> NaN."""
-    cleaned = series.astype(str).str.replace(_CURRENCY_STRIP_RE, "", regex=True)
-    return pd.to_numeric(cleaned, errors="coerce")
-
-
-def _fix_dates(series: pd.Series) -> pd.Series:
-    """Parse mixed date shapes into one consistent datetime dtype.
-
-    dayfirst=True because the source data uses UK date conventions —
-    without it, ambiguous dates like "03/04/2023" (day <= 12) silently
-    get parsed as US month/day order instead of day/month.
-    """
-    return pd.to_datetime(series, errors="coerce", format="mixed", dayfirst=True)
-
-
-_YES_SET = {"yes", "y", "1", "true"}
-_NO_SET = {"no", "n", "0", "false"}
-
-
-def _fix_binary_categorical(series: pd.Series) -> pd.Series:
-    """'Yes'/'yes'/'Y'/'1' -> 'Yes'; 'No'/'no'/'N'/'0' -> 'No'."""
-    def _map(v):
-        if pd.isna(v):
-            return v
-        v_low = str(v).strip().lower()
-        if v_low in _YES_SET:
-            return "Yes"
-        if v_low in _NO_SET:
-            return "No"
-        return v
-    return series.map(_map)
-
-
-def normalise(df: pd.DataFrame, report: dict | None = None) -> tuple[pd.DataFrame, dict]:
-    """Standardise formats using Module 1's per-column findings.
-
-    Driven by metadata[col]["inferred_type"] and value-set inspection —
-    never by hardcoded column names — so this stays dataset-agnostic.
-    """
-    df = df.copy()
-    changes = {}
-    metadata = (report or {}).get("metadata", {})
-
-    for col in df.columns:
-        col_meta = metadata.get(col, {})
-        inferred = col_meta.get("inferred_type")
-        semantic = col_meta.get("semantic_type")
-
-        # 1) numbers stored as text with currency symbols / commas.
-        #    Only when genuinely numeric (semantic_type == "numeric").
-        #    Columns like phone/postcode can ALSO get flagged
-        #    "numeric_as_text" but must never be coerced to float --
-        #    that would destroy leading zeros and identifier meaning.
-        if inferred == "numeric_as_text" and semantic == "numeric":
-            before_sample = df[col].dropna().astype(str).head(3).tolist()
-            df[col] = _fix_numeric_as_text(df[col])
-            changes[col] = {"action": "numeric_as_text -> float (stripped currency/commas)",
-                             "before_sample": before_sample,
-                             "after_sample": df[col].dropna().head(3).tolist()}
-            continue
-
-        # 2) date-ish columns with more than one shape
-        date_issue = (report or {}).get("rules", {}).get("inconsistent_formats", {}).get(col, {})
-        if date_issue.get("issue") == "multiple date formats present":
-            df[col] = _fix_dates(df[col])
-            changes[col] = {"action": "parsed mixed date formats -> datetime64",
-                             "formats_found": date_issue.get("formats_found")}
-            continue
-
-        # 3) binary-ish categorical columns (Yes/yes/Y/1 style spellings)
-        if df[col].dtype == object or pd.api.types.is_string_dtype(df[col]):
-            distinct = set(str(v).strip().lower() for v in df[col].dropna().unique())
-            if distinct and distinct.issubset(_YES_SET | _NO_SET):
-                before_sample = sorted(df[col].dropna().unique().tolist())[:5]
-                df[col] = _fix_binary_categorical(df[col])
-                changes[col] = {"action": "unified Yes/No-style spellings",
-                                 "distinct_before": before_sample}
-                continue
-
-        # 4) identifier-like columns with obviously-junk placeholder values
-        #    (e.g. phone = "07xx"). Flagged, not guessed at.
-        if semantic == "phone":
-            is_invalid = ~df[col].astype(str).str.match(UK_PHONE_RE, na=False)
-            n_invalid = int((is_invalid & df[col].notna()).sum())
-            if n_invalid:
-                df.loc[is_invalid & df[col].notna(), col] = "INVALID_PHONE"
-                changes[col] = {"action": "flagged unparseable phone values (not guessed at)",
-                                 "count": n_invalid}
-
-    return df, changes
+    log = {
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "rows_in": int(len(before)),
+        "rows_out": int(len(df)),
+        "quality": quality,
+        "steps": {
+            "deduplication": dedup_log,
+            "normalisation": norm_log,
+            "imputation": impute_log,
+        },
+    }
+    return df, log
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Module 2 — Data Cleaning")
-    parser.add_argument("--input", required=False)
+    parser = argparse.ArgumentParser(description="Module 2 — Data Cleaning API")
+    parser.add_argument("--input", required=True, help="Path to input CSV")
+    parser.add_argument("--report", help="Optional profiling_report.json from Module 1")
+    parser.add_argument("--output", default=str(CLEANED_DATA))
+    parser.add_argument("--log", default=str(CLEANING_LOG))
     args = parser.parse_args()
 
-    input_path = Path(args.input) if args.input else sorted(RAW_DIR.glob("*.csv"))[0]
-    df = pd.read_csv(input_path)
-    profile = read_json(PROFILING_REPORT)
+    df = pd.read_csv(Path(args.input))
+    report = None
+    if args.report and Path(args.report).exists():
+        with open(args.report, encoding="utf-8") as f:
+            report = json.load(f)
 
-    score_before = quality_score(df)
-    actions = []
+    print(f"[Module 2] Cleaning {Path(args.input).name}")
+    cleaned, log = clean_dataset(df, report)
 
-    df, dedup_log = drop_duplicates(df)
-    actions.append({"step": "drop_duplicates", **dedup_log})
+    out_path = Path(args.output)
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    cleaned.to_csv(out_path, index=False)
 
-    df, normalise_log = normalise(df, report=profile)
-    actions.append({"step": "normalise", "details": normalise_log})
+    log_path = Path(args.log)
+    log_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(log_path, "w", encoding="utf-8") as f:
+        json.dump(log, f, indent=2, default=str)
 
-    df, impute_log = impute_missing(df, report=profile)
-    actions.append({"step": "impute_missing", "details": impute_log})
-
-    score_after = quality_score(df)
-
-    CLEANED_DATA.parent.mkdir(parents=True, exist_ok=True)
-    df.to_csv(CLEANED_DATA, index=False)
-    write_json(CLEANING_LOG, {
-        "quality_score_before": score_before,
-        "quality_score_after": score_after,
-        "quality_delta": round(score_after - score_before, 2),
-        "actions": actions,
-        "used_profile_flags": profile.get("rules", {}),
-    })
-    print("[M2] Done.")
-    print(f"  quality: {score_before} -> {score_after}  (delta {round(score_after - score_before, 2)})")
+    q = log["quality"]
+    print(f"  rows: {log['rows_in']} -> {log['rows_out']}")
+    print(f"  quality score: {q['score_before']} -> {q['score_after']}  (+{q['delta']})")
+    print(f"  ✔ cleaned data -> {out_path}")
+    print(f"  ✔ cleaning log -> {log_path}")
 
 
 if __name__ == "__main__":
