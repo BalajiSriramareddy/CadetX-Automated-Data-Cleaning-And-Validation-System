@@ -1,0 +1,59 @@
+# =============================================================================
+# rules.yaml — DECLARED business rules (optional)
+# =============================================================================
+# These are rules that CANNOT be inferred from the data itself. Nothing in a
+# dataset tells you that an NPS score must be 0-10 or that a charge cannot be
+# negative — those are business decisions, so they live here rather than in code.
+#
+# The system works WITHOUT this file: it will still infer format and category
+# rules from the profiling report. This file adds domain knowledge on top.
+# Declared rules override inferred ones.
+#
+# Supported keys per column:
+#   required : true                  value must not be missing
+#   format   : email | uk_phone | uk_postcode
+#   range    : {min: <n>, max: <n>}  numeric bounds (either bound optional)
+#   allowed  : [list, of, values]    value must be one of these
+# =============================================================================
+
+columns:
+
+  customer_id:
+    required: true
+
+  email:
+    format: email
+
+  phone:
+    format: uk_phone
+
+  postcode:
+    format: uk_postcode
+
+  # Business rule: NPS is defined on a 0-10 scale.
+  nps_score:
+    range:
+      min: 0
+      max: 10
+
+  # Business rule: a subscription charge can never be negative.
+  monthly_charges:
+    range:
+      min: 0
+
+  # Business rule: tenure cannot be negative, and 600 months (50 years) is
+  # beyond any plausible broadband contract — treat as a data error.
+  tenure_months:
+    range:
+      min: 0
+      max: 600
+
+  support_tickets:
+    range:
+      min: 0
+
+  # NOTE: "Yes"/"No" are QUOTED deliberately. YAML parses unquoted Yes/No/On/Off
+  # as booleans (the "Norway problem" — NO becomes False), which would make every
+  # valid row fail this rule. Always quote yes/no-style category values.
+  churn:
+    allowed: ["Yes", "No"]
