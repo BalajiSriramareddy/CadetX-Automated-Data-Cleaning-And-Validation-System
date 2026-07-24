@@ -28,6 +28,10 @@ NUMERIC_LIKE_RE = re.compile(r"^[£$€]?\s*-?[\d,]+(\.\d+)?\s*%?$")
 STRIP_CHARS_RE = re.compile(r"[£$€,%\s]")
 ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}")
 LEADING_ZERO_RE = re.compile(r"^0\d+$")   # 07123..., identifier not a number
+BARE_NUMBER_RE = re.compile(r"^-?\d+(\.\d+)?$")  # 892, 0, 44.99 -> a number, NOT a date
+# a real date has separators or a month name; bare integers must not be parsed as
+# years (pandas reads "1000" as year 1000, which overflows its datetime range).
+DATE_HINT_RE = re.compile(r"[/\-]|[A-Za-z]{3}")
 MATCH_THRESHOLD = 0.8
 
 # semantic types that must NEVER be coerced to numbers even if they look numeric
@@ -37,20 +41,41 @@ _YES_SET = {"yes", "y", "1", "true", "t"}
 _NO_SET = {"no", "n", "0", "false", "f"}
 
 
+def _looks_like_dates(series: pd.Series) -> bool:
+    """A column is a date candidate only if its values look date-ish: they
+    contain a separator or month name. Bare numbers (892, 0, 1) are NOT dates,
+    even though pandas would parse '1000' as the year 1000 (and overflow)."""
+    s = series.dropna().astype(str).str.strip()
+    if len(s) == 0:
+        return False
+    if s.str.match(BARE_NUMBER_RE).mean() >= 0.5:   # mostly bare numbers -> not dates
+        return False
+    return s.str.contains(DATE_HINT_RE).mean() >= MATCH_THRESHOLD
+
+
 def _parse_dates(series: pd.Series) -> pd.Series:
-    """Parse possibly-mixed date formats, carefully. ISO parsed WITHOUT dayfirst,
-    UK-style WITH dayfirst, so ISO dates are not corrupted (month/day swap)."""
+    """Parse possibly-mixed date formats, carefully and crash-proof.
+
+    ISO parsed WITHOUT dayfirst, UK-style WITH dayfirst, so ISO dates are not
+    corrupted. Wrapped in try/except so an out-of-range value (pandas can only
+    represent ~1677-2262) degrades to NaT instead of crashing the pipeline.
+    """
     s = series.astype(str).str.strip()
     result = pd.Series(pd.NaT, index=series.index, dtype="datetime64[ns]")
     iso_mask = s.str.match(ISO_DATE_RE) & series.notna()
     other_mask = ~iso_mask & series.notna()
     with warnings.catch_warnings():
         warnings.simplefilter("ignore", UserWarning)
-        if iso_mask.any():
-            result.loc[iso_mask] = pd.to_datetime(s[iso_mask], errors="coerce", format="mixed")
-        if other_mask.any():
-            result.loc[other_mask] = pd.to_datetime(
-                s[other_mask], errors="coerce", dayfirst=True, format="mixed")
+        try:
+            if iso_mask.any():
+                result.loc[iso_mask] = pd.to_datetime(
+                    s[iso_mask], errors="coerce", format="mixed")
+            if other_mask.any():
+                result.loc[other_mask] = pd.to_datetime(
+                    s[other_mask], errors="coerce", dayfirst=True, format="mixed")
+        except Exception:
+            # any parsing failure (e.g. out-of-bounds date) -> treat as unparseable
+            return pd.Series(pd.NaT, index=series.index, dtype="datetime64[ns]")
     return result
 
 
@@ -73,12 +98,18 @@ def _numeric_targets(df, report):
             continue
         if _looks_like_identifier(df[col]):                     # guard 2: no report
             continue
-        if info.get("inferred_type") == "numeric_as_text" or \
-           info.get("mixed_type", {}).get("is_mixed"):
-            targets.append(col); continue
+        # A column is only coerced to numeric if its values are PREDOMINANTLY
+        # numeric-like. The Module 1 "mixed_type" flag alone is NOT enough:
+        # a mostly-text column containing one number-like value (e.g. a postcode
+        # column holding "12345" among real postcodes) is flagged mixed, and
+        # coercing it would turn every genuine text value into NaN.
         sample = df[col].dropna().astype(str).str.strip()
-        if len(sample) and sample.str.match(NUMERIC_LIKE_RE).mean() >= MATCH_THRESHOLD:
-            targets.append(col)
+        if len(sample) == 0:
+            continue
+        numeric_ratio = sample.str.match(NUMERIC_LIKE_RE).mean()
+        if numeric_ratio < MATCH_THRESHOLD:
+            continue
+        targets.append(col)
     return targets
 
 
@@ -91,6 +122,11 @@ def _date_targets(df, report):
         info = meta.get(col, {})
         if info.get("semantic_type") == "date" or info.get("inferred_type") == "datetime":
             targets.append(col); continue
+        # only test parsing on columns that actually LOOK like dates (have
+        # separators / month names). This stops bare-integer columns such as
+        # PassengerId or a 0/1 flag from being misread as years.
+        if not _looks_like_dates(df[col]):
+            continue
         sample = df[col].dropna().astype(str)
         if len(sample) and _parse_dates(sample).notna().mean() >= MATCH_THRESHOLD:
             targets.append(col)
