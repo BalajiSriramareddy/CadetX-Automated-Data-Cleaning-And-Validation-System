@@ -80,6 +80,23 @@ def test_phone_not_coerced_to_numeric():
     assert not pd.api.types.is_numeric_dtype(out["phone"])
 
 
+def test_bare_integers_not_treated_as_dates():
+    """Regression: a column of plain integers (e.g. PassengerId) must not be
+    parsed as dates. pandas reads '1000' as the year 1000, which overflows and
+    previously crashed the whole pipeline on the Titanic dataset."""
+    df = pd.DataFrame({"PassengerId": ["892", "1000", "1309", "0", "1"]})
+    out, log = normalise(df)          # must NOT raise
+    # not converted to datetime strings
+    assert "-" not in str(out["PassengerId"].iloc[1]) or out["PassengerId"].iloc[1] == "1000"
+
+
+def test_out_of_range_dates_do_not_crash():
+    """A date value outside pandas' range degrades to unparseable, never crashes."""
+    from normalisation import _parse_dates
+    result = _parse_dates(pd.Series(["1000-01-01", "2024-01-15"]))
+    assert result.notna().sum() >= 0   # simply must not raise
+
+
 def test_binary_values_unified():
     """Yes/Y/1 -> Yes and No/N/0 -> No."""
     df = pd.DataFrame({"churn": ["Yes", "y", "1", "No", "n", "0"]})
