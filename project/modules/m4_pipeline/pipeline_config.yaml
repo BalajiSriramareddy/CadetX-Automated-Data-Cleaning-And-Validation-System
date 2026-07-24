@@ -1,0 +1,44 @@
+# =============================================================================
+# pipeline_config.yaml — PIPELINE SETTINGS
+# =============================================================================
+# Settings that control HOW the pipeline runs. Distinct from rules.yaml, which
+# declares WHAT counts as valid data. Separating the two means you can retune
+# the pipeline without touching business rules, and vice versa.
+#
+# Every setting here can be overridden on the command line, e.g.
+#   python pipeline.py --input data.csv --no-figures
+# Command line wins over this file; this file wins over the built-in defaults.
+# =============================================================================
+
+paths:
+  input: data/raw/broadband_customers.csv
+  output_dir: outputs
+  processed_dir: data/processed
+  log_dir: logs
+  rules_file: modules/m3_validation/rules.yaml
+
+profiling:
+  generate_figures: true          # write PNG heatmaps/distributions
+  figures_subdir: figures
+
+cleaning:
+  # order is fixed by dependency (dedupe -> normalise -> impute); these toggles
+  # let a stage be skipped for debugging or for data that must not be altered
+  deduplicate: true
+  normalise: true
+  impute: true
+
+validation:
+  contamination: 0.05             # expected anomaly proportion (Isolation Forest)
+  apply_declared_rules: true      # use rules.yaml as well as inferred rules
+
+thresholds:
+  # health score bands that decide the final verdict
+  pass_score: 90
+  warning_score: 70
+  # fail the process (non-zero exit) when the verdict is FAIL — lets the
+  # pipeline act as a quality gate in an automated workflow
+  fail_on_verdict_fail: true
+
+logging:
+  verbose: true                   # INFO to console (WARNING+ only when false)
