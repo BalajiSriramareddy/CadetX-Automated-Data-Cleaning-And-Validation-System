@@ -1,32 +1,31 @@
 """
 MODULE 3 · FILE 5 — VALIDATION API (ORCHESTRATOR)
-=================================================
-The public entry point for Module 3. Chains the validation steps and writes the
-single deliverable: validation_report.json.
+==================================================
+Chains validation steps and writes validation_report.json.
 
-  Input :  data/processed/cleaned_data.csv
-           (optional) outputs/profiling_report.json  — improves rule inference
-           (optional) rules.yaml                     — adds business rules
-  Output:  outputs/validation_report.json
+CORE pipeline (always runs):
+  1. build_rules   -> inferred defaults + optional rules.yaml
+  2. validate_rules -> rule violations
+  3. detect_anomalies -> IQR + Isolation Forest
+  4. compute_health_score -> 0-100 score + PASS/WARNING/FAIL verdict
 
-Pipeline:
-  build_rules (config.py)        -> what to check   [inferred + declared]
-  validate_rules (rule_validation) -> rule violations
-  detect_anomalies (anomaly_detection) -> statistical + ML anomalies
-  compute_health_score (health_score)  -> 0-100 score + PASS/WARNING/FAIL verdict
+OPTIONAL advanced steps (config-controlled, OFF by default):
+  - Local Outlier Factor / autoencoder  (additional anomaly methods)
+  - NLP column classifier                (meaning, mislabelled columns)
+  - AI error detection                   (impossible values, patterns, drift)
+  - evaluation                           (only runs if ground-truth anomaly
+                                          row indices are supplied — see
+                                          evaluation.py for why this can't
+                                          run unconditionally)
 
-Usage (CLI):
-  python validate.py --input data/processed/cleaned_data.csv
-  python validate.py --input any.csv --report outputs/profiling_report.json \
-                     --rules rules.yaml
+Kept optional because they cost more to run and are harder to explain than
+the core; enable them for a specific, justified need.
 """
 from __future__ import annotations
 
-import argparse
-import json
 import sys
-from datetime import datetime
 from pathlib import Path
+from datetime import datetime
 
 import pandas as pd
 
@@ -34,84 +33,66 @@ HERE = Path(__file__).resolve().parent
 sys.path.append(str(HERE))
 sys.path.append(str(HERE.parent))
 
-from config import build_rules                    # noqa: E402
-from rule_validation import validate_rules        # noqa: E402
-from anomaly_detection import detect_anomalies    # noqa: E402
-from health_score import compute_health_score     # noqa: E402
+from config import build_rules
+from rule_validation import validate_rules
+from anomaly_detection import detect_anomalies
+from health_score import compute_health_score
 
-try:
-    from common import OUTPUTS_DIR, CLEANED_DATA, VALIDATION_REPORT  # noqa: E402
-except Exception:
-    OUTPUTS_DIR = HERE.parents[1] / "outputs"
-    CLEANED_DATA = HERE.parents[1] / "data" / "processed" / "cleaned_data.csv"
-    VALIDATION_REPORT = OUTPUTS_DIR / "validation_report.json"
+# optional/advanced components
+from advanced_anomaly import detect_lof, detect_autoencoder
+from nlp_classifier import classify_columns
+from ai_error_detection import detect_impossible_values, detect_suspicious_patterns, detect_data_drift
+from evaluation import evaluate_against_planted_anomalies
 
 
-def build_validation_report(df: pd.DataFrame,
-                            report: dict | None = None,
+def build_validation_report(df: pd.DataFrame, report: dict | None = None,
                             rules_path: str | Path | None = None,
-                            contamination: float = 0.05,
-                            source: str = "") -> dict:
-    """Run the full Module 3 pipeline and return the validation report dict."""
+                            contamination: float = 0.05, source: str = "",
+                            options: dict | None = None,
+                            reference_df: pd.DataFrame | None = None,
+                            true_anomaly_indices: list[int] | None = None) -> dict:
+    """Run the validation pipeline. `options` (all default False):
+      local_outlier_factor : bool
+      autoencoder           : bool
+      nlp_classifier        : bool
+      ai_error_detection    : bool
+      data_drift             : bool -> requires reference_df
+      evaluate               : bool -> requires true_anomaly_indices (ground truth)
+    """
+    options = options or {}
+
     rules = build_rules(df, report, yaml_path=rules_path)
     rule_results = validate_rules(df, rules)
     anomaly_results = detect_anomalies(df, contamination=contamination)
     health = compute_health_score(rule_results, anomaly_results, len(df))
 
-    return {
-        "dataset": {
-            "source": source,
-            "rows": int(len(df)),
-            "columns": int(df.shape[1]),
-        },
+    result = {
+        "dataset": {"source": source, "rows": int(len(df)), "columns": int(df.shape[1])},
         "generated_at": datetime.now().isoformat(timespec="seconds"),
-        "rules_applied": {
-            "columns_with_rules": list(rules.keys()),
-            "rules": rules,
-            "declared_rules_file": str(rules_path) if rules_path else None,
-        },
+        "rules_applied": {"columns_with_rules": list(rules.keys()), "rules": rules,
+                          "declared_rules_file": str(rules_path) if rules_path else None},
         "rule_validation": rule_results,
         "anomaly_detection": anomaly_results,
         "health": health,
+        "advanced": {},
     }
 
+    if options.get("local_outlier_factor"):
+        result["advanced"]["local_outlier_factor"] = detect_lof(df, contamination)
+    if options.get("autoencoder"):
+        result["advanced"]["autoencoder"] = detect_autoencoder(df, contamination)
+    if options.get("nlp_classifier"):
+        result["advanced"]["nlp_classifier"] = classify_columns(df, report)
+    if options.get("ai_error_detection"):
+        result["advanced"]["ai_error_detection"] = {
+            "impossible_values": detect_impossible_values(df, report),
+            "suspicious_patterns": detect_suspicious_patterns(df),
+        }
+    if options.get("data_drift") and reference_df is not None:
+        result["advanced"]["data_drift"] = detect_data_drift(reference_df, df)
+    if options.get("evaluate") and true_anomaly_indices is not None:
+        predicted = anomaly_results.get("multivariate", {}).get("example_row_indices", [])
+        result["advanced"]["evaluation"] = evaluate_against_planted_anomalies(
+            len(df), true_anomaly_indices, predicted)
 
-def main():
-    parser = argparse.ArgumentParser(description="Module 3 — Data Validation API")
-    parser.add_argument("--input", default=str(CLEANED_DATA),
-                        help="CSV to validate (default: cleaned_data.csv)")
-    parser.add_argument("--report", help="Optional profiling_report.json from Module 1")
-    parser.add_argument("--rules", help="Optional rules.yaml with business rules")
-    parser.add_argument("--output", default=str(VALIDATION_REPORT))
-    parser.add_argument("--contamination", type=float, default=0.05,
-                        help="Expected anomaly proportion for Isolation Forest")
-    args = parser.parse_args()
-
-    input_path = Path(args.input)
-    df = pd.read_csv(input_path)
-
-    profiling = None
-    if args.report and Path(args.report).exists():
-        with open(args.report, encoding="utf-8") as f:
-            profiling = json.load(f)
-
-    print(f"[Module 3] Validating {input_path.name}")
-    result = build_validation_report(df, profiling, args.rules,
-                                     args.contamination, str(input_path))
-
-    out_path = Path(args.output)
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(result, f, indent=2, default=str)
-
-    h = result["health"]
-    rv = result["rule_validation"]["summary"]
-    print(f"  rules applied to {len(result['rules_applied']['columns_with_rules'])} columns")
-    print(f"  rule violations: {rv['total_violations']}"
-          f" across {len(rv['columns_with_violations'])} columns")
-    print(f"  health score: {h['health_score']}  ->  {h['verdict']}")
-    print(f"  ✔ report written to {out_path}")
-
-
-if __name__ == "__main__":
-    main()
+    return result
