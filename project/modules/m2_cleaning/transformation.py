@@ -111,6 +111,17 @@ def extract_date_features(df: pd.DataFrame, date_columns: list[str] | None = Non
         date_columns = [c for c in df.columns
                        if meta.get(c, {}).get("semantic_type") == "date"
                        or meta.get(c, {}).get("inferred_type") == "datetime"]
+        if not date_columns:
+            # no report available: fall back to sniffing values directly
+            for c in df.columns:
+                if pd.api.types.is_numeric_dtype(df[c]):
+                    continue
+                sample = df[c].dropna().astype(str)
+                if len(sample) == 0:
+                    continue
+                parsed = pd.to_datetime(sample, errors="coerce", format="mixed")
+                if parsed.notna().mean() >= 0.8:
+                    date_columns.append(c)
 
     log = {}
     for col in date_columns:

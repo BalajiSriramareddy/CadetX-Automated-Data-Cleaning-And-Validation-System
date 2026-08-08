@@ -50,7 +50,7 @@ def _local_type(series: pd.Series) -> str:
         # integer vs float
         cleaned = pd.to_numeric(as_str.str.replace(r"[£$€,%\s]", "", regex=True),
                                 errors="coerce")
-        if cleaned.dropna().apply(float.is_integer).all():
+        if cleaned.dropna().apply(lambda v: float(v).is_integer()).all():
             return "integer"
         return "float"
     if as_str.str.contains(DATE_HINT_RE).mean() >= MATCH_THRESHOLD:
