@@ -1,15 +1,6 @@
 # =============================================================================
-# pipeline_config.yaml — PIPELINE SETTINGS
+# pipeline_config.yaml â€” PIPELINE SETTINGS
 # =============================================================================
-# Settings that control HOW the pipeline runs. Distinct from rules.yaml, which
-# declares WHAT counts as valid data. Separating the two means you can retune
-# the pipeline without touching business rules, and vice versa.
-#
-# Every setting here can be overridden on the command line, e.g.
-#   python pipeline.py --input data.csv --no-figures
-# Command line wins over this file; this file wins over the built-in defaults.
-# =============================================================================
-
 paths:
   input: data/raw/broadband_customers.csv
   output_dir: outputs
@@ -18,27 +9,31 @@ paths:
   rules_file: modules/m3_validation/rules.yaml
 
 profiling:
-  generate_figures: true          # write PNG heatmaps/distributions
+  generate_figures: true
   figures_subdir: figures
 
 cleaning:
-  # order is fixed by dependency (dedupe -> normalise -> impute); these toggles
-  # let a stage be skipped for debugging or for data that must not be altered
-  deduplicate: true
-  normalise: true
-  impute: true
+  # advanced/optional steps â€” all OFF by default (see clean.py docstring for why)
+  fuzzy_duplicate_check: false   # flags candidate near-duplicate names for review
+  ml_imputation: null             # null | "knn" | "regression" | "iterative"
+  infer_schema: true              # cheap and useful â€” on by default
+  transform: false                # scaling/encoding/features; only needed for ML use
 
 validation:
-  contamination: 0.05             # expected anomaly proportion (Isolation Forest)
-  apply_declared_rules: true      # use rules.yaml as well as inferred rules
+  contamination: 0.05
+  apply_declared_rules: true
+  # advanced/optional anomaly & AI checks â€” all OFF by default
+  local_outlier_factor: false
+  autoencoder: false
+  nlp_classifier: false
+  ai_error_detection: false
+  data_drift: false                # requires a reference dataset (not set here)
+  evaluate: false                  # requires known ground-truth anomaly rows
 
 thresholds:
-  # health score bands that decide the final verdict
   pass_score: 90
   warning_score: 70
-  # fail the process (non-zero exit) when the verdict is FAIL — lets the
-  # pipeline act as a quality gate in an automated workflow
   fail_on_verdict_fail: true
 
 logging:
-  verbose: true                   # INFO to console (WARNING+ only when false)
+  verbose: true

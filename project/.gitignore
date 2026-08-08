@@ -17,3 +17,9 @@ data/processed/*
 
 # Notebooks checkpoints
 .ipynb_checkpoints/
+
+outputs/
+logs/
+data/processed/
+*.pyc
+
