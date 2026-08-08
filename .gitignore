@@ -3,3 +3,4 @@ venv/
 scratch_test.py
 __pycache__/
 *.pyc
+.vscode/
