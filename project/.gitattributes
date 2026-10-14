@@ -1,29 +1,10 @@
-# =============================================================================
-# DATA VERSIONING — Git LFS
-# =============================================================================
-# Datasets and generated artefacts are stored via Git LFS rather than as plain
-# Git objects. Git stores a small pointer file; the binary content lives in LFS.
+# Data files are committed directly as normal Git objects.
 #
-# WHY: Git is built for line-by-line text diffs. A CSV that changes every run
-# bloats history permanently, because every version is kept forever. LFS keeps
-# the repository small while still versioning the data.
-#
-# Setup (one time):
-#   git lfs install
-#   git add .gitattributes && git commit -m "Track data files with Git LFS"
-#
-# Git LFS is used rather than DVC: DVC needs a separate remote (S3/GDrive) to be
-# useful, while LFS works directly with GitHub and needs no extra service. For a
-# project of this size that is the proportionate choice.
-# =============================================================================
+# Git LFS was set up early on, but the only dataset here
+# (data/raw/broadband_customers.csv) is about 150 KB and was committed as a plain
+# file, so the LFS rules only produced "should have been a pointer" warnings on
+# clone. At this size plain Git is the simpler choice. If a large dataset is
+# added later, track that file type with `git lfs track`.
 
-# raw and processed datasets
-*.csv        filter=lfs diff=lfs merge=lfs -text
-*.parquet    filter=lfs diff=lfs merge=lfs -text
-*.xlsx       filter=lfs diff=lfs merge=lfs -text
-
-# generated figures
-*.png        filter=lfs diff=lfs merge=lfs -text
-
-# keep JSON reports as normal Git objects: they are text, they diff usefully,
-# and reviewing what changed between runs is genuinely valuable.
+# Keep line endings consistent across Windows and Linux.
+* text=auto

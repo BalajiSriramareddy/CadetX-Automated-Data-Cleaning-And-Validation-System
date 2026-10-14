@@ -1,5 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./project/modules/m1_profiling"
-    ]
-}
