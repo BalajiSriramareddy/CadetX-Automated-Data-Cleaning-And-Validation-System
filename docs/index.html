@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Automated Data Cleaning and Validation System</title>
+<meta name="description" content="A Python pipeline that profiles, cleans and validates a dataset before anyone builds on it, then returns a 0 to 100 health score with a PASS, WARNING or FAIL verdict.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@500;600&display=swap">
+<style>
+  :root{
+    --bg:#F6F7F9; --surface:#FFFFFF; --surface-2:#EEF1F6;
+    --ink:#11151C; --ink-2:#3D4756; --muted:#6B7688;
+    --rule:#DCE1E9; --rule-strong:#C3CBD8; --accent:#1E46C8; --accent-soft:#E7ECFB;
+    --serif:"IBM Plex Serif",Georgia,serif;
+    --sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0B0F16; --surface:#121824; --surface-2:#1A2230;
+      --ink:#E6EBF3; --ink-2:#B4BECD; --muted:#808C9E;
+      --rule:#232D3D; --rule-strong:#334054; --accent:#7E9BFF; --accent-soft:#17224A;
+    }
+  }
+  body{margin:0; background:var(--bg); color:var(--ink); font-family:var(--sans); font-size:16px; line-height:1.6; -webkit-font-smoothing:antialiased}
+  .wrap{max-width:840px; margin:0 auto; padding:0 24px 90px}
+  header{border-bottom:2px solid var(--ink); padding:56px 0 26px; display:flex; flex-direction:column; gap:14px}
+  .eyebrow{font-family:var(--mono); font-size:11.5px; font-weight:500; letter-spacing:.14em; text-transform:uppercase; color:var(--accent)}
+  h1{font-family:var(--serif); font-weight:600; margin:0; font-size:clamp(32px,5.4vw,52px); line-height:1.06; letter-spacing:-.02em}
+  .sf{font-size:17px; color:var(--ink-2); max-width:60ch; margin:0}
+  .meta{display:flex; flex-wrap:wrap; gap:0 30px; font-family:var(--mono); font-size:12px; color:var(--muted); margin-top:2px}
+  .meta b{color:var(--ink-2); font-weight:500}
+  .links{display:flex; flex-wrap:wrap; gap:10px 22px; font-family:var(--mono); font-size:12.5px}
+  .links a{color:var(--accent); text-decoration:none}
+  .links a:hover{text-decoration:underline}
+  .kpis{display:grid; grid-template-columns:repeat(auto-fit,minmax(120px,1fr)); border:1px solid var(--rule); border-radius:3px; overflow:hidden; background:var(--surface); margin-top:6px}
+  .kpis div{padding:12px 15px; border-right:1px solid var(--rule)}
+  .kpis dt{font-family:var(--mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase; color:var(--muted); margin:0 0 3px}
+  .kpis dd{margin:0; font-family:var(--mono); font-size:17px; font-weight:500}
+  .note{background:var(--surface); border-left:2px solid var(--accent); padding:14px 17px; margin:26px 0 0; border-radius:0 3px 3px 0; font-size:14.5px; color:var(--ink-2); max-width:64ch}
+  .note strong{color:var(--ink)}
+  main h2{font-family:var(--mono); font-size:11px; letter-spacing:.12em; text-transform:uppercase; color:var(--muted); font-weight:500; margin:44px 0 14px; padding-top:14px; border-top:1px solid var(--rule)}
+  main h3{font-family:var(--serif); font-size:20px; font-weight:600; margin:30px 0 8px}
+  main p, main li{color:var(--ink-2); max-width:68ch}
+  main a{color:var(--accent)}
+  main ol, main ul{padding-left:22px}
+  main li{margin-bottom:6px}
+  main table{border-collapse:collapse; width:100%; margin:14px 0 6px; font-size:14px; background:var(--surface); border:1px solid var(--rule)}
+  main th{font-family:var(--mono); font-size:10.5px; letter-spacing:.08em; text-transform:uppercase; color:var(--muted); font-weight:500; text-align:left; padding:9px 12px; border-bottom:1px solid var(--rule-strong)}
+  main td{padding:8px 12px; border-bottom:1px solid var(--rule)}
+  main td:not(:first-child), main th:not(:first-child){text-align:right}
+  main table.left td, main table.left th{text-align:left}
+  .tw{overflow-x:auto}
+  code{font-family:var(--mono); font-size:.88em; background:var(--surface-2); padding:1px 5px; border-radius:3px}
+  pre{background:var(--surface); border:1px solid var(--rule); border-radius:3px; padding:14px 16px; overflow-x:auto; font-size:13px; line-height:1.5}
+  pre code{background:none; padding:0}
+  footer{font-size:13.5px; color:var(--muted); padding-top:34px; max-width:64ch; border-top:1px solid var(--rule); margin-top:44px}
+  footer a{color:var(--accent)}
+  @media (max-width:600px){ .wrap{padding:0 16px 70px} header{padding-top:36px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="eyebrow">CadetX work experience · Data quality engineering</div>
+    <h1>Automated Data Cleaning and Validation System</h1>
+    <p class="sf">A Python pipeline that profiles, cleans and validates a dataset before anyone builds on it, then returns a 0 to 100 health score with a PASS, WARNING or FAIL verdict.</p>
+    <div class="meta"><span><b>Source</b> 1,030 synthetic rows</span><span><b>Stack</b> Python · pandas · scikit-learn · Docker</span><span><b>Status</b> Complete</span></div>
+    <dl class="kpis"><div><dt>Quality before</dt><dd>87.4</dd></div><div><dt>Quality after</dt><dd>96.3</dd></div><div><dt>Violations</dt><dd>267</dd></div><div><dt>Health score</dt><dd>81.0</dd></div><div><dt>Tests</dt><dd>89</dd></div></dl>
+    <div class="links">
+      <a href="https://github.com/BalajiSriramareddy/CadetX-Automated-Data-Cleaning-And-Validation-System">Code on GitHub ↗</a>
+      <a href="https://balajisriramareddy.github.io/#/project/data-quality">Portfolio</a>
+      <a href="https://www.linkedin.com/in/balaji-sriramareddy/">LinkedIn</a>
+    </div>
+  </header>
+
+  <div class="note"><strong>Built solo.</strong> The CadetX brief was written for a team of three. The team didn't engage, so I built all four modules myself, keeping each one independent so anyone joining later could pick one up.</div>
+
+  <main>
+<h2>What it does on the project dataset</h2>
+<p>The test data is a synthetic UK rural fibre-broadband customer file: 1,030 rows, 16 columns, with known problems planted on purpose (duplicates, invalid emails and postcodes, NPS scores outside 0 to 10, negative values, prices stored as text like "£44.99", mixed date formats, inconsistent churn labels).</p>
+<p>Running the pipeline on it gives:</p>
+<div class="tw"><table>
+<thead>
+<tr>
+<th>Measure</th>
+<th style="text-align: right;">Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Rows in / rows out (30 exact duplicates removed)</td>
+<td style="text-align: right;">1,030 / 1,000</td>
+</tr>
+<tr>
+<td>Data quality score before cleaning</td>
+<td style="text-align: right;">87.4</td>
+</tr>
+<tr>
+<td>Data quality score after cleaning</td>
+<td style="text-align: right;">96.3</td>
+</tr>
+<tr>
+<td>Rule violations found at validation</td>
+<td style="text-align: right;">267 across 6 columns</td>
+</tr>
+<tr>
+<td>Health score and verdict</td>
+<td style="text-align: right;">81.0, WARNING</td>
+</tr>
+</tbody>
+</table></div>
+<p>It also flags six columns as likely personal data (name, email, phone, postcode, customer ID, payment method) and reports the install date column as using more than one date format. The full run takes about a second.</p>
+<p>The test suite has 89 tests across the four modules, and all of them pass.</p>
+<h2>How it works</h2>
+<p>Each module writes a file and the next module reads it, so every stage can be run and tested on its own.</p>
+<pre><code>raw CSV
+  -&gt; M1 Profile   -&gt; profiling_report.json
+  -&gt; M2 Clean     -&gt; cleaned_data.csv + cleaning_log.json
+  -&gt; M3 Validate  -&gt; validation_report.json
+  -&gt; M4 Pipeline  -&gt; pipeline_summary.json (score + verdict)
+</code></pre>
+<p>Module 1 (profiling) infers each column's type and meaning (email, phone, postcode, ID), measures missing values, cardinality and correlation, detects columns holding mixed types, and flags personal data. It works on any CSV without code changes; I checked this by running the same code on an unrelated retail sales file.</p>
+<p>Module 2 (cleaning) removes exact and normalised duplicates, converts text prices to numbers, puts dates into one format, fills missing values (median for numbers, mode for categories, with KNN and iterative imputation as options), and scores quality before and after. Possible near-duplicate names such as "Jon Smith" and "John Smith" are flagged for a person to review and never merged automatically.</p>
+<p>Module 3 (validation) runs two layers of rules. The first layer is inferred from the profiling report, so any dataset can be validated with no setup. The second is an optional <code>rules.yaml</code> for business rules the data can't reveal, such as NPS having to sit between 0 and 10. Anomaly detection uses IQR outliers per column and Isolation Forest across whole rows, which catches records where no single value is extreme but the combination is implausible. Local Outlier Factor, a small autoencoder, a column classifier and drift checks are available as optional extras, switched off by default. Violations are weighted by severity: a missing required field counts five times as much as a statistical outlier.</p>
+<p>Module 4 (pipeline) chains the three modules, reads its settings from <code>pipeline_config.yaml</code> (command-line flags override it), checks each stage's output against a schema, logs to file, and returns exit code 0 for PASS or WARNING, 1 for FAIL and 2 for an error. That last part means it can sit in an automated workflow as a quality gate.</p>
+<h2>Bugs found by testing</h2>
+<p>These only showed up because the tests checked against known answers:</p>
+<ul>
+<li>Deduplication missed duplicates because the code checked for <code>dtype == object</code>, and the installed pandas version reports text columns differently. It now tests for "not numeric or date" instead.</li>
+<li>Parsing dates with <code>dayfirst=True</code> silently swapped day and month on ISO dates (2024-03-10 became 2024-10-03). ISO and UK-style dates are now parsed separately.</li>
+<li>Phone numbers stored as text were being converted to numbers, which dropped the leading zero. Identifier columns are now never converted.</li>
+<li><code>allowed: [Yes, No]</code> in <code>rules.yaml</code> was read by YAML as <code>[True, False]</code>, so every valid churn value failed validation. The values are now quoted.</li>
+</ul>
+<h2>Run it</h2>
+<pre><code class="language-bash">git clone https://github.com/BalajiSriramareddy/CadetX-Automated-Data-Cleaning-And-Validation-System.git
+cd CadetX-Automated-Data-Cleaning-And-Validation-System/project
+
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+python modules/m4_pipeline/pipeline.py --input data/raw/broadband_customers.csv --output outputs/
+pytest tests/ -v
+</code></pre>
+<p>Useful flags: <code>--rules</code> to use your own rules file, <code>--no-figures</code> to skip the charts, <code>--quiet</code> to show only warnings and errors. Reports go to <code>outputs/</code> and the cleaned file to <code>data/processed/</code>.</p>
+<p>With Docker:</p>
+<pre><code class="language-bash">cd project
+docker build -t data-quality-pipeline .
+docker run --rm -v &quot;$(pwd)/data:/app/data&quot; -v &quot;$(pwd)/outputs:/app/outputs&quot; \
+  data-quality-pipeline --input data/raw/broadband_customers.csv
+</code></pre>
+<p>GitHub Actions runs the tests and a pipeline smoke test on every push to <code>main</code>.</p>
+<h2>Repository layout</h2>
+<pre><code>.github/workflows/ci.yml     tests on every push
+project/
+  data/raw/                  broadband_customers.csv (synthetic)
+  data/generate_dataset.py   rebuilds the dataset and its planted issues
+  modules/m1_profiling/
+  modules/m2_cleaning/
+  modules/m3_validation/     includes rules.yaml
+  modules/m4_pipeline/       pipeline.py, pipeline_config.yaml
+  tests/                     89 pytest tests
+  Dockerfile
+weekly-submissions/          CadetX sprint reports, weeks 1 to 5
+</code></pre>
+<p>More detail on the individual modules is in <a href="https://github.com/BalajiSriramareddy/CadetX-Automated-Data-Cleaning-And-Validation-System/blob/main/project/README.md">project/README.md</a>, the <a href="https://github.com/BalajiSriramareddy/CadetX-Automated-Data-Cleaning-And-Validation-System/blob/main/project/modules/m1_profiling/README.md">profiling module notes</a> and the <a href="https://github.com/BalajiSriramareddy/CadetX-Automated-Data-Cleaning-And-Validation-System/blob/main/project/modules/m4_pipeline/README.md">pipeline module notes</a>.</p>
+<h2>Tools</h2>
+<p>Python (pandas, NumPy, scikit-learn, matplotlib, seaborn, PyYAML), pytest, Docker, GitHub Actions, Git with a feature-branch and pull-request workflow.</p>
+<p>All data in this repository is synthetic. There are no real customers in it.</p>
+  </main>
+
+  <footer>
+    Balaji Manjulamma Sriramareddy · <a href="https://balajisriramareddy.github.io/">Portfolio</a> · <a href="https://www.linkedin.com/in/balaji-sriramareddy/">LinkedIn</a> · <a href="mailto:balaji.manjulamma@gmail.com">balaji.manjulamma@gmail.com</a>
+  </footer>
+</div>
+</body>
+</html>
